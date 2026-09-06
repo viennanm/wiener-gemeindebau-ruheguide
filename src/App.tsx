@@ -1,5 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { Gemeindebau, BezirkNummer, BauEpoche, HoehenlageFilter } from './types';
+import {
+  Gemeindebau,
+  BezirkNummer,
+  BauEpoche,
+  HoehenlageFilter,
+  UmfeldDichteFilter,
+  UmfeldEntwicklungFilter,
+  UmfeldPensionsbezugFilter
+} from './types';
+import {
+  matchesDichteFilter,
+  matchesEntwicklungFilter,
+  matchesPensionsbezugFilter
+} from './utils/populationFormatting';
 import { GEMEINDEBAUTEN, GRINZINGER_ALLEE_REFERENCE } from './data/gemeindebauten';
 import { WIENER_BEZIRKE } from './data/wienerBezirke';
 import { fetchViennaOpenDataGemeindebauten } from './services/viennaOpenDataService';
@@ -15,13 +28,13 @@ import { AcousticLabModal } from './components/AcousticLabModal';
 import { SwiftCodeViewer } from './components/SwiftCodeViewer';
 import { OpenDataGuide } from './components/OpenDataGuide';
 import { WikipediaView } from './components/WikipediaView';
-import { 
-  Search, 
-  Filter, 
-  Sparkles, 
-  Accessibility, 
-  Volume2, 
-  SlidersHorizontal, 
+import {
+  Search,
+  Filter,
+  Sparkles,
+  Accessibility,
+  Volume2,
+  SlidersHorizontal,
   HelpCircle,
   CheckCircle2,
   TreePine,
@@ -30,7 +43,10 @@ import {
   RefreshCw,
   Info,
   Landmark,
-  BookOpen
+  BookOpen,
+  Users,
+  Activity,
+  BarChart3
 } from 'lucide-react';
 
 export default function App() {
@@ -57,6 +73,12 @@ export default function App() {
   const [onlyDenkmalschutz, setOnlyDenkmalschutz] = useState<boolean>(false);
   const [onlyWiseg, setOnlyWiseg] = useState<boolean>(false);
   const [selectedEpoche, setSelectedEpoche] = useState<BauEpoche | 'ALL'>('ALL');
+
+  // Amtliche Umfeld- & Demografiefilter (Zählbezirksebene 2023)
+  const [selectedUmfeldDichte, setSelectedUmfeldDichte] = useState<UmfeldDichteFilter>('ALL');
+  const [selectedUmfeldEntwicklung, setSelectedUmfeldEntwicklung] = useState<UmfeldEntwicklungFilter>('ALL');
+  const [selectedUmfeldPensionsbezug, setSelectedUmfeldPensionsbezug] = useState<UmfeldPensionsbezugFilter>('ALL');
+  const [isLoadingDb, setIsLoadingDb] = useState<boolean>(true);
 
   // Automatischer Import der 1.776 Gemeindebauten aus der SQLite-Datenbank beim Start
   useEffect(() => {
@@ -159,6 +181,19 @@ export default function App() {
       return false;
     }
 
+    // Amtliche Umfeldfilter (Zählbezirksebene 2023)
+    if (!matchesDichteFilter(bau.umfeldstatistik?.bevoelkerungsdichtePersonenJeHektar, selectedUmfeldDichte)) {
+      return false;
+    }
+
+    if (!matchesEntwicklungFilter(bau.umfeldstatistik?.bevoelkerungsentwicklung2011Bis2023Prozent, selectedUmfeldEntwicklung)) {
+      return false;
+    }
+
+    if (!matchesPensionsbezugFilter(bau.umfeldstatistik?.anteilPensionsbezugProzent, selectedUmfeldPensionsbezug)) {
+      return false;
+    }
+
     return true;
   });
 
@@ -176,8 +211,8 @@ export default function App() {
     { id: 2, label: '2. Leopoldstadt' },
   ];
 
-  const currentBezirkInfo = selectedBezirk !== 'ALL' 
-    ? WIENER_BEZIRKE.find((b) => b.nummer === selectedBezirk) 
+  const currentBezirkInfo = selectedBezirk !== 'ALL'
+    ? WIENER_BEZIRKE.find((b) => b.nummer === selectedBezirk)
     : null;
 
   return (
@@ -508,6 +543,112 @@ export default function App() {
                   </span>
                 </button>
               </div>
+
+              {/* Amtliche Demografie- & Umfeldfilter (Zählbezirksebene 2023) */}
+              <div className="pt-3 border-t-2 border-[#F3F4F6] space-y-2">
+                <div className="flex flex-wrap items-center justify-between gap-2">
+                  <div className="flex items-center gap-1.5">
+                    <Users className="w-4 h-4 text-[#2D6A4F]" />
+                    <span className="text-xs font-black text-[#0D1B2A] uppercase tracking-wider">
+                      Amtliche Demografie- &amp; Umfeldfilter (Zählbezirksebene 2023)
+                    </span>
+                    <span className="text-[11px] text-[#6B7280]">
+                      (Optional • Open Data Wien / Statistik Austria)
+                    </span>
+                  </div>
+
+                  {(selectedUmfeldDichte !== 'ALL' || selectedUmfeldEntwicklung !== 'ALL' || selectedUmfeldPensionsbezug !== 'ALL') && (
+                    <button
+                      onClick={() => {
+                        setSelectedUmfeldDichte('ALL');
+                        setSelectedUmfeldEntwicklung('ALL');
+                        setSelectedUmfeldPensionsbezug('ALL');
+                      }}
+                      className="text-xs font-bold text-[#2D6A4F] hover:text-[#1B4332] underline cursor-pointer"
+                      aria-label="Demografie-Filter zurücksetzen"
+                    >
+                      Demografie-Filter zurücksetzen
+                    </button>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs sm:text-sm">
+                  {/* Filter 1: Bevölkerungsdichte */}
+                  <div className={`p-3 rounded-xl border-2 flex items-center justify-between gap-2 transition ${
+                    selectedUmfeldDichte !== 'ALL' ? 'bg-[#ECFDF5] border-[#2D6A4F]' : 'bg-[#F9FAFB] border-[#E5E7EB]'
+                  }`}>
+                    <div className="leading-tight">
+                      <label htmlFor="umfeld-dichte-select" className="font-bold text-[#0D1B2A] block cursor-pointer">
+                        Bevölkerungsdichte
+                      </label>
+                      <span className="text-[11px] text-[#6B7280]">Pers. je Hektar</span>
+                    </div>
+                    <select
+                      id="umfeld-dichte-select"
+                      aria-label="Filter nach Bevölkerungsdichte im Zählbezirk"
+                      value={selectedUmfeldDichte}
+                      onChange={(e) => setSelectedUmfeldDichte(e.target.value as UmfeldDichteFilter)}
+                      className="font-bold bg-white border-2 border-[#E5E7EB] rounded-lg px-2 py-1 text-[#0D1B2A] focus:border-[#2D6A4F] outline-hidden text-xs min-w-[170px] max-w-[220px]"
+                    >
+                      <option value="ALL">alle</option>
+                      <option value="LOW">unter 50 Personen/ha</option>
+                      <option value="MEDIUM">50 bis unter 100 Personen/ha</option>
+                      <option value="HIGH">100 bis unter 200 Personen/ha</option>
+                      <option value="VERY_HIGH">mindestens 200 Personen/ha</option>
+                    </select>
+                  </div>
+
+                  {/* Filter 2: Bevölkerungsentwicklung 2011–2023 */}
+                  <div className={`p-3 rounded-xl border-2 flex items-center justify-between gap-2 transition ${
+                    selectedUmfeldEntwicklung !== 'ALL' ? 'bg-[#ECFDF5] border-[#2D6A4F]' : 'bg-[#F9FAFB] border-[#E5E7EB]'
+                  }`}>
+                    <div className="leading-tight">
+                      <label htmlFor="umfeld-entwicklung-select" className="font-bold text-[#0D1B2A] block cursor-pointer">
+                        Entwicklung 2011–23
+                      </label>
+                      <span className="text-[11px] text-[#6B7280]">Zuwachs im Grätzel</span>
+                    </div>
+                    <select
+                      id="umfeld-entwicklung-select"
+                      aria-label="Filter nach Bevölkerungsentwicklung 2011 bis 2023"
+                      value={selectedUmfeldEntwicklung}
+                      onChange={(e) => setSelectedUmfeldEntwicklung(e.target.value as UmfeldEntwicklungFilter)}
+                      className="font-bold bg-white border-2 border-[#E5E7EB] rounded-lg px-2 py-1 text-[#0D1B2A] focus:border-[#2D6A4F] outline-hidden text-xs min-w-[170px] max-w-[220px]"
+                    >
+                      <option value="ALL">alle</option>
+                      <option value="RUECKLAEUFIG">rückläufig (&lt; 0 %)</option>
+                      <option value="STABIL">stabil (0 bis &lt; 5 %)</option>
+                      <option value="WACHSEND">wachsend (5 bis &lt; 20 %)</option>
+                      <option value="STARK_WACHSEND">stark wachsend (≥ 20 %)</option>
+                    </select>
+                  </div>
+
+                  {/* Filter 3: Anteil Personen mit Pensionsbezug */}
+                  <div className={`p-3 rounded-xl border-2 flex items-center justify-between gap-2 transition ${
+                    selectedUmfeldPensionsbezug !== 'ALL' ? 'bg-[#ECFDF5] border-[#2D6A4F]' : 'bg-[#F9FAFB] border-[#E5E7EB]'
+                  }`}>
+                    <div className="leading-tight">
+                      <label htmlFor="umfeld-pensionsbezug-select" className="font-bold text-[#0D1B2A] block cursor-pointer">
+                        Anteil Pensionsbezug
+                      </label>
+                      <span className="text-[11px] text-[#6B7280]">Quote im Zählbezirk</span>
+                    </div>
+                    <select
+                      id="umfeld-pensionsbezug-select"
+                      aria-label="Filter nach Anteil der Personen mit Pensionsbezug"
+                      value={selectedUmfeldPensionsbezug}
+                      onChange={(e) => setSelectedUmfeldPensionsbezug(e.target.value as UmfeldPensionsbezugFilter)}
+                      className="font-bold bg-white border-2 border-[#E5E7EB] rounded-lg px-2 py-1 text-[#0D1B2A] focus:border-[#2D6A4F] outline-hidden text-xs min-w-[170px] max-w-[220px]"
+                    >
+                      <option value="ALL">alle</option>
+                      <option value="UNDER_15">unter 15 %</option>
+                      <option value="15_TO_20">15 bis unter 20 %</option>
+                      <option value="20_TO_25">20 bis unter 25 %</option>
+                      <option value="OVER_25">mindestens 25 %</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
             </div>
 
             {/* Results Grid */}
@@ -533,6 +674,9 @@ export default function App() {
                     setOnlyDenkmalschutz(false);
                     setOnlyWiseg(false);
                     setSelectedEpoche('ALL');
+                    setSelectedUmfeldDichte('ALL');
+                    setSelectedUmfeldEntwicklung('ALL');
+                    setSelectedUmfeldPensionsbezug('ALL');
                     setSearchText('');
                   }}
                   className="px-6 py-2 rounded-full bg-[#2D6A4F] hover:bg-[#1B4332] border-2 border-[#1B4332] text-white text-sm font-bold transition shadow-xs"
@@ -749,3 +893,4 @@ export default function App() {
     </div>
   );
 }
+

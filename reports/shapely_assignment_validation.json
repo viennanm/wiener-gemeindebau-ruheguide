@@ -1,0 +1,16 @@
+{
+  "shapely_version": "2.1.2",
+  "geos_version": "3.13.1",
+  "verwendetes_crs": "EPSG:31256 (MGI / Austria GK East)",
+  "gesamt_objekte": 1776,
+  "uebereinstimmende_zaehlgebiete": 1776,
+  "abweichende_zaehlgebiete": 0,
+  "uebereinstimmende_zaehlbezirke": 1776,
+  "abweichende_zaehlbezirke": 0,
+  "mehrfachtreffer": 0,
+  "nicht_zugeordnet": 0,
+  "grenzfaelle": 0,
+  "grenznahe_punkte_unter_1m": 0,
+  "minimale_grenzdistanz_meter": 1.589
+}
+

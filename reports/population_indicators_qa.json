@@ -1,0 +1,897 @@
+{
+  "erstellt_am": "2026-09-06T17:25:36.921473+00:00",
+  "schema_migration": "population_phase5_correction_v1",
+  "anzahl_indikatordefinitionen": 15,
+  "anzahl_gesamte_indikatordatensaetze": 8750,
+  "anzahl_fehlende_eintraege": 773,
+  "sonderfall_0210": {
+    "erklaerung": "Zählbezirk 0210 fehlt 2021 und 2023 amtlich in den Registerzählungsdateien. Werte wurden vorschriftsmäßig als NULL / nicht_verfuegbar erfasst.",
+    "zeilen_fuer_0210": 35,
+    "gueltige_werte_2011": 9,
+    "null_werte_2021_und_2023": 26
+  },
+  "dokumentierte_besonderheiten": [
+    {
+      "gebiet_code": "1903",
+      "gebiet_name": "Kahlenbergerdorf-Leopoldsberg",
+      "ursache": "In amtlichen Rohdaten der Registerzählung übersteigt das Personenmerkmal WHG_NOC_1 (345 in 2021, 377 in 2023) die Wohnungsanzahl WHG_WSA_TOTAL (298 in 2021, 331 in 2023), bedingt durch Anstalts- und Sonderwohnen (HST_3 = 230 Personen in Anstaltshaushalten, WHG_RECHTSVERH_0 = 448 entfällt).",
+      "massnahme": "Der Indikator anteil_einpersonenwohnungen_prozent wurde für alle 250 Zählbezirke vollständig deaktiviert und auf NULL / nicht_verfuegbar gesetzt (kein kompatibler amtlicher Wohnungsnenner auf Zählbezirksebene vorhanden). Das Bestandsmerkmal einpersonenwohnungen wurde präzise als 'Personen in Einpersonen-Wohnungen' mit Einheit 'Personen' deklariert."
+    }
+  ],
+  "plausibilitaetspruefungen": {
+    "bevoelkerung_nicht_negativ": true,
+    "wohnungen_nicht_negativ": true,
+    "u15_nicht_groesser_als_gesamt": true,
+    "pension_nicht_groesser_als_gesamt": true,
+    "hauptmiete_nicht_groesser_als_gesamt": true,
+    "anteilswerte_zwischen_0_und_100": true,
+    "entwicklungsraten_finit": true,
+    "annualisierte_entwicklungsraten_finit": true,
+    "dichte_nicht_negativ": true,
+    "wien_summen_stimmen_ueberein": true,
+    "anzahl_unbekannter_gebietsschluessel": 0,
+    "anzahl_doppelter_werte": 0,
+    "anzahl_berechnungsfehler": 0,
+    "anteil_einpersonenwohnungen_vollstaendig_deaktiviert": true
+  },
+  "indikatoren": {
+    "anteil_einpersonenwohnungen_prozent__2011-10-31": {
+      "indikator_code": "anteil_einpersonenwohnungen_prozent",
+      "stichtag": "2011-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 0,
+      "anzahl_null": 250,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 250,
+      "minimum": null,
+      "kleinster_wert_gebiet": null,
+      "maximum": null,
+      "groesster_wert_gebiet": null,
+      "ungewichteter_mittelwert_zaehlbezirke": null,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": null,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_einpersonenwohnungen_prozent__2021-10-31": {
+      "indikator_code": "anteil_einpersonenwohnungen_prozent",
+      "stichtag": "2021-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 0,
+      "anzahl_null": 250,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 250,
+      "minimum": null,
+      "kleinster_wert_gebiet": null,
+      "maximum": null,
+      "groesster_wert_gebiet": null,
+      "ungewichteter_mittelwert_zaehlbezirke": null,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": null,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_einpersonenwohnungen_prozent__2023-10-31": {
+      "indikator_code": "anteil_einpersonenwohnungen_prozent",
+      "stichtag": "2023-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 0,
+      "anzahl_null": 250,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 250,
+      "minimum": null,
+      "kleinster_wert_gebiet": null,
+      "maximum": null,
+      "groesster_wert_gebiet": null,
+      "ungewichteter_mittelwert_zaehlbezirke": null,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": null,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_personen_in_hauptmiete_prozent__2011-10-31": {
+      "indikator_code": "anteil_personen_in_hauptmiete_prozent",
+      "stichtag": "2011-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 250,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 97.0007,
+      "groesster_wert_gebiet": {
+        "zbez": "2319",
+        "wert": 97.0007
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 67.3929,
+      "gewichteter_wien_gesamtwert": 73.6246,
+      "wien_summe": 16848.2365,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_personen_in_hauptmiete_prozent__2021-10-31": {
+      "indikator_code": "anteil_personen_in_hauptmiete_prozent",
+      "stichtag": "2021-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 4.0791,
+      "kleinster_wert_gebiet": {
+        "zbez": "2203",
+        "wert": 4.0791
+      },
+      "maximum": 97.1931,
+      "groesster_wert_gebiet": {
+        "zbez": "2319",
+        "wert": 97.1931
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 70.3343,
+      "gewichteter_wien_gesamtwert": 75.8408,
+      "wien_summe": 17513.2332,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_personen_in_hauptmiete_prozent__2023-10-31": {
+      "indikator_code": "anteil_personen_in_hauptmiete_prozent",
+      "stichtag": "2023-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 4.7192,
+      "kleinster_wert_gebiet": {
+        "zbez": "2203",
+        "wert": 4.7192
+      },
+      "maximum": 97.4889,
+      "groesster_wert_gebiet": {
+        "zbez": "2319",
+        "wert": 97.4889
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 70.0608,
+      "gewichteter_wien_gesamtwert": 75.416,
+      "wien_summe": 17445.1403,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_unter_15_prozent__2011-10-31": {
+      "indikator_code": "anteil_unter_15_prozent",
+      "stichtag": "2011-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 250,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 24.2306,
+      "groesster_wert_gebiet": {
+        "zbez": "1209",
+        "wert": 24.2306
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 14.0586,
+      "gewichteter_wien_gesamtwert": 14.3607,
+      "wien_summe": 3514.6459,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_unter_15_prozent__2021-10-31": {
+      "indikator_code": "anteil_unter_15_prozent",
+      "stichtag": "2021-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0
+      },
+      "maximum": 22.9665,
+      "groesster_wert_gebiet": {
+        "zbez": "2129",
+        "wert": 22.9665
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 14.373,
+      "gewichteter_wien_gesamtwert": 14.4925,
+      "wien_summe": 3578.8828,
+      "wien_summe_rohdaten": null
+    },
+    "anteil_unter_15_prozent__2023-10-31": {
+      "indikator_code": "anteil_unter_15_prozent",
+      "stichtag": "2023-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0
+      },
+      "maximum": 26.3158,
+      "groesster_wert_gebiet": {
+        "zbez": "2130",
+        "wert": 26.3158
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 14.3159,
+      "gewichteter_wien_gesamtwert": 14.4597,
+      "wien_summe": 3564.6656,
+      "wien_summe_rohdaten": null
+    },
+    "bevoelkerung_gesamt__2011-10-31": {
+      "indikator_code": "bevoelkerung_gesamt",
+      "stichtag": "2011-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 250,
+      "berechnete_werte": 0,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 2.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 2.0
+      },
+      "maximum": 25208.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 25208.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 6856.908,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 1714227.0,
+      "wien_summe_rohdaten": 1714227
+    },
+    "bevoelkerung_gesamt__2021-10-31": {
+      "indikator_code": "bevoelkerung_gesamt",
+      "stichtag": "2021-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 16.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 16.0
+      },
+      "maximum": 26815.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 26815.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 7738.7952,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 1926960.0,
+      "wien_summe_rohdaten": 1926960
+    },
+    "bevoelkerung_gesamt__2023-10-31": {
+      "indikator_code": "bevoelkerung_gesamt",
+      "stichtag": "2023-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 17.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 17.0
+      },
+      "maximum": 26905.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 26905.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 8023.9598,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 1997966.0,
+      "wien_summe_rohdaten": 1997966
+    },
+    "bevoelkerungsdichte_personen_je_hektar__2023-10-31": {
+      "indikator_code": "bevoelkerungsdichte_personen_je_hektar",
+      "stichtag": "2023-10-31",
+      "einheit": "Personen/ha",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0065,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0065
+      },
+      "maximum": 387.1697,
+      "groesster_wert_gebiet": {
+        "zbez": "1007",
+        "wert": 387.1697
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 112.351,
+      "gewichteter_wien_gesamtwert": 48.1587,
+      "wien_summe": 27975.4014,
+      "wien_summe_rohdaten": null
+    },
+    "bevoelkerungsentwicklung_2011_2023_prozent__2023-10-31": {
+      "indikator_code": "bevoelkerungsentwicklung_2011_2023_prozent",
+      "stichtag": "2023-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": -13.3956,
+      "kleinster_wert_gebiet": {
+        "zbez": "1106",
+        "wert": -13.3956
+      },
+      "maximum": 4529.7619,
+      "groesster_wert_gebiet": {
+        "zbez": "2231",
+        "wert": 4529.7619
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 48.7145,
+      "gewichteter_wien_gesamtwert": 16.552,
+      "wien_summe": 12129.911,
+      "wien_summe_rohdaten": null
+    },
+    "bevoelkerungsentwicklung_2011_2023_prozent_pro_jahr__2023-10-31": {
+      "indikator_code": "bevoelkerungsentwicklung_2011_2023_prozent_pro_jahr",
+      "stichtag": "2023-10-31",
+      "einheit": "%/Jahr",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": -1.1913,
+      "kleinster_wert_gebiet": {
+        "zbez": "1106",
+        "wert": -1.1913
+      },
+      "maximum": 37.6564,
+      "groesster_wert_gebiet": {
+        "zbez": "2231",
+        "wert": 37.6564
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1.7893,
+      "gewichteter_wien_gesamtwert": 1.2846,
+      "wien_summe": 445.5436,
+      "wien_summe_rohdaten": null
+    },
+    "bevoelkerungsentwicklung_2021_2023_prozent__2023-10-31": {
+      "indikator_code": "bevoelkerungsentwicklung_2021_2023_prozent",
+      "stichtag": "2023-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": -7.6412,
+      "kleinster_wert_gebiet": {
+        "zbez": "1106",
+        "wert": -7.6412
+      },
+      "maximum": 45.0203,
+      "groesster_wert_gebiet": {
+        "zbez": "0307",
+        "wert": 45.0203
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 4.0215,
+      "gewichteter_wien_gesamtwert": 3.6849,
+      "wien_summe": 1001.3615,
+      "wien_summe_rohdaten": null
+    },
+    "bevoelkerungsentwicklung_2021_2023_prozent_pro_jahr__2023-10-31": {
+      "indikator_code": "bevoelkerungsentwicklung_2021_2023_prozent_pro_jahr",
+      "stichtag": "2023-10-31",
+      "einheit": "%/Jahr",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": -3.8965,
+      "kleinster_wert_gebiet": {
+        "zbez": "1106",
+        "wert": -3.8965
+      },
+      "maximum": 20.4244,
+      "groesster_wert_gebiet": {
+        "zbez": "0307",
+        "wert": 20.4244
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1.9342,
+      "gewichteter_wien_gesamtwert": 1.8258,
+      "wien_summe": 481.6057,
+      "wien_summe_rohdaten": null
+    },
+    "einpersonenwohnungen__2011-10-31": {
+      "indikator_code": "einpersonenwohnungen",
+      "stichtag": "2011-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 250,
+      "berechnete_werte": 0,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 4965.0,
+      "groesster_wert_gebiet": {
+        "zbez": "0502",
+        "wert": 4965.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1519.98,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 379995.0,
+      "wien_summe_rohdaten": 379995
+    },
+    "einpersonenwohnungen__2021-10-31": {
+      "indikator_code": "einpersonenwohnungen",
+      "stichtag": "2021-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 2.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 2.0
+      },
+      "maximum": 5139.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1404",
+        "wert": 5139.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1696.249,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 422366.0,
+      "wien_summe_rohdaten": 422366
+    },
+    "einpersonenwohnungen__2023-10-31": {
+      "indikator_code": "einpersonenwohnungen",
+      "stichtag": "2023-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 2.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 2.0
+      },
+      "maximum": 5204.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1404",
+        "wert": 5204.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1753.7068,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 436673.0,
+      "wien_summe_rohdaten": 436673
+    },
+    "hauptwohnsitzwohnungen__2011-10-31": {
+      "indikator_code": "hauptwohnsitzwohnungen",
+      "stichtag": "2011-10-31",
+      "einheit": "Wohnungen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 250,
+      "berechnete_werte": 0,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 1.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 1.0
+      },
+      "maximum": 10715.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 10715.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 3350.468,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 837617.0,
+      "wien_summe_rohdaten": 837617
+    },
+    "hauptwohnsitzwohnungen__2021-10-31": {
+      "indikator_code": "hauptwohnsitzwohnungen",
+      "stichtag": "2021-10-31",
+      "einheit": "Wohnungen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 6.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 6.0
+      },
+      "maximum": 11452.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 11452.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 3722.008,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 926780.0,
+      "wien_summe_rohdaten": 926780
+    },
+    "hauptwohnsitzwohnungen__2023-10-31": {
+      "indikator_code": "hauptwohnsitzwohnungen",
+      "stichtag": "2023-10-31",
+      "einheit": "Wohnungen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 7.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 7.0
+      },
+      "maximum": 11452.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 11452.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 3827.6546,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 953086.0,
+      "wien_summe_rohdaten": 953086
+    },
+    "pensionsquote_prozent__2011-10-31": {
+      "indikator_code": "pensionsquote_prozent",
+      "stichtag": "2011-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 250,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 40.9631,
+      "groesster_wert_gebiet": {
+        "zbez": "1020",
+        "wert": 40.9631
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 21.1359,
+      "gewichteter_wien_gesamtwert": 20.9736,
+      "wien_summe": 5283.965,
+      "wien_summe_rohdaten": null
+    },
+    "pensionsquote_prozent__2021-10-31": {
+      "indikator_code": "pensionsquote_prozent",
+      "stichtag": "2021-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0
+      },
+      "maximum": 33.7504,
+      "groesster_wert_gebiet": {
+        "zbez": "2116",
+        "wert": 33.7504
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 18.5701,
+      "gewichteter_wien_gesamtwert": 18.2373,
+      "wien_summe": 4623.9553,
+      "wien_summe_rohdaten": null
+    },
+    "pensionsquote_prozent__2023-10-31": {
+      "indikator_code": "pensionsquote_prozent",
+      "stichtag": "2023-10-31",
+      "einheit": "%",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 0,
+      "berechnete_werte": 249,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 4.7608,
+      "kleinster_wert_gebiet": {
+        "zbez": "1001",
+        "wert": 4.7608
+      },
+      "maximum": 35.9256,
+      "groesster_wert_gebiet": {
+        "zbez": "2116",
+        "wert": 35.9256
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 18.134,
+      "gewichteter_wien_gesamtwert": 17.6617,
+      "wien_summe": 4515.3617,
+      "wien_summe_rohdaten": null
+    },
+    "personen_in_hauptmiete__2011-10-31": {
+      "indikator_code": "personen_in_hauptmiete",
+      "stichtag": "2011-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 250,
+      "berechnete_werte": 0,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 22097.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 22097.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 5048.372,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 1262093.0,
+      "wien_summe_rohdaten": 1262093
+    },
+    "personen_in_hauptmiete__2021-10-31": {
+      "indikator_code": "personen_in_hauptmiete",
+      "stichtag": "2021-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 2.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2130",
+        "wert": 2.0
+      },
+      "maximum": 23556.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 23556.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 5869.1647,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 1461422.0,
+      "wien_summe_rohdaten": 1461422
+    },
+    "personen_in_hauptmiete__2023-10-31": {
+      "indikator_code": "personen_in_hauptmiete",
+      "stichtag": "2023-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 1.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2130",
+        "wert": 1.0
+      },
+      "maximum": 23433.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 23433.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 6051.3534,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 1506787.0,
+      "wien_summe_rohdaten": 1506787
+    },
+    "personen_mit_pensionsbezug__2011-10-31": {
+      "indikator_code": "personen_mit_pensionsbezug",
+      "stichtag": "2011-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 250,
+      "berechnete_werte": 0,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 5237.0,
+      "groesster_wert_gebiet": {
+        "zbez": "2105",
+        "wert": 5237.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1438.14,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 359535.0,
+      "wien_summe_rohdaten": 359535
+    },
+    "personen_mit_pensionsbezug__2021-10-31": {
+      "indikator_code": "personen_mit_pensionsbezug",
+      "stichtag": "2021-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0
+      },
+      "maximum": 4829.0,
+      "groesster_wert_gebiet": {
+        "zbez": "2105",
+        "wert": 4829.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1411.3494,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 351426.0,
+      "wien_summe_rohdaten": 351426
+    },
+    "personen_mit_pensionsbezug__2023-10-31": {
+      "indikator_code": "personen_mit_pensionsbezug",
+      "stichtag": "2023-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 1.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 1.0
+      },
+      "maximum": 4706.0,
+      "groesster_wert_gebiet": {
+        "zbez": "2105",
+        "wert": 4706.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1417.1647,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 352874.0,
+      "wien_summe_rohdaten": 352874
+    },
+    "personen_unter_15__2011-10-31": {
+      "indikator_code": "personen_unter_15",
+      "stichtag": "2011-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 250,
+      "berechnete_werte": 0,
+      "anzahl_null": 0,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 0,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "0210",
+        "wert": 0.0
+      },
+      "maximum": 5041.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 5041.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 984.7,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 246175.0,
+      "wien_summe_rohdaten": 246175
+    },
+    "personen_unter_15__2021-10-31": {
+      "indikator_code": "personen_unter_15",
+      "stichtag": "2021-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0
+      },
+      "maximum": 4900.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 4900.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1121.5422,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 279264.0,
+      "wien_summe_rohdaten": 279264
+    },
+    "personen_unter_15__2023-10-31": {
+      "indikator_code": "personen_unter_15",
+      "stichtag": "2023-10-31",
+      "einheit": "Personen",
+      "datensaetze_gesamt": 250,
+      "amtliche_werte": 249,
+      "berechnete_werte": 0,
+      "anzahl_null": 1,
+      "amtlich_unterdrueckt": 0,
+      "nicht_verfuegbar": 1,
+      "minimum": 0.0,
+      "kleinster_wert_gebiet": {
+        "zbez": "2230",
+        "wert": 0.0
+      },
+      "maximum": 4746.0,
+      "groesster_wert_gebiet": {
+        "zbez": "1110",
+        "wert": 4746.0
+      },
+      "ungewichteter_mittelwert_zaehlbezirke": 1160.2369,
+      "gewichteter_wien_gesamtwert": null,
+      "wien_summe": 288899.0,
+      "wien_summe_rohdaten": 288899
+    }
+  }
+}
+

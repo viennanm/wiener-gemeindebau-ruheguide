@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "aktualisiert_am": "2026-09-06",
+  "datenstand": "2023-10-31",
+  "vergleichsstaende": [
+    "2011-10-31",
+    "2021-10-31"
+  ],
+  "raeumliche_ebene": "Zählbezirk",
+  "beschreibung_raeumliche_ebene": "Statistisches Gebiet der Stadt Wien (unterhalb der Gemeindebezirke). Wien ist in 250 Zählbezirke unterteilt.",
+  "allgemeiner_hinweis": "Amtliche Umfeldstatistik des Zählbezirks. Die Werte beschreiben das statistische Umfeld und nicht die Bewohnerinnen und Bewohner dieser Wohnhausanlage.",
+  "hinweis_langzeitvergleich": "Vergleich auf stabiler Zählbezirksschlüssel-Ebene",
+  "amtliche_quellen": [
+    {
+      "titel": "Registerzählung – Bevölkerung nach Wohnungen (Stadt Wien)",
+      "herausgeber": "Stadt Wien / Statistik Austria",
+      "lizenz": "Creative Commons Namensnennung 4.0 International (CC BY 4.0)",
+      "stichtage": [
+        "2011-10-31",
+        "2021-10-31",
+        "2023-10-31"
+      ]
+    },
+    {
+      "titel": "Zählbezirke Wien (Geodaten)",
+      "herausgeber": "Stadt Wien – data.wien.gv.at",
+      "lizenz": "Creative Commons Namensnennung 4.0 International (CC BY 4.0)"
+    },
+    {
+      "titel": "Zählgebiete Wien (Gebietstypen)",
+      "herausgeber": "Stadt Wien – data.wien.gv.at",
+      "lizenz": "Creative Commons Namensnennung 4.0 International (CC BY 4.0)"
+    }
+  ],
+  "gewichtete_wien_gesamtwerte": {
+    "datenstand": "2023-10-31",
+    "bevoelkerungGesamt": 1997966,
+    "hauptwohnsitzwohnungenGesamt": 953086,
+    "bevoelkerungsdichtePersonenJeHektar": 48.16,
+    "anteilUnter15Prozent": 14.46,
+    "anteilPensionsbezugProzent": 17.66,
+    "anteilPersonenInHauptmieteProzent": 75.42,
+    "bevoelkerungsentwicklung2011Bis2023Prozent": 16.55,
+    "bevoelkerungsentwicklung2011Bis2023ProJahr": 1.28,
+    "bevoelkerungsentwicklung2021Bis2023Prozent": 3.23,
+    "bevoelkerungsentwicklung2021Bis2023ProJahr": 1.6
+  },
+  "wien_vergleich_toleranz_prozentpunkte": 1.0,
+  "wien_vergleich_kategorien": {
+    "unter": "unter dem Wien-Wert",
+    "niveau": "ungefähr auf Wien-Niveau",
+    "ueber": "über dem Wien-Wert"
+  },
+  "indikatordefinitionen": [
+    {
+      "feld": "einwohner",
+      "bezeichnung": "Einwohner (Hauptwohnsitz)",
+      "einheit": "Personen",
+      "formel": "WHG_POP_TOTAL (amtlicher Registerzählungsbestandswert)",
+      "beschreibung": "Hauptwohnsitzbevölkerung im Zählbezirk am Stichtag 31. Oktober 2023."
+    },
+    {
+      "feld": "hauptwohnsitzwohnungen",
+      "bezeichnung": "Hauptwohnsitzwohnungen",
+      "einheit": "Wohnungen",
+      "formel": "WHG_WSA_TOTAL (amtlicher Registerzählungsbestandswert)",
+      "beschreibung": "Anzahl der konventionellen Hauptwohnsitzwohnungen im Zählbezirk am Stichtag 31. Oktober 2023."
+    },
+    {
+      "feld": "bevoelkerungsdichtePersonenJeHektar",
+      "bezeichnung": "Bevölkerungsdichte",
+      "einheit": "Personen/ha",
+      "formel": "WHG_POP_TOTAL / (flaeche_m2 / 10000)",
+      "beschreibung": "Einwohnerzahl bezogen auf die Gesamtfläche des Zählbezirks in Hektar."
+    },
+    {
+      "feld": "anteilUnter15Prozent",
+      "bezeichnung": "Anteil unter 15 Jahren",
+      "einheit": "%",
+      "formel": "(ERW_STATUS_3 / WHG_POP_TOTAL) * 100",
+      "beschreibung": "Prozentualer Anteil der Kinder und Jugendlichen unter 15 Jahren (Erwerbsstatusklasse 3) an der Hauptwohnsitzbevölkerung."
+    },
+    {
+      "feld": "anteilPensionsbezugProzent",
+      "bezeichnung": "Anteil der Personen mit Pensionsbezug",
+      "einheit": "%",
+      "formel": "(ERW_STATUS_4 / WHG_POP_TOTAL) * 100",
+      "beschreibung": "Prozentualer Anteil der Personen im Ruhestand bzw. mit Pensionsbezug (Erwerbsstatusklasse 4). Beschreibt den Erwerbsstatus der Bevölkerung und darf nicht mit der Altersgruppe 65+ gleichgesetzt werden."
+    },
+    {
+      "feld": "anteilPersonenInHauptmieteProzent",
+      "bezeichnung": "Anteil der Personen in Hauptmiete",
+      "einheit": "%",
+      "formel": "(WHG_RECHTSVERH_3 / WHG_POP_TOTAL) * 100",
+      "beschreibung": "Prozentualer Anteil der Bewohner in Hauptmiete (inkl. Genossenschafts- und Gemeindewohnungen) an der Hauptwohnsitzbevölkerung."
+    },
+    {
+      "feld": "bevoelkerungsentwicklung2011Bis2023Prozent",
+      "bezeichnung": "Bevölkerungsentwicklung 2011–2023",
+      "einheit": "%",
+      "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2011) - 1) * 100",
+      "beschreibung": "Prozentuale Gesamtveränderung der Bevölkerung zwischen den Registerzählungsstichtagen 31.10.2011 und 31.10.2023 auf stabiler Zählbezirksschlüssel-Ebene."
+    },
+    {
+      "feld": "bevoelkerungsentwicklung2011Bis2023ProJahr",
+      "bezeichnung": "Bevölkerungsentwicklung 2011–2023 (pro Jahr)",
+      "einheit": "%/Jahr",
+      "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2011)^(1/12) - 1) * 100",
+      "beschreibung": "Annualisierte durchschnittliche Wachstumsrate über den 12-Jahres-Zeitraum."
+    },
+    {
+      "feld": "bevoelkerungsentwicklung2021Bis2023Prozent",
+      "bezeichnung": "Bevölkerungsentwicklung 2021–2023",
+      "einheit": "%",
+      "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2021) - 1) * 100",
+      "beschreibung": "Prozentuale Veränderung der Bevölkerung über den 2-Jahres-Zeitraum 2021 bis 2023."
+    },
+    {
+      "feld": "bevoelkerungsentwicklung2021Bis2023ProJahr",
+      "bezeichnung": "Bevölkerungsentwicklung 2021–2023 (pro Jahr)",
+      "einheit": "%/Jahr",
+      "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2021)^(1/2) - 1) * 100",
+      "beschreibung": "Annualisierte durchschnittliche Wachstumsrate über den 2-Jahres-Zeitraum."
+    }
+  ],
+  "nicht_fuer_frontend_freigegebene_indikatoren": [
+    {
+      "indikator_code": "anteil_einpersonenwohnungen_prozent",
+      "status": "deaktiviert",
+      "begruendung": "Dimensionsinkonsistenz in amtlichen Rohdaten: Merkmal WHG_NOC_1 zählt Personen, während WHG_WSA_TOTAL Wohnungen zählt. Aufgrund von Anstaltsunterkünften (z. B. ZBEZ 1903) nicht als valider Wohnungsanteil berechenbar."
+    },
+    {
+      "indikator_code": "einpersonenwohnungen",
+      "status": "vorerst_zurueckgehalten",
+      "begruendung": "Zählt Personen in 1-Personen-Wohnungen, nicht Wohnungen. Vorerst im Frontend nicht dargestellt, um Fehlinterpretationen zu vermeiden."
+    }
+  ]
+}
+

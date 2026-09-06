@@ -21,6 +21,16 @@
       ]
     },
     "allowImportingTsExtensions": true,
-    "noEmit": true
-  }
+    "noEmit": true,
+    "types": ["vite/client"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "data",
+    "node_modules",
+    "dist"
+  ]
 }
+

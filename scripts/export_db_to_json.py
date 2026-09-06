@@ -12,6 +12,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 DB_PATH = BASE_DIR / "data" / "gemeindebauten.db"
 OUTPUT_PATH = BASE_DIR / "public" / "data" / "gemeindebauten.json"
+METADATA_OUTPUT_PATH = BASE_DIR / "public" / "data" / "bevoelkerungsstatistik_metadaten.json"
 
 BEZIRKE_MAP = {
     1: "Innere Stadt", 2: "Leopoldstadt", 3: "Landstraße", 4: "Wieden",
@@ -45,7 +46,7 @@ def parse_db_class_to_number(laerm_klasse: str | None, default_day: bool = True)
     if ">=" in s or ">" in s:
         m = re.search(r"\d+", s)
         return int(m.group(0)) + 3 if m else (76 if default_day else 66)
-    
+
     # Bereiche z.B. "60–64" oder "60-64"
     parts = re.findall(r"\d+", s)
     if len(parts) >= 2:
@@ -142,6 +143,28 @@ def export_database():
     rows = cursor.fetchall()
     print(f"Gefundene Zeilen: {len(rows)}")
 
+    # Lade statistische Gebietszuordnungen für alle Objekte
+    cursor.execute("SELECT objekt_id, gebietsebene, gebiet_code FROM gemeindebau_gebiet;")
+    gebiete_by_obj = {}
+    for gr in cursor.fetchall():
+        gebiete_by_obj.setdefault(gr["objekt_id"], {})[gr["gebietsebene"]] = gr["gebiet_code"]
+    print(f"Statistische Gebietszuordnungen geladen für: {len(gebiete_by_obj)} Objekte")
+
+    # Lade Zählgebietstypen (gebietstyp, aggregierter_gebietstyp)
+    cursor.execute("SELECT gebiet_code, gebietstyp, aggregierter_gebietstyp FROM statistische_gebiete WHERE gebietsebene = 'zaehlgebiet';")
+    zgeb_types = {zr["gebiet_code"]: (zr["gebietstyp"], zr["aggregierter_gebietstyp"]) for zr in cursor.fetchall()}
+
+    # Lade amtliche Bevölkerungsindikatoren auf Zählbezirksebene für Stichtag 2023-10-31
+    cursor.execute("""
+        SELECT gebiet_code, indikator_code, wert, qualitaetsstatus
+        FROM bevoelkerungsindikatoren
+        WHERE gebietsebene = 'zaehlbezirk' AND stichtag = '2023-10-31';
+    """)
+    ind_by_zbez = {}
+    for ir in cursor.fetchall():
+        ind_by_zbez.setdefault(ir["gebiet_code"], {})[ir["indikator_code"]] = (ir["wert"], ir["qualitaetsstatus"])
+    print(f"Bevölkerungsindikatoren für 2023-10-31 geladen für: {len(ind_by_zbez)} Zählbezirke")
+
     # Lade verifizierte Fotos aus dem angereicherten XML falls vorhanden
     photo_map = {}
     photo_xml_path = BASE_DIR / "data" / "Gemeindebauten_Wien_mit_Fotos.xml"
@@ -176,7 +199,7 @@ def export_database():
 
         raw_hofname = r["hofname"] or ""
         raw_adresse = r["adresse"] or ""
-        
+
         # Name ableiten
         if raw_hofname and raw_hofname.strip() != "":
             name = raw_hofname.strip()
@@ -218,7 +241,7 @@ def export_database():
         gruen_score = r["gruenlage_score"] if r["gruenlage_score"] is not None else 50
 
         ruhe_score = compute_ruhe_score(tag_db, nacht_db, gruen_score, schienen_db)
-        
+
         # Innenhofpegel (Wiener Wohnhöfe schirmen typischerweise 14-22 dB ab)
         hof_schallschutz = 18 if (r["bebaute_grundflaeche_m2"] or 0) > 2000 else 14
         akustik_innenhof = max(38, tag_db - hof_schallschutz)
@@ -339,6 +362,47 @@ def export_database():
             entry["bildLizenz"] = photo_map[objekt_id]["lizenz"]
             entry["bildQuellseiteUrl"] = photo_map[objekt_id]["quellseiteUrl"]
 
+        # Phase 6: Amtliche Umfeldstatistik auf Zählbezirksebene anfügen
+        if objekt_id in gebiete_by_obj:
+            g_map = gebiete_by_obj[objekt_id]
+            zbez_code = g_map.get("zaehlbezirk")
+            zgeb_code = g_map.get("zaehlgebiet")
+            prg_code = g_map.get("prognoseregion")
+            bez_code = g_map.get("gemeindebezirk")
+
+            z_type, agg_type = zgeb_types.get(zgeb_code, (None, None))
+            zbez_inds = ind_by_zbez.get(zbez_code, {})
+
+            def get_val(code):
+                item = zbez_inds.get(code)
+                return item[0] if item else None
+
+            pop_val = get_val("bevoelkerung_gesamt")
+            q_status = "amtlich_und_berechnet" if pop_val is not None else "nicht_verfuegbar"
+
+            entry["umfeldstatistik"] = {
+                "raeumlicheEbene": "Zählbezirk",
+                "zaehlgebietCode": str(zgeb_code) if zgeb_code is not None else "",
+                "zaehlbezirkCode": str(zbez_code) if zbez_code is not None else "",
+                "prognoseregionCode": str(prg_code) if prg_code is not None else "",
+                "gemeindebezirkCode": str(bez_code) if bez_code is not None else "",
+                "gebietstyp": z_type,
+                "aggregierterGebietstyp": agg_type,
+                "datenstand": "2023-10-31",
+                "einwohner": int(round(pop_val)) if pop_val is not None else None,
+                "hauptwohnsitzwohnungen": int(round(get_val("hauptwohnsitzwohnungen"))) if get_val("hauptwohnsitzwohnungen") is not None else None,
+                "bevoelkerungsdichtePersonenJeHektar": get_val("bevoelkerungsdichte_personen_je_hektar"),
+                "anteilUnter15Prozent": get_val("anteil_unter_15_prozent"),
+                "anteilPensionsbezugProzent": get_val("pensionsquote_prozent"),
+                "anteilPersonenInHauptmieteProzent": get_val("anteil_personen_in_hauptmiete_prozent"),
+                "bevoelkerungsentwicklung2011Bis2023Prozent": get_val("bevoelkerungsentwicklung_2011_2023_prozent"),
+                "bevoelkerungsentwicklung2011Bis2023ProJahr": get_val("bevoelkerungsentwicklung_2011_2023_prozent_pro_jahr"),
+                "bevoelkerungsentwicklung2021Bis2023Prozent": get_val("bevoelkerungsentwicklung_2021_2023_prozent"),
+                "bevoelkerungsentwicklung2021Bis2023ProJahr": get_val("bevoelkerungsentwicklung_2021_2023_prozent_pro_jahr"),
+                "qualitaetsstatus": q_status,
+                "hinweis": "Amtliche Umfeldstatistik des Zählbezirks. Die Werte beschreiben nicht die Bewohnerinnen und Bewohner dieser Wohnhausanlage."
+            }
+
         result.append(entry)
 
     conn.close()
@@ -348,8 +412,150 @@ def export_database():
         json.dump(result, f, ensure_ascii=False, indent=2)
 
     print(f"Erfolgreich {len(result)} Gemeindebauten nach {OUTPUT_PATH} exportiert.")
+
+    export_metadata()
     return len(result)
+
+
+def export_metadata():
+    """Erzeugt oder aktualisiert public/data/bevoelkerungsstatistik_metadaten.json."""
+    meta = {
+        "schema_version": "1.0",
+        "aktualisiert_am": "2026-09-06",
+        "datenstand": "2023-10-31",
+        "vergleichsstaende": ["2011-10-31", "2021-10-31"],
+        "raeumliche_ebene": "Zählbezirk",
+        "beschreibung_raeumliche_ebene": "Statistisches Gebiet der Stadt Wien (unterhalb der Gemeindebezirke). Wien ist in 250 Zählbezirke unterteilt.",
+        "allgemeiner_hinweis": "Amtliche Umfeldstatistik des Zählbezirks. Die Werte beschreiben das statistische Umfeld und nicht die Bewohnerinnen und Bewohner dieser Wohnhausanlage.",
+        "hinweis_langzeitvergleich": "Vergleich auf stabiler Zählbezirksschlüssel-Ebene",
+        "amtliche_quellen": [
+            {
+                "titel": "Registerzählung – Bevölkerung nach Wohnungen (Stadt Wien)",
+                "herausgeber": "Stadt Wien / Statistik Austria",
+                "lizenz": "Creative Commons Namensnennung 4.0 International (CC BY 4.0)",
+                "stichtage": ["2011-10-31", "2021-10-31", "2023-10-31"]
+            },
+            {
+                "titel": "Zählbezirke Wien (Geodaten)",
+                "herausgeber": "Stadt Wien – data.wien.gv.at",
+                "lizenz": "Creative Commons Namensnennung 4.0 International (CC BY 4.0)"
+            },
+            {
+                "titel": "Zählgebiete Wien (Gebietstypen)",
+                "herausgeber": "Stadt Wien – data.wien.gv.at",
+                "lizenz": "Creative Commons Namensnennung 4.0 International (CC BY 4.0)"
+            }
+        ],
+        "gewichtete_wien_gesamtwerte": {
+            "datenstand": "2023-10-31",
+            "bevoelkerungGesamt": 1997966,
+            "hauptwohnsitzwohnungenGesamt": 953086,
+            "bevoelkerungsdichtePersonenJeHektar": 48.16,
+            "anteilUnter15Prozent": 14.46,
+            "anteilPensionsbezugProzent": 17.66,
+            "anteilPersonenInHauptmieteProzent": 75.42,
+            "bevoelkerungsentwicklung2011Bis2023Prozent": 16.55,
+            "bevoelkerungsentwicklung2011Bis2023ProJahr": 1.28,
+            "bevoelkerungsentwicklung2021Bis2023Prozent": 3.23,
+            "bevoelkerungsentwicklung2021Bis2023ProJahr": 1.60
+        },
+        "wien_vergleich_toleranz_prozentpunkte": 1.0,
+        "wien_vergleich_kategorien": {
+            "unter": "unter dem Wien-Wert",
+            "niveau": "ungefähr auf Wien-Niveau",
+            "ueber": "über dem Wien-Wert"
+        },
+        "indikatordefinitionen": [
+            {
+                "feld": "einwohner",
+                "bezeichnung": "Einwohner (Hauptwohnsitz)",
+                "einheit": "Personen",
+                "formel": "WHG_POP_TOTAL (amtlicher Registerzählungsbestandswert)",
+                "beschreibung": "Hauptwohnsitzbevölkerung im Zählbezirk am Stichtag 31. Oktober 2023."
+            },
+            {
+                "feld": "hauptwohnsitzwohnungen",
+                "bezeichnung": "Hauptwohnsitzwohnungen",
+                "einheit": "Wohnungen",
+                "formel": "WHG_WSA_TOTAL (amtlicher Registerzählungsbestandswert)",
+                "beschreibung": "Anzahl der konventionellen Hauptwohnsitzwohnungen im Zählbezirk am Stichtag 31. Oktober 2023."
+            },
+            {
+                "feld": "bevoelkerungsdichtePersonenJeHektar",
+                "bezeichnung": "Bevölkerungsdichte",
+                "einheit": "Personen/ha",
+                "formel": "WHG_POP_TOTAL / (flaeche_m2 / 10000)",
+                "beschreibung": "Einwohnerzahl bezogen auf die Gesamtfläche des Zählbezirks in Hektar."
+            },
+            {
+                "feld": "anteilUnter15Prozent",
+                "bezeichnung": "Anteil unter 15 Jahren",
+                "einheit": "%",
+                "formel": "(ERW_STATUS_3 / WHG_POP_TOTAL) * 100",
+                "beschreibung": "Prozentualer Anteil der Kinder und Jugendlichen unter 15 Jahren (Erwerbsstatusklasse 3) an der Hauptwohnsitzbevölkerung."
+            },
+            {
+                "feld": "anteilPensionsbezugProzent",
+                "bezeichnung": "Anteil der Personen mit Pensionsbezug",
+                "einheit": "%",
+                "formel": "(ERW_STATUS_4 / WHG_POP_TOTAL) * 100",
+                "beschreibung": "Prozentualer Anteil der Personen im Ruhestand bzw. mit Pensionsbezug (Erwerbsstatusklasse 4). Beschreibt den Erwerbsstatus der Bevölkerung und darf nicht mit der Altersgruppe 65+ gleichgesetzt werden."
+            },
+            {
+                "feld": "anteilPersonenInHauptmieteProzent",
+                "bezeichnung": "Anteil der Personen in Hauptmiete",
+                "einheit": "%",
+                "formel": "(WHG_RECHTSVERH_3 / WHG_POP_TOTAL) * 100",
+                "beschreibung": "Prozentualer Anteil der Bewohner in Hauptmiete (inkl. Genossenschafts- und Gemeindewohnungen) an der Hauptwohnsitzbevölkerung."
+            },
+            {
+                "feld": "bevoelkerungsentwicklung2011Bis2023Prozent",
+                "bezeichnung": "Bevölkerungsentwicklung 2011–2023",
+                "einheit": "%",
+                "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2011) - 1) * 100",
+                "beschreibung": "Prozentuale Gesamtveränderung der Bevölkerung zwischen den Registerzählungsstichtagen 31.10.2011 und 31.10.2023 auf stabiler Zählbezirksschlüssel-Ebene."
+            },
+            {
+                "feld": "bevoelkerungsentwicklung2011Bis2023ProJahr",
+                "bezeichnung": "Bevölkerungsentwicklung 2011–2023 (pro Jahr)",
+                "einheit": "%/Jahr",
+                "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2011)^(1/12) - 1) * 100",
+                "beschreibung": "Annualisierte durchschnittliche Wachstumsrate über den 12-Jahres-Zeitraum."
+            },
+            {
+                "feld": "bevoelkerungsentwicklung2021Bis2023Prozent",
+                "bezeichnung": "Bevölkerungsentwicklung 2021–2023",
+                "einheit": "%",
+                "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2021) - 1) * 100",
+                "beschreibung": "Prozentuale Veränderung der Bevölkerung über den 2-Jahres-Zeitraum 2021 bis 2023."
+            },
+            {
+                "feld": "bevoelkerungsentwicklung2021Bis2023ProJahr",
+                "bezeichnung": "Bevölkerungsentwicklung 2021–2023 (pro Jahr)",
+                "einheit": "%/Jahr",
+                "formel": "((WHG_POP_TOTAL_2023 / WHG_POP_TOTAL_2021)^(1/2) - 1) * 100",
+                "beschreibung": "Annualisierte durchschnittliche Wachstumsrate über den 2-Jahres-Zeitraum."
+            }
+        ],
+        "nicht_fuer_frontend_freigegebene_indikatoren": [
+            {
+                "indikator_code": "anteil_einpersonenwohnungen_prozent",
+                "status": "deaktiviert",
+                "begruendung": "Dimensionsinkonsistenz in amtlichen Rohdaten: Merkmal WHG_NOC_1 zählt Personen, während WHG_WSA_TOTAL Wohnungen zählt. Aufgrund von Anstaltsunterkünften (z. B. ZBEZ 1903) nicht als valider Wohnungsanteil berechenbar."
+            },
+            {
+                "indikator_code": "einpersonenwohnungen",
+                "status": "vorerst_zurueckgehalten",
+                "begruendung": "Zählt Personen in 1-Personen-Wohnungen, nicht Wohnungen. Vorerst im Frontend nicht dargestellt, um Fehlinterpretationen zu vermeiden."
+            }
+        ]
+    }
+    METADATA_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(METADATA_OUTPUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+    print(f"Erfolgreich Bevölkerungsmetadaten nach {METADATA_OUTPUT_PATH} exportiert.")
 
 
 if __name__ == "__main__":
     export_database()
+

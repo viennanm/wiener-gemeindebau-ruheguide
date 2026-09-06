@@ -2,16 +2,16 @@ import React from 'react';
 import { Gemeindebau } from '../types';
 import { GRINZINGER_ALLEE_REFERENCE } from '../data/gemeindebauten';
 import { getGemeindebauImage } from '../data/gemeindebauImages';
-import { 
-  X, 
-  TreePine, 
-  Volume2, 
-  VolumeX, 
-  Footprints, 
-  CheckCircle2, 
-  AlertTriangle, 
-  Accessibility, 
-  MapPin, 
+import {
+  X,
+  TreePine,
+  Volume2,
+  VolumeX,
+  Footprints,
+  CheckCircle2,
+  AlertTriangle,
+  Accessibility,
+  MapPin,
   Info,
   Calendar,
   Building,
@@ -24,9 +24,20 @@ import {
   Palette,
   BookOpen,
   Eye,
-  Compass
+  Compass,
+  Users,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 import { playQuietCourtyard, playStreetTraffic, stopAudio } from '../utils/audioSimulator';
+import {
+  formatInteger,
+  formatPercent,
+  formatDensity,
+  formatChange,
+  getWienComparison,
+  WIEN_BENCHMARKS
+} from '../utils/populationFormatting';
 
 interface Props {
   bau: Gemeindebau;
@@ -48,6 +59,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
   const isReference = bau.id === GRINZINGER_ALLEE_REFERENCE.id;
   const [playingThisAudio, setPlayingThisAudio] = React.useState(false);
   const [mediaView, setMediaView] = React.useState<'photo' | 'streetview'>('photo');
+  const [showMethodology, setShowMethodology] = React.useState(false);
   const photoUrl = bau.bildUrl || getGemeindebauImage(bau.id, bau.name, bau.bildUrl);
 
   const toggleAudio = () => {
@@ -182,7 +194,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                   referrerPolicy="no-referrer"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-black/20 pointer-events-none" />
-                
+
                 {/* Caption on Photo */}
                 <div className="absolute bottom-3 left-4 right-4 flex items-end justify-between gap-2 text-white">
                   <div>
@@ -197,7 +209,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                       {bau.gruenraumBeschreibung}
                     </p>
                   </div>
-                  
+
                   <div className="flex flex-col items-end gap-1 shrink-0">
                     <span className="px-2.5 py-1 rounded-full text-[10px] font-bold bg-black/60 backdrop-blur-xs border border-white/20 text-white">
                       Höhe: {bau.hoehenmeter}
@@ -254,8 +266,8 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                   <span className="text-sm font-semibold text-[#6B7280]">dB(A) Innenhof</span>
                 </div>
                 <div className="h-2.5 w-full bg-[#E5E7EB] rounded-full overflow-hidden my-2">
-                  <div 
-                    className="h-full bg-[#2D6A4F] rounded-full transition-all duration-500" 
+                  <div
+                    className="h-full bg-[#2D6A4F] rounded-full transition-all duration-500"
                     style={{ width: `${Math.min(100, Math.max(15, (bau.akustikDbInnenhof / 80) * 100))}%` }}
                   />
                 </div>
@@ -283,7 +295,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                 </div>
               </div>
               <p className="text-xs sm:text-sm font-medium text-[#4B5563] mt-2 leading-relaxed">
-                {bau.isStufenlos 
+                {bau.isStufenlos
                   ? 'Ebenerdiger Einstieg bis vor die Wohnungstür, optimal für Barrierefreiheit und Gehkomfort.'
                   : 'Stufen bis zum Aufzug. Bei eingeschränkter Mobilität nur bedingt geeignet.'}
               </p>
@@ -483,8 +495,8 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                 </div>
 
                 <div className="text-xs sm:text-sm text-amber-950 leading-relaxed">
-                  Dieses historische Zinshaus wird von der <strong>Wiener Substanzerhaltungsgesellschaft (WISEG)</strong> verwaltet. 
-                  Als "atypischer Gemeindebau" zeichnet es sich durch seine kleinteilige Struktur ({bau.wohnungenAnzahl} Wohnungen), 
+                  Dieses historische Zinshaus wird von der <strong>Wiener Substanzerhaltungsgesellschaft (WISEG)</strong> verwaltet.
+                  Als "atypischer Gemeindebau" zeichnet es sich durch seine kleinteilige Struktur ({bau.wohnungenAnzahl} Wohnungen),
                   dicke Gründerzeit-/Biedermeier-Ziegelmauern und einen geschützten, kopfsteingepflasterten Hofbereich aus.
                 </div>
 
@@ -593,6 +605,226 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
             </div>
           </div>
 
+          {/* Phase 6: Amtliche Umfeldstatistik & Demografie */}
+          {bau.umfeldstatistik && (
+            <div className="p-5 sm:p-6 bg-[#F8FAFC] rounded-2xl border-2 border-slate-200 space-y-4">
+              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-slate-200 pb-3">
+                <div className="flex items-center gap-2.5">
+                  <div className="w-8 h-8 rounded-lg bg-blue-100 text-blue-900 flex items-center justify-center font-bold shrink-0">
+                    <Users className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-base sm:text-lg font-bold text-[#0D1B2A]">
+                      Umfeld & Bevölkerung
+                    </h4>
+                    <p className="text-xs text-slate-500 font-medium">
+                      Statistisches Gebiet: Zählbezirk {bau.umfeldstatistik.zaehlbezirkCode} • Datenstand: {bau.umfeldstatistik.datenstand}
+                    </p>
+                  </div>
+                </div>
+                {bau.umfeldstatistik.aggregierterGebietstyp && (
+                  <span className="px-3 py-1 rounded-full text-xs font-semibold bg-white border border-slate-300 text-slate-700">
+                    {bau.umfeldstatistik.aggregierterGebietstyp}
+                  </span>
+                )}
+              </div>
+
+              {/* Pflicht-Hinweis direkt sichtbar */}
+              <div className="p-3.5 rounded-xl bg-white border border-slate-200 text-xs sm:text-sm text-slate-700 flex items-start gap-2.5 shadow-2xs">
+                <Info className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
+                <p className="font-medium leading-relaxed">
+                  {bau.umfeldstatistik.hinweis}
+                </p>
+              </div>
+
+              {/* Raster der amtlichen Kennzahlen */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {/* 1. Einwohner & Wohnungen */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Einwohner (HWS)
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatInteger(bau.umfeldstatistik.einwohner)}
+                  </div>
+                  <p className="text-xs text-slate-500 mt-1">
+                    in {formatInteger(bau.umfeldstatistik.hauptwohnsitzwohnungen)} Wohnungen
+                  </p>
+                </div>
+
+                {/* 2. Bevölkerungsdichte */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Bevölkerungsdichte
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatDensity(bau.umfeldstatistik.bevoelkerungsdichtePersonenJeHektar)}
+                  </div>
+                  <p className="text-xs text-slate-500 mt-1">
+                    {bau.umfeldstatistik.gebietstyp || 'Wohn- und Stadtgebiet'}
+                  </p>
+                </div>
+
+                {/* 3. Anteil der Kinder & Jugend (< 15) */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Anteil unter 15 Jahren
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatPercent(bau.umfeldstatistik.anteilUnter15Prozent)}
+                  </div>
+                  {(() => {
+                    const comp = getWienComparison(bau.umfeldstatistik.anteilUnter15Prozent, WIEN_BENCHMARKS.anteilUnter15Prozent);
+                    return comp ? (
+                      <div className="mt-1.5 inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700 border border-slate-200">
+                        {comp.text} (Wien: {formatPercent(WIEN_BENCHMARKS.anteilUnter15Prozent)})
+                      </div>
+                    ) : null;
+                  })()}
+                </div>
+
+                {/* 4. Personen mit Pensionsbezug */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Anteil Personen mit Pensionsbezug
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatPercent(bau.umfeldstatistik.anteilPensionsbezugProzent)}
+                  </div>
+                  {(() => {
+                    const comp = getWienComparison(bau.umfeldstatistik.anteilPensionsbezugProzent, WIEN_BENCHMARKS.anteilPensionsbezugProzent);
+                    return comp ? (
+                      <div className="mt-1.5 inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700 border border-slate-200">
+                        {comp.text} (Wien: {formatPercent(WIEN_BENCHMARKS.anteilPensionsbezugProzent)})
+                      </div>
+                    ) : null;
+                  })()}
+                </div>
+
+                {/* 5. Personen in Hauptmiete */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Anteil Personen in Hauptmiete
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatPercent(bau.umfeldstatistik.anteilPersonenInHauptmieteProzent)}
+                  </div>
+                  <p className="text-xs text-slate-500 mt-1">
+                    inkl. Gemeindebau & Genossenschaft
+                  </p>
+                </div>
+
+                {/* 6. Bevölkerungsentwicklung 2011–2023 */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Entwicklung 2011–2023
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatChange(bau.umfeldstatistik.bevoelkerungsentwicklung2011Bis2023Prozent)}
+                  </div>
+                  {(() => {
+                    const comp = getWienComparison(bau.umfeldstatistik.bevoelkerungsentwicklung2011Bis2023Prozent, WIEN_BENCHMARKS.bevoelkerungsentwicklung2011Bis2023Prozent);
+                    return comp ? (
+                      <div className="mt-1.5 inline-flex items-center px-2 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-700 border border-slate-200">
+                        {comp.text} (Wien: {formatChange(WIEN_BENCHMARKS.bevoelkerungsentwicklung2011Bis2023Prozent)})
+                      </div>
+                    ) : null;
+                  })()}
+                  <p className="text-[11px] text-slate-500 mt-1">
+                    Ø {formatChange(bau.umfeldstatistik.bevoelkerungsentwicklung2011Bis2023ProJahr, '%/Jahr')}
+                  </p>
+                </div>
+
+                {/* 7. Kurzfristige Entwicklung 2021–2023 */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Entwicklung 2021–2023
+                  </span>
+                  <div className="text-xl sm:text-2xl font-black text-[#0D1B2A]">
+                    {formatChange(bau.umfeldstatistik.bevoelkerungsentwicklung2021Bis2023Prozent)}
+                  </div>
+                  <p className="text-[11px] text-slate-500 mt-1">
+                    Ø {formatChange(bau.umfeldstatistik.bevoelkerungsentwicklung2021Bis2023ProJahr, '%/Jahr')}
+                  </p>
+                </div>
+
+                {/* 8. Räumliche Schlüssel */}
+                <div className="p-4 bg-white rounded-xl border border-slate-200 shadow-2xs col-span-1 sm:col-span-2">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-1">
+                    Statistische Schlüssel
+                  </span>
+                  <div className="flex flex-wrap items-center gap-2 text-xs font-mono text-slate-700 mt-1">
+                    <span className="px-2 py-1 bg-slate-100 rounded border border-slate-200">
+                      Zählbezirk: <strong>{bau.umfeldstatistik.zaehlbezirkCode}</strong>
+                    </span>
+                    <span className="px-2 py-1 bg-slate-100 rounded border border-slate-200">
+                      Zählgebiet: <strong>{bau.umfeldstatistik.zaehlgebietCode}</strong>
+                    </span>
+                    <span className="px-2 py-1 bg-slate-100 rounded border border-slate-200">
+                      Prognoseregion: <strong>{bau.umfeldstatistik.prognoseregionCode}</strong>
+                    </span>
+                    <span className="px-2 py-1 bg-slate-100 rounded border border-slate-200">
+                      Bezirk: <strong>{bau.umfeldstatistik.gemeindebezirkCode}</strong>
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Aufklappbarer Bereich: Methodik & Datenquelle */}
+              <div className="border border-slate-200 rounded-xl overflow-hidden bg-white">
+                <button
+                  type="button"
+                  onClick={() => setShowMethodology(!showMethodology)}
+                  aria-expanded={showMethodology}
+                  className="w-full px-4 py-3 bg-slate-50 hover:bg-slate-100 flex items-center justify-between text-left transition cursor-pointer"
+                >
+                  <span className="text-xs font-bold text-[#0D1B2A] flex items-center gap-2">
+                    <Info className="w-3.5 h-3.5 text-slate-600" />
+                    Methodik & Datenquelle
+                  </span>
+                  {showMethodology ? (
+                    <ChevronUp className="w-4 h-4 text-slate-600" />
+                  ) : (
+                    <ChevronDown className="w-4 h-4 text-slate-600" />
+                  )}
+                </button>
+
+                {showMethodology && (
+                  <div className="p-4 text-xs text-slate-700 space-y-2.5 border-t border-slate-200 bg-white leading-relaxed">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      <div>
+                        <strong>Räumliche Ebene:</strong> Zählbezirk (statistisches Gebiet der Stadt Wien)
+                      </div>
+                      <div>
+                        <strong>Stichtag:</strong> 31. Oktober 2023 (amtliche Registerzählung)
+                      </div>
+                      <div>
+                        <strong>Amtliche Quellen:</strong> Stadt Wien (data.wien.gv.at) / Statistik Austria
+                      </div>
+                      <div>
+                        <strong>Lizenz:</strong> Creative Commons Namensnennung 4.0 International (CC BY 4.0)
+                      </div>
+                    </div>
+                    <div className="pt-2 border-t border-slate-100">
+                      <strong>Berechnungsformeln:</strong>
+                      <ul className="list-disc list-inside mt-1 space-y-1 text-slate-600 font-mono text-[11px]">
+                        <li>Anteil unter 15: (ERW_STATUS_3 / WHG_POP_TOTAL) * 100</li>
+                        <li>Anteil mit Pensionsbezug: (ERW_STATUS_4 / WHG_POP_TOTAL) * 100</li>
+                        <li>Anteil in Hauptmiete: (WHG_RECHTSVERH_3 / WHG_POP_TOTAL) * 100</li>
+                        <li>Dichte: WHG_POP_TOTAL / (Fläche in ha)</li>
+                        <li>Bevölkerungsveränderung 2011–2023: ((POP_2023 / POP_2011) - 1) * 100</li>
+                      </ul>
+                    </div>
+                    <p className="text-[11px] text-slate-500 italic pt-1">
+                      Hinweis zum Langzeitvergleich: Vergleich auf stabiler Zählbezirksschlüssel-Ebene.
+                      Als „ungefähr auf Wien-Niveau“ wird eine Abweichung von höchstens ±1,0 Prozentpunkt gegenüber dem gewichteten Gesamtwert für ganz Wien gewertet.
+                    </p>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
           {/* Wohnberatung Wien Tausch-Tipp (Featured Callout from Geometric Balance) */}
           <div className="p-6 bg-[#F0FDF4] rounded-2xl border-2 border-[#2D6A4F] flex items-start gap-5">
             <div className="w-14 h-14 bg-[#2D6A4F] rounded-full shrink-0 flex items-center justify-center text-white shadow-xs">
@@ -606,7 +838,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                 {bau.tippFuerRuhesuchende}
               </p>
               <p className="text-xs text-[#374151] mt-2 font-medium">
-                Hinweis: Beim Wohnungstausch über www.wohnberatung-wien.at kann der Mietvertrag der aktuellen Gemeindewohnung (Grinzinger Allee 54) 
+                Hinweis: Beim Wohnungstausch über www.wohnberatung-wien.at kann der Mietvertrag der aktuellen Gemeindewohnung (Grinzinger Allee 54)
                 direkt gegen eine barrierefreie Ruhelage eingetauscht werden.
               </p>
             </div>
@@ -634,3 +866,4 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
     </div>
   );
 };
+

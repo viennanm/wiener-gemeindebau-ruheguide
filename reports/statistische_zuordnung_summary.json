@@ -1,0 +1,24 @@
+{
+  "gesamt_objekte": 1776,
+  "eindeutig_zugeordnet": 1776,
+  "grenzfaelle": 0,
+  "grenznahe_punkte_unter_1m": 0,
+  "mindestdistanz_grenze_meter": 1.589,
+  "mehrfachtreffer": 0,
+  "nicht_zugeordnet": 0,
+  "bezirkswidersprueche": 0,
+  "zaehlbezirkswidersprueche": 0,
+  "fehlende_prognoseregionen": 0,
+  "fehlende_gebietstypen": 0,
+  "ungueltige_koordinaten": 0,
+  "anzahl_zaehlgebiete_mit_gemeindebau": 744,
+  "anzahl_zaehlbezirke_mit_gemeindebau": 208,
+  "gesamtzahl_prognoseregionen": 94,
+  "anzahl_prognoseregionen_mit_gemeindebau": 92,
+  "prognoseregionen_ohne_gemeindebau": [
+    "10A",
+    "22C"
+  ],
+  "prognoseregionen_abdeckungsquote_prozent": 97.87
+}
+
