@@ -49,7 +49,7 @@ export default function App() {
   // Filter States
   const [searchText, setSearchText] = useState<string>('');
   const [selectedBezirk, setSelectedBezirk] = useState<BezirkNummer | 'ALL'>('ALL');
-  const [minRuheScore, setMinRuheScore] = useState<number>(7);
+  const [minRuheScore, setMinRuheScore] = useState<number>(1);
   const [onlyStufenlos, setOnlyStufenlos] = useState<boolean>(true);
   const [maxBimDistanz, setMaxBimDistanz] = useState<number>(300);
   const [onlyFlatTerrain, setOnlyFlatTerrain] = useState<boolean>(false);
@@ -111,8 +111,8 @@ export default function App() {
       return false;
     }
 
-    // Min Ruhe Score
-    if (bau.ruheScore < minRuheScore) {
+    // Min Ruhe Score (ab Note 1 werden alle angezeigt)
+    if (minRuheScore > 1 && bau.ruheScore < minRuheScore) {
       return false;
     }
 
@@ -355,7 +355,12 @@ export default function App() {
                     onChange={(e) => setMinRuheScore(Number(e.target.value))}
                     className="font-bold bg-white border-2 border-[#E5E7EB] rounded-lg px-2.5 py-1 text-[#0D1B2A] focus:border-[#2D6A4F] outline-hidden"
                   >
+                    <option value={1}>Alle Scores (1–10)</option>
+                    <option value={2}>Ab Note 2</option>
+                    <option value={3}>Ab Note 3</option>
+                    <option value={4}>Ab Note 4</option>
                     <option value={5}>Ab Note 5</option>
+                    <option value={6}>Ab Note 6</option>
                     <option value={7}>Ab Note 7 (Gut)</option>
                     <option value={8}>Ab Note 8 (Sehr ruhig)</option>
                     <option value={9}>Ab Note 9 (Hervorragend)</option>
@@ -482,7 +487,7 @@ export default function App() {
                 </p>
                 <button
                   onClick={() => {
-                    setMinRuheScore(7);
+                    setMinRuheScore(1);
                     setOnlyStufenlos(false);
                     setSelectedBezirk('ALL');
                     setMaxBimDistanz(500);
