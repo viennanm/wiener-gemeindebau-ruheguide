@@ -1,0 +1,722 @@
+[
+  {
+    "foto": "Am Tabor 1-3.jpg",
+    "lat": 48.225406,
+    "lng": 16.384161,
+    "adresse": "Am Tabor 1-3",
+    "name": "Chopinhof",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Ausstellungsstraße 43, Leopoldstadt (02).jpg",
+    "lat": 48.218194,
+    "lng": 16.404164,
+    "adresse": "Ausstellungsstraße 43",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Ausstellungsstraße 67, Leopoldstadt (01).jpg",
+    "lat": 48.218189,
+    "lng": 16.408419,
+    "adresse": "Ausstellungsstraße 67",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ausstellungsstraße 67",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau Czerninplatz 7 DSC 9817w.jpg",
+    "lat": 48.214066,
+    "lng": 16.387061,
+    "adresse": "Czerninplatz 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Engerthstraße 259-263.jpg",
+    "lat": 48.212054,
+    "lng": 16.421318,
+    "adresse": "Dr.-Natterer-Gasse 2-4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Engerthstraße 259-263",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Drnatterergasse4a.jpg",
+    "lat": 48.21248,
+    "lng": 16.4204,
+    "adresse": "Dr.-Natterer-Gasse 4A",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Eldersch-Hof d.jpg",
+    "lat": 48.218225,
+    "lng": 16.411101,
+    "adresse": "Elderschplatz 1-2",
+    "name": "Elderschhof",
+    "commonscat": "Eldersch-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Robertuhlirhofabend.jpg",
+    "lat": 48.230943,
+    "lng": 16.394757,
+    "adresse": "Engerthstraße 148-150",
+    "name": "Robert-Uhlir-Hof",
+    "commonscat": "Robert-Uhlir-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Wohnhausanlage Engerthstraße 230 a.jpg",
+    "lat": 48.215444,
+    "lng": 16.41454,
+    "adresse": "Engerthstraße 230",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Engerthstr232.JPG",
+    "lat": 48.213432,
+    "lng": 16.417677,
+    "adresse": "Engerthstraße 232-238",
+    "name": "Eveline-Andrlik-Hof",
+    "commonscat": "Eveline-Andrlik-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Engerthstr237.JPG",
+    "lat": 48.217755,
+    "lng": 16.412964,
+    "adresse": "Engerthstraße 237",
+    "name": "",
+    "commonscat": "Wohnhausanlage Engerthstraße 237",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Engerthstr247.JPG",
+    "lat": 48.216066,
+    "lng": 16.415629,
+    "adresse": "Engerthstraße 241-247",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Kurt-Heller-Hof.jpg",
+    "lat": 48.215144,
+    "lng": 16.417784,
+    "adresse": "Engerthstraße 249-253",
+    "name": "Kurt-Heller-Hof",
+    "commonscat": "Kurt-Heller-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Ennsgasse 7-11 Ansicht 1.jpg",
+    "lat": 48.222014,
+    "lng": 16.401103,
+    "adresse": "Ennsgasse 7-11",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau Franzensbrueckenstr 19 DSC 0425w.jpg",
+    "lat": 48.214251,
+    "lng": 16.391739,
+    "adresse": "Franzensbrückenstraße 19",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Franzensbrueckenstr-21 Schuettelstr-1-DSC 3457w.jpg",
+    "lat": 48.213793,
+    "lng": 16.39189,
+    "adresse": "Franzensbrückenstraße 21",
+    "name": "",
+    "commonscat": "Wohnhausanlage Franzensbrückenstraße 21",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau Gredlerstrasse 7 DSC 0247w.jpg",
+    "lat": 48.213944,
+    "lng": 16.378897,
+    "adresse": "Gredlerstraße 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "1020 Große Pfarrgasse 16-20 - Mosaik Ornamentale Flächeneinteilung von Theobald Schmögner 1959 IMG 5789.jpg",
+    "lat": 48.218516,
+    "lng": 16.379274,
+    "adresse": "Große Pfarrgasse 16-20",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Wohnhausanlage Handelskai 210 a.jpg",
+    "lat": 48.223472,
+    "lng": 16.407609,
+    "adresse": "Handelskai 210",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Handelskai 214 Kindergartenhof.jpg",
+    "lat": 48.22104,
+    "lng": 16.410089,
+    "adresse": "Handelskai 214",
+    "name": "Karlheinz-Hora-Hof",
+    "commonscat": "Karlheinz-Hora-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Handelskai214.jpg",
+    "lat": 48.221101,
+    "lng": 16.410745,
+    "adresse": "Handelskai 214",
+    "name": "Karlheinz-Hora-Hof (neuer Teil)",
+    "commonscat": "Karlheinz-Hora-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Haus Harkortstraße 3 e.jpg",
+    "lat": 48.222062,
+    "lng": 16.399356,
+    "adresse": "Harkortstraße 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Harkortstraße 3",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau-heinestrasse5-7.jpg",
+    "lat": 48.221965,
+    "lng": 16.383443,
+    "adresse": "Heinestraße 5-7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wachauerhof 03.jpg",
+    "lat": 48.221478,
+    "lng": 16.406558,
+    "adresse": "Jungstraße 15",
+    "name": "[[Wachauer Hof]]",
+    "commonscat": "Wachauerhof, Wien",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Kafkastr11.JPG",
+    "lat": 48.219228,
+    "lng": 16.411713,
+    "adresse": "Kafkastraße 11",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Wien 2, Kleine Stadtgutgasse11-13.jpg",
+    "lat": 48.219729,
+    "lng": 16.38906,
+    "adresse": "Kleine Stadtgutgasse 11-13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Harkortstraße 2.jpg",
+    "lat": 48.222107,
+    "lng": 16.398773,
+    "adresse": "Lassallestraße 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Lassalle-Hof 07.jpg",
+    "lat": 48.223407,
+    "lng": 16.401349,
+    "adresse": "Lassallestraße 40",
+    "name": "[[Lassalle-Hof]]",
+    "commonscat": "Lassalle-Hof, Vienna",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Theodorherzlhofrenoviert.jpg",
+    "lat": 48.220438,
+    "lng": 16.376279,
+    "adresse": "Leopoldsgasse 13-15",
+    "name": "Theodor-Herzl-Hof",
+    "commonscat": "Theodor-Herzl-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Leopoldsgasse24.JPG",
+    "lat": 48.218619,
+    "lng": 16.376901,
+    "adresse": "Leopoldsgasse 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Malzgasse1.jpg",
+    "lat": 48.219961,
+    "lng": 16.375292,
+    "adresse": "Malzgasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Haus-Marinelligasse 1-01.jpg",
+    "lat": 48.226045,
+    "lng": 16.385481,
+    "adresse": "Marinelligasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Mexikoplatz 1.jpg",
+    "lat": 48.226499,
+    "lng": 16.40165,
+    "adresse": "Mexikoplatz 1",
+    "name": "Heinz-Weißmann-Hof",
+    "commonscat": "Heinz-Weißmann-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Mexikoplatz 2-3.jpg",
+    "lat": 48.226807,
+    "lng": 16.40278,
+    "adresse": "Mexikoplatz 2-3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Mexikoplatz 2-3",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Mexikoplatz 25.jpg",
+    "lat": 48.225245,
+    "lng": 16.401953,
+    "adresse": "Mexikoplatz 25",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Nordbahnstraße 24.jpg",
+    "lat": 48.225242,
+    "lng": 16.388652,
+    "adresse": "Nordbahnstraße 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Haus-Obere Augartenstraße 12a-14a-01.jpg",
+    "lat": 48.224533,
+    "lng": 16.371866,
+    "adresse": "Obere Augartenstraße 12-14",
+    "name": "Max-Berdiczower-Hof",
+    "commonscat": "Max-Berdiczower-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Haus-Obere Augartenstraße 44-01.jpg",
+    "lat": 48.221526,
+    "lng": 16.376496,
+    "adresse": "Obere Augartenstraße 44",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Haus-Obere Donaustraße 97-99-01.jpg",
+    "lat": 48.213103,
+    "lng": 16.378126,
+    "adresse": "Obere Donaustraße 97-99",
+    "name": "[[Georg-Emmerling-Hof]]",
+    "commonscat": "Georg-Emmerling-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Haus Radingerstraße 21 e.jpg",
+    "lat": 48.222408,
+    "lng": 16.401649,
+    "adresse": "Radingerstraße 21",
+    "name": "",
+    "commonscat": "Wohnhausanlage Radingerstraße 21",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Rustenschacherallee44renoviert.jpg",
+    "lat": 48.203483,
+    "lng": 16.404435,
+    "adresse": "Rustenschacherallee 44-56",
+    "name": "Edgar-Schranz-Hof",
+    "commonscat": "Edgar-Schranz-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebauten Schuettelstr 1-und-3-DSC 4606w.jpg",
+    "lat": 48.213564,
+    "lng": 16.392174,
+    "adresse": "Schüttelstraße 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schüttelstraße 3",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Franzmairhof.JPG",
+    "lat": 48.212856,
+    "lng": 16.394793,
+    "adresse": "Schüttelstraße 5",
+    "name": "Franz-Mair-Hof",
+    "commonscat": "Franz-Mair-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Roberterberhof1.JPG",
+    "lat": 48.211106,
+    "lng": 16.396653,
+    "adresse": "Schüttelstraße 19",
+    "name": "Robert-Erber-Hof",
+    "commonscat": "Robert-Erber-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Wien 2, Springergasse 22.jpg",
+    "lat": 48.222913,
+    "lng": 16.388258,
+    "adresse": "Springergasse 22",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Engerthstr239.JPG",
+    "lat": 48.216718,
+    "lng": 16.414833,
+    "adresse": "Sturgasse 3-5",
+    "name": "",
+    "commonscat": "Wohnhausanlage Engerthstraße 239",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Taborstr 53-55.jpg",
+    "lat": 48.221141,
+    "lng": 16.381649,
+    "adresse": "Taborstraße 53-55",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Stella-Klein-Loew-Hof DSC 0300w.jpg",
+    "lat": 48.221816,
+    "lng": 16.381613,
+    "adresse": "Taborstraße 61",
+    "name": "Stella-Klein-Löw-Hof",
+    "commonscat": "Stella-Klein-Löw-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Wien 2, Taborstraße 100.jpg",
+    "lat": 48.226762,
+    "lng": 16.386681,
+    "adresse": "Taborstraße 100",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "AT- 8762-Tandelmarktgasse 14.JPG",
+    "lat": 48.217042,
+    "lng": 16.379628,
+    "adresse": "Tandelmarktgasse 14",
+    "name": "",
+    "commonscat": "Tandelmarktgasse 14",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Untereaugartenstr1.JPG",
+    "lat": 48.219825,
+    "lng": 16.371148,
+    "adresse": "Untere Augartenstraße 1-3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Leopoldstadt (Wien) - Wohnhausanlage Untere Augartenstraße 15-17.JPG",
+    "lat": 48.221023,
+    "lng": 16.372838,
+    "adresse": "Untere Augartenstraße 15-17",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Leopoldstadt (Wien) - Wohnhausanlage Untere Augartenstraße 23.JPG",
+    "lat": 48.221454,
+    "lng": 16.373372,
+    "adresse": "Untere Augartenstraße 23",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "1020 Untere Augartenstraße 39 - Sgraffito Ornament von Godwin Ekhart 1958 IMG 6650.jpg",
+    "lat": 48.222689,
+    "lng": 16.374906,
+    "adresse": "Untere Augartenstraße 39",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Vivariumstr10.JPG",
+    "lat": 48.213972,
+    "lng": 16.393587,
+    "adresse": "Vivariumstraße 6-10",
+    "name": "",
+    "commonscat": "Wohnhausanlage Vivariumstraße 6-10",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Vivariumstr13-17.jpg",
+    "lat": 48.214644,
+    "lng": 16.393544,
+    "adresse": "Vivariumstraße 13-17",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Heizmann-Hof.jpg",
+    "lat": 48.224029,
+    "lng": 16.400689,
+    "adresse": "Vorgartenstraße 140-142",
+    "name": "[[Heizmann-Hof]]",
+    "commonscat": "Heizmann-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Wohnhausanlage Vorgartenstraße 158–170 2022 a.jpg",
+    "lat": 48.221656,
+    "lng": 16.404015,
+    "adresse": "Vorgartenstraße 158-170",
+    "name": "[[Wohnhausanlage Vorgartenstraße 158–170]]",
+    "commonscat": "Wohnhausanlage Vorgartenstraße 158-170",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Vorgartenstraße 177.jpg",
+    "lat": 48.225196,
+    "lng": 16.400944,
+    "adresse": "Vorgartenstraße 177",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Vorgartenstraße 194.jpg",
+    "lat": 48.218803,
+    "lng": 16.408292,
+    "adresse": "Vorgartenstraße 194",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Vorgartenstraße 198.jpg",
+    "lat": 48.218536,
+    "lng": 16.408652,
+    "adresse": "Vorgartenstraße 198",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Spielendekinder.JPG",
+    "lat": 48.225496,
+    "lng": 16.401109,
+    "adresse": "Walcherstraße 10-16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Walcherstraße 10-16",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Wehlistraße 131-143.jpg",
+    "lat": 48.227819,
+    "lng": 16.401668,
+    "adresse": "Wehlistraße 131-143",
+    "name": "Hubert-Hladej-Hof",
+    "commonscat": "Hubert-Hladej-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Wehlistraße 156-158.jpg",
+    "lat": 48.227407,
+    "lng": 16.400947,
+    "adresse": "Wehlistraße 156-158",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wehlistraße 156-158",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wehlistraße 157 Bild b.jpg",
+    "lat": 48.223143,
+    "lng": 16.407013,
+    "adresse": "Wehlistraße 157",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohnhausanlage Wehlistraße 160-162.jpg",
+    "lat": 48.226954,
+    "lng": 16.401533,
+    "adresse": "Wehlistraße 160-162",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wehlistr303.JPG",
+    "lat": 48.201977,
+    "lng": 16.436797,
+    "adresse": "Wehlistraße 303",
+    "name": "",
+    "commonscat": "Wehlistraße 303",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wehlistr305-3.jpg",
+    "lat": 48.201052,
+    "lng": 16.437811,
+    "adresse": "Wehlistraße 305",
+    "name": "",
+    "commonscat": "Wehlistraße 305",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wehlistr307.jpg",
+    "lat": 48.200852,
+    "lng": 16.438156,
+    "adresse": "Wehlistraße 307",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Haus-Wehlistraße 309-01.jpg",
+    "lat": 48.200644,
+    "lng": 16.438411,
+    "adresse": "Wehlistraße 309",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wehlistraße 309",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau-weintraubengasse6-10.jpg",
+    "lat": 48.215616,
+    "lng": 16.38498,
+    "adresse": "Weintraubengasse 6-10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau - Weintraubengasse 13.jpg",
+    "lat": 48.21599,
+    "lng": 16.384956,
+    "adresse": "Weintraubengasse 13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohlmutstr4.JPG",
+    "lat": 48.221155,
+    "lng": 16.401388,
+    "adresse": "Wohlmutstraße 4-6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wohlmutstr14.JPG",
+    "lat": 48.220148,
+    "lng": 16.40225,
+    "adresse": "Wohlmutstraße 14-16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wohlmutstraße 14-16",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Wien 02 Hermann-Fischer-Hof c.jpg",
+    "lat": 48.221428,
+    "lng": 16.398747,
+    "adresse": "Ybbsstraße 15-21",
+    "name": "Hermann-Fischer-Hof",
+    "commonscat": "Hermann-Fischer-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Ybbsstr31.JPG",
+    "lat": 48.222376,
+    "lng": 16.400397,
+    "adresse": "Ybbsstraße 31-33",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Ybbsstr40.jpg",
+    "lat": 48.222653,
+    "lng": 16.401708,
+    "adresse": "Ybbsstraße 40-42",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ybbsstraße 40-42",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Leopoldstadt (Wien) - Wohnhausanlage Julius-Bermann-Hof.JPG",
+    "lat": 48.214573,
+    "lng": 16.382226,
+    "adresse": "Zirkusgasse 3",
+    "name": "[[Julius-Bermann-Hof]]",
+    "commonscat": "Julius-Bermann-Hof",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Gemeindebau-zirkusgasse33.jpg",
+    "lat": 48.217099,
+    "lng": 16.384962,
+    "adresse": "Zirkusgasse 33",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Leopoldstadt"
+  },
+  {
+    "foto": "Viktorfranklhof.JPG",
+    "lat": 48.218648,
+    "lng": 16.386792,
+    "adresse": "Zirkusgasse 52",
+    "name": "Viktor-Frankl-Hof",
+    "commonscat": "Viktor-Frankl-Hof",
+    "wiki_slug": "Leopoldstadt"
+  }
+]

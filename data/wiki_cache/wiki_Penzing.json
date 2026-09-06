@@ -1,0 +1,722 @@
+[
+  {
+    "foto": "Wien-Penzing - Gemeindebau Amortgasse 1-17 - 2.jpg",
+    "lat": 48.194463,
+    "lng": 16.308657,
+    "adresse": "Amortgasse 1-17",
+    "name": "",
+    "commonscat": "Wohnhausanlage Amortgasse 1-17",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wohnhausanlage Anzbachgasse 31.jpg",
+    "lat": 48.207367,
+    "lng": 16.250232,
+    "adresse": "Anzbachgasse 31",
+    "name": "",
+    "commonscat": "Wohnhausanlage Anzbachgasse 31",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Baumgartenstraße 25-33.jpg",
+    "lat": 48.193811,
+    "lng": 16.282731,
+    "adresse": "Baumgartenstraße 25-33",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Breitenseer Straße 68-74.jpg",
+    "lat": 48.202498,
+    "lng": 16.305073,
+    "adresse": "Breitenseer Straße 68-74",
+    "name": "",
+    "commonscat": "Gemeindebau Breitenseer Straße 68-74",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Breitenseer Straße 106-108 - Ansicht Burgersteingasse.jpg",
+    "lat": 48.203198,
+    "lng": 16.298819,
+    "adresse": "Breitenseer Straße 106-108",
+    "name": "",
+    "commonscat": "Gemeindebau Breitenseer Straße 106-108, Penzing",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Breitensee - Gemeindebau Breitenseer Straße 110 - 112 - Ansicht Burgersteingasse.jpg",
+    "lat": 48.203156,
+    "lng": 16.29687,
+    "adresse": "Breitenseer Straße 110-112",
+    "name": "",
+    "commonscat": "Gemeindebau Breitenseer Straße 110-112, Penzing",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Cervantesgasse3.jpg",
+    "lat": 48.197357,
+    "lng": 16.310516,
+    "adresse": "Cervantesgasse 3",
+    "name": "",
+    "commonscat": "Kommunaler Wohnbau Cervantesgasse 3",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Cervantesgasse9.jpg",
+    "lat": 48.197418,
+    "lng": 16.309434,
+    "adresse": "Cervantesgasse 9",
+    "name": "",
+    "commonscat": "Kommunaler Wohnbau Cervantesgasse 9",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Cumberlandstraße 20-22.jpg",
+    "lat": 48.191965,
+    "lng": 16.307885,
+    "adresse": "Cumberlandstraße 20",
+    "name": "",
+    "commonscat": "Wohnhausanlage Cumberlandstraße 20",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Deutschordenstraße 7-25.jpg",
+    "lat": 48.19759,
+    "lng": 16.267525,
+    "adresse": "Deutschordenstraße 7-25",
+    "name": "Rudolf-Edlinger-Hof",
+    "commonscat": "Rudolf-Edlinger-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Deutschordenstraße 27-35.jpg",
+    "lat": 48.19909,
+    "lng": 16.268133,
+    "adresse": "Deutschordenstraße 27-35",
+    "name": "",
+    "commonscat": "Gemeindebau Deutschordenstraße 27-35",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Dreyhausenstraße 28-30.jpg",
+    "lat": 48.197269,
+    "lng": 16.301138,
+    "adresse": "Dreyhausenstraße 28-30",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dreyhausenstraße 28-30",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Dreyhausenstraße 46.jpg",
+    "lat": 48.197086,
+    "lng": 16.299063,
+    "adresse": "Dreyhausenstraße 46",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dreyhausenstraße 46",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "2020-05-12 Gemeindebau Fenzlgasse31 entrance Flachgasse.jpg",
+    "lat": 48.193897,
+    "lng": 16.314112,
+    "adresse": "Fenzlgasse 31",
+    "name": "",
+    "commonscat": "Wohnhausanlage Fenzlgasse 31",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Flötzersteig 239, Sonnenhäuser.jpg",
+    "lat": 48.201698,
+    "lng": 16.267991,
+    "adresse": "Flötzersteig 239",
+    "name": "„Sonnenhäuser“",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Liska-Hof, Fünkhgasse 2 01.jpg",
+    "lat": 48.195597,
+    "lng": 16.297093,
+    "adresse": "Fünkhgasse 2",
+    "name": "Liska-Hof",
+    "commonscat": "Liska-Hof, Vienna",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Goldschlagstraße 142.jpg",
+    "lat": 48.196011,
+    "lng": 16.309953,
+    "adresse": "Goldschlagstraße 142",
+    "name": "",
+    "commonscat": "Wohnhausanlage Goldschlagstraße 142",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Goldschlagstraße 144-146.jpg",
+    "lat": 48.196342,
+    "lng": 16.309281,
+    "adresse": "Goldschlagstraße 144-146",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Goldschlagstraße 148-158 - 3.jpg",
+    "lat": 48.196263,
+    "lng": 16.307059,
+    "adresse": "Goldschlagstraße 148-158",
+    "name": "",
+    "commonscat": "Wohnhausanlage Goldschlagstraße 148-158",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "GB Goldschlagstraße 193-195.jpg",
+    "lat": 48.194511,
+    "lng": 16.301233,
+    "adresse": "Goldschlagstraße 193-195",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Gründorfgasse-Cervantesgasse.jpg",
+    "lat": 48.197905,
+    "lng": 16.307725,
+    "adresse": "Gründorfgasse 1-3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gründorfgasse 1-3",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Kommunaler Wohnbau Gründorfgasse 4.jpg",
+    "lat": 48.198011,
+    "lng": 16.30809,
+    "adresse": "Gründorfgasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Franz Glaserer Hof Bild 2.jpg",
+    "lat": 48.193828,
+    "lng": 16.271507,
+    "adresse": "Hackinger Straße 30-36",
+    "name": "Franz-Glaserer-Hof",
+    "commonscat": "Franz-Glaserer-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Hadikgasse 268.jpg",
+    "lat": 48.193127,
+    "lng": 16.273082,
+    "adresse": "Hadikgasse 268-272",
+    "name": "",
+    "commonscat": "Gemeindebau Hadikgasse 268-272",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Baumgarten - Plastik Sphinx von Hilde Uray.jpg",
+    "lat": 48.193715,
+    "lng": 16.268046,
+    "adresse": "Hadikgasse 288-294",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hadikgasse 288-294",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Hauptstraße 105.jpg",
+    "lat": 48.208104,
+    "lng": 16.209974,
+    "adresse": "Hauptstraße 105",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Anton-Figl-Hof I.jpg",
+    "lat": 48.197753,
+    "lng": 16.289492,
+    "adresse": "Hernstorferstraße 22-32",
+    "name": "Anton-Figl-Hof",
+    "commonscat": "Anton-Figl-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Hickelgasse 4-6 Bild 2.jpg",
+    "lat": 48.1963,
+    "lng": 16.30997,
+    "adresse": "Hickelgasse 4-6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hickelgasse 4-6",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Hickelgasse 8.jpg",
+    "lat": 48.196619,
+    "lng": 16.31001,
+    "adresse": "Hickelgasse 8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hickelgasse 8",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Hickelgasse 11 Ansicht 2.JPG",
+    "lat": 48.197155,
+    "lng": 16.309752,
+    "adresse": "Hickelgasse 11",
+    "name": "",
+    "commonscat": "Hickelgasse 11",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Hickelgasse 12.jpg",
+    "lat": 48.197142,
+    "lng": 16.310093,
+    "adresse": "Hickelgasse 12",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hickelgasse 12",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Hickelgasse 16.jpg",
+    "lat": 48.197624,
+    "lng": 16.31025,
+    "adresse": "Hickelgasse 16",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Hochsatzengasse 6.jpg",
+    "lat": 48.194506,
+    "lng": 16.275096,
+    "adresse": "Hochsatzengasse 6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hochsatzengasse 6",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Huttengasse 2-4.jpg",
+    "lat": 48.202525,
+    "lng": 16.307771,
+    "adresse": "Huttengasse 2-4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Hüttelbergstraße 7.JPG",
+    "lat": 48.204109,
+    "lng": 16.256928,
+    "adresse": "Hüttelbergstraße 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Somogyi-Hof - Ansicht Hütteldorfer Straße.jpg",
+    "lat": 48.197306,
+    "lng": 16.292157,
+    "adresse": "Hütteldorfer Straße 150-158",
+    "name": "Somogyi-Hof",
+    "commonscat": "Bela-Somogyi-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau HüdoStr 252 - 1.jpg",
+    "lat": 48.198697,
+    "lng": 16.27497,
+    "adresse": "Hütteldorfer Straße 252",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hütteldorfer Straße 252",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Huetteldorfer265.jpg",
+    "lat": 48.197114,
+    "lng": 16.283252,
+    "adresse": "Hütteldorfer Straße 265-267",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hütteldorfer Straße 265-267",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Hütteldorfer Straße 268-276.jpg",
+    "lat": 48.199036,
+    "lng": 16.27303,
+    "adresse": "Hütteldorfer Straße 268-276",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hütteldorfer Straße 268-276",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wohnhausanlage Johanna-Dohnal-Hof.jpg",
+    "lat": 48.191462,
+    "lng": 16.297975,
+    "adresse": "Jenullgasse 18-26",
+    "name": "Johanna-Dohnal-Hof",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Lenneisgasse4.jpg",
+    "lat": 48.195059,
+    "lng": 16.307806,
+    "adresse": "Lenneisgasse 4-8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Lenneisgasse 4-8",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Lenneisgasse 11-13.jpg",
+    "lat": 48.195515,
+    "lng": 16.307062,
+    "adresse": "Lenneisgasse 11-13",
+    "name": "",
+    "commonscat": "Wohnhausanlage Lenneisgasse 11-13",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 20-26.jpg",
+    "lat": 48.193084,
+    "lng": 16.313884,
+    "adresse": "Linzer Straße 20-26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 60-62.jpg",
+    "lat": 48.193802,
+    "lng": 16.308052,
+    "adresse": "Linzer Straße 60-62",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Blat-Hof.jpg",
+    "lat": 48.195209,
+    "lng": 16.297946,
+    "adresse": "Linzer Straße 128",
+    "name": "[[Blathof]]",
+    "commonscat": "Ferdinand-Blat-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Lützow-Hof.jpg",
+    "lat": 48.194749,
+    "lng": 16.294714,
+    "adresse": "Linzer Straße 154-158",
+    "name": "Lützow-Hof",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 174-180.jpg",
+    "lat": 48.19513,
+    "lng": 16.290978,
+    "adresse": "Linzer Straße 174-180",
+    "name": "",
+    "commonscat": "Wohnhausanlage Linzer Straße 174-180",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 243 - 251.jpg",
+    "lat": 48.194543,
+    "lng": 16.285002,
+    "adresse": "Linzer Straße 243-251",
+    "name": "Gustav-Klimt-Hof",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Linzer Str. 253 nach Renovierung.jpg",
+    "lat": 48.194847,
+    "lng": 16.284011,
+    "adresse": "Linzer Straße 253-255",
+    "name": "",
+    "commonscat": "Wohnhausanlage Linzer Straße 253-255",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 254.jpg",
+    "lat": 48.195677,
+    "lng": 16.28109,
+    "adresse": "Linzer Straße 254",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Hugo-Breitner-Hof 02.jpg",
+    "lat": 48.197327,
+    "lng": 16.269753,
+    "adresse": "Linzer Straße 299-325",
+    "name": "[[Hugo-Breitner-Hof]]",
+    "commonscat": "Hugo-Breitner-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 374.jpg",
+    "lat": 48.201227,
+    "lng": 16.264514,
+    "adresse": "Linzer Straße 374",
+    "name": "",
+    "commonscat": "Gemeindebau Linzer Straße 374",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 386-390 - Wandbild Badeenten - Sebastian Weissenbacher 1997.jpg",
+    "lat": 48.201668,
+    "lng": 16.262918,
+    "adresse": "Linzer Straße 386-390",
+    "name": "",
+    "commonscat": "Wohnhausanlage Linzer Straße 386-390",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Linzer Str 397-399.jpg",
+    "lat": 48.201589,
+    "lng": 16.259014,
+    "adresse": "Linzer Straße 397-399",
+    "name": "",
+    "commonscat": "Wohnhausanlage Linzer Straße 397-399",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Linzer Straße 474-478.jpg",
+    "lat": 48.203623,
+    "lng": 16.245635,
+    "adresse": "Linzer Straße 474-478",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Marcusgasse 4-12.jpg",
+    "lat": 48.196724,
+    "lng": 16.297463,
+    "adresse": "Marcusgasse 4-12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Josefmatejcekhof.jpg",
+    "lat": 48.212619,
+    "lng": 16.224544,
+    "adresse": "Mauerbachstraße 38",
+    "name": "Josef-Matejcek-Hof",
+    "commonscat": "Josef-Matejcek-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Meiselstraße 67-69.jpg",
+    "lat": 48.198203,
+    "lng": 16.30945,
+    "adresse": "Meiselstraße 67-69",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Kommunaler Wohnbau Meiselstraße 73.jpg",
+    "lat": 48.198255,
+    "lng": 16.308448,
+    "adresse": "Meiselstraße 73",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Meiselstraße 76.jpg",
+    "lat": 48.198522,
+    "lng": 16.308549,
+    "adresse": "Meiselstraße 76",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Mitisgasse 36-38.jpg",
+    "lat": 48.198253,
+    "lng": 16.293355,
+    "adresse": "Mitisgasse 36-38",
+    "name": "",
+    "commonscat": "Wohnhausanlage Mitisgasse 36-38",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Dr.-Josef-Bayer-Hof.jpg",
+    "lat": 48.196217,
+    "lng": 16.313172,
+    "adresse": "Märzstraße 115-123",
+    "name": "Dr.-Josef-Bayer-Hof",
+    "commonscat": "Dr.-Josef-Bayer-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Mühlbergstraße 4-6.jpg",
+    "lat": 48.208534,
+    "lng": 16.212409,
+    "adresse": "Mühlbergstraße 4-6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Mühlbergstraße 4-6",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Neubeckgasse 4.jpg",
+    "lat": 48.197198,
+    "lng": 16.309009,
+    "adresse": "Neubeckgasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Niederpointenstr 7 Bild 1.jpg",
+    "lat": 48.205014,
+    "lng": 16.276635,
+    "adresse": "Niederpointenstraße 7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Niederpointenstraße 7",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Onno-Klopp-Gasse 12-16 05.jpg",
+    "lat": 48.191651,
+    "lng": 16.295974,
+    "adresse": "Onno-Klopp-Gasse 12-16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Onno-Klopp-Gasse 12-16",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Penzinger Straße 138-140 - Ansicht Penzinger Straße.jpg",
+    "lat": 48.19089,
+    "lng": 16.294778,
+    "adresse": "Penzinger Straße 138-140",
+    "name": "",
+    "commonscat": "Gemeindebau Penzinger Straße 138-140",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Schimon-Hof - Ansicht Penzinger Straße.jpg",
+    "lat": 48.19183,
+    "lng": 16.291929,
+    "adresse": "Penzinger Straße 150-166",
+    "name": "Schimon-Hof",
+    "commonscat": "Schimon-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wohnhausanlage Penzinger Straße 33–37 Außenansicht.jpg",
+    "lat": 48.188993,
+    "lng": 16.309011,
+    "adresse": "Phillipsgasse 8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Penzinger Straße 33–37",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Rottstraße 3-7.jpg",
+    "lat": 48.196515,
+    "lng": 16.298148,
+    "adresse": "Prochstraße 21-23",
+    "name": "",
+    "commonscat": "Wohnhausanlage Prochstraße 21-23",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Rosentalgasse 15 - Ansicht mit Mosaik Sonnenuhr.jpg",
+    "lat": 48.205502,
+    "lng": 16.262707,
+    "adresse": "Rosentalgasse 15",
+    "name": "",
+    "commonscat": "Gemeindebau Rosentalgasse 15",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Rupertgasse 6-16 - Ansicht Jenullgasse.jpg",
+    "lat": 48.191314,
+    "lng": 16.296997,
+    "adresse": "Rupertgasse 6-16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Jenullgasse 9-15",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Salisgasse 5-15 Bild 2.jpg",
+    "lat": 48.197911,
+    "lng": 16.284942,
+    "adresse": "Salisstraße 5-15",
+    "name": "",
+    "commonscat": "Wohnhausanlage Salisstraße 5-15",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Sanatoriumstraße 19-25 - Ansicht Ecke Flötzersteig-Niederpointenstraße.jpg",
+    "lat": 48.20512,
+    "lng": 16.274486,
+    "adresse": "Sanatoriumstraße 19-25",
+    "name": "",
+    "commonscat": "Gemeindebau Sanatoriumstraße 19-25",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Kommunaler Wohnbau Sebastian-Kelch-Gasse 1-3.jpg",
+    "lat": 48.197387,
+    "lng": 16.307726,
+    "adresse": "Sebastian-Kelch-Gasse 1-3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Kommunaler Wohnbau Sebastian-Kelch-Gasse 4-6.jpg",
+    "lat": 48.197292,
+    "lng": 16.308289,
+    "adresse": "Sebastian-Kelch-Gasse 4-6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Sebastian-Kelch-Gasse 5-7 nach der Renovierung.jpg",
+    "lat": 48.197901,
+    "lng": 16.308534,
+    "adresse": "Sebastian-Kelch-Gasse 5-7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Sebastian-Kelch-Gasse 5-7",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Gemeindebau Franz-Kurz-Hof - Spallartgasse 26-28.jpg",
+    "lat": 48.200991,
+    "lng": 16.304438,
+    "adresse": "Spallartgasse 26-28",
+    "name": "Franz-Kurz-Hof",
+    "commonscat": "Franz-Kurz-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Käthe-Jonas Hof, Pachmanngasse.jpg",
+    "lat": 48.198566,
+    "lng": 16.281975,
+    "adresse": "Waidhausenstraße 28",
+    "name": "Käthe-Jonas-Hof",
+    "commonscat": "Käthe-Jonas-Hof",
+    "wiki_slug": "Penzing"
+  },
+  {
+    "foto": "Wien-Penzing - Gemeindebau Wolfersberggasse 13-17 mit Mosaik \"Sinnbildliche Darstellung des Wolfes\" - Isolde Jurina 1954.jpg",
+    "lat": 48.207806,
+    "lng": 16.252752,
+    "adresse": "Wolfersberggasse 13-17",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wolfersberggasse 13-17",
+    "wiki_slug": "Penzing"
+  }
+]

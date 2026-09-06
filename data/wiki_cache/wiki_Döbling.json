@@ -1,0 +1,542 @@
+[
+  {
+    "foto": "Abstraktionwenckebachgasse.jpg",
+    "lat": 48.25369,
+    "lng": 16.337924,
+    "adresse": "An den langen Lüssen 17-27",
+    "name": "",
+    "commonscat": "An den langen Lüssen 17-27",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Josef-Wiedermann-Hof - Fassade Billrothstraße.jpg",
+    "lat": 48.238569,
+    "lng": 16.349539,
+    "adresse": "Billrothstraße 32",
+    "name": "[[Josef-Wiedermann-Hof]]",
+    "commonscat": "Josef-Wiedermann-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Rosa-Albach-Retty-Hof 01.jpg",
+    "lat": 48.239697,
+    "lng": 16.349794,
+    "adresse": "Billrothstraße 42-48",
+    "name": "[[Rosa-Albach-Retty-Hof]]",
+    "commonscat": "Rosa-Albach-Retty-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Billrothstr77.JPG",
+    "lat": 48.244719,
+    "lng": 16.344046,
+    "adresse": "Billrothstraße 77",
+    "name": "",
+    "commonscat": "Billrothstraße 77, Vienna",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Boschstrasse 20-22 Sgraffito.jpg",
+    "lat": 48.251258,
+    "lng": 16.36571,
+    "adresse": "Boschstraße 20-22",
+    "name": "",
+    "commonscat": "Wohnhausanlage Boschstraße 20-22",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Boschstr24.JPG",
+    "lat": 48.252182,
+    "lng": 16.366376,
+    "adresse": "Boschstraße 24",
+    "name": "Mira-Lobe-Hof",
+    "commonscat": "Mira-Lobe-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Budinskygasse6.JPG",
+    "lat": 48.241638,
+    "lng": 16.336625,
+    "adresse": "Budinskygasse 10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Gugitzgasse 2, Vienna.jpg",
+    "lat": 48.244311,
+    "lng": 16.328312,
+    "adresse": "Börnergasse 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Börnergasse 3",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Cottagegasse 65 A2.jpg",
+    "lat": 48.238414,
+    "lng": 16.342952,
+    "adresse": "Cottagegasse 65",
+    "name": "Richard-Stockinger-Hof",
+    "commonscat": "Richard-Stockinger-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "HelmutQualtingerHof.A.JPG",
+    "lat": 48.247669,
+    "lng": 16.338656,
+    "adresse": "Daringergasse 12-20",
+    "name": "[[Helmut-Qualtinger-Hof]]",
+    "commonscat": "Helmut-Qualtinger-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Gemeindebau Döblinger Gürtel 10.JPG",
+    "lat": 48.232773,
+    "lng": 16.354936,
+    "adresse": "Döblinger Gürtel 10",
+    "name": "",
+    "commonscat": "Döblinger Gürtel 10",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Professor-Jodl-Hof 03.jpg",
+    "lat": 48.235639,
+    "lng": 16.354889,
+    "adresse": "Döblinger Gürtel 21-23",
+    "name": "[[Professor-Jodl-Hof]]",
+    "commonscat": "Professor-Jodl-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Arthur-Schnitzler-Hof.JPG",
+    "lat": 48.232344,
+    "lng": 16.353214,
+    "adresse": "Döblinger Hauptstraße 1",
+    "name": "[[Arthur-Schnitzler-Hof]]",
+    "commonscat": "Arthur-Schnitzler-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Emil-Reich-Hof.Wien.10Aa.jpg",
+    "lat": 48.243539,
+    "lng": 16.355017,
+    "adresse": "Döblinger Hauptstraße 87-93",
+    "name": "[[Emil-Reich-Hof]]",
+    "commonscat": "Emil-Reich-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Eichelhofstr2.JPG",
+    "lat": 48.263159,
+    "lng": 16.364959,
+    "adresse": "Eichelhofstraße 2",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Rebec-Hof 02.jpg",
+    "lat": 48.242379,
+    "lng": 16.339153,
+    "adresse": "Flotowgasse 12",
+    "name": "[[Rebec-Hof]]",
+    "commonscat": "Rebec-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Gatterburggasse 2c, Anton Schweighofer.jpg",
+    "lat": 48.239063,
+    "lng": 16.350887,
+    "adresse": "Gatterburggasse 2c",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Edwin-Schuster-Hof 02.jpg",
+    "lat": 48.259469,
+    "lng": 16.364996,
+    "adresse": "Greinergasse 36-38",
+    "name": "[[Edwin-Schuster-Hof]]",
+    "commonscat": "Edwin-Schuster-Hof, Vienna",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Julius-Deutsch-Hof St.01-03 01.jpg",
+    "lat": 48.253423,
+    "lng": 16.343418,
+    "adresse": "Grinzinger Allee 54",
+    "name": "[[Julius-Deutsch-Hof]]",
+    "commonscat": "Julius-Deutsch-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Grinzinger Str 2.JPG",
+    "lat": 48.254348,
+    "lng": 16.34358,
+    "adresse": "Grinzinger Straße 2",
+    "name": "",
+    "commonscat": "Wohnhausanlage Grinzinger Straße 2",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Anton Proksch-Hof - Reimersgasse 3.jpg",
+    "lat": 48.251884,
+    "lng": 16.351549,
+    "adresse": "Grinzinger Straße 54",
+    "name": "[[Anton Proksch-Hof",
+    "commonscat": "Anton Proksch-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Weingartenmosaik.JPG",
+    "lat": 48.254552,
+    "lng": 16.363019,
+    "adresse": "Grinzinger Straße 123-131",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Profanplastik-Weinbergarbeiter-01.jpg",
+    "lat": 48.244184,
+    "lng": 16.333552,
+    "adresse": "Görgengasse 26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Hameaustrasse 2-4.jpg",
+    "lat": 48.252048,
+    "lng": 16.297114,
+    "adresse": "Hameaustraße 2-4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hameaustraße 2-4",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "WienDitteshof.jpg",
+    "lat": 48.233833,
+    "lng": 16.355639,
+    "adresse": "Heiligenstädter Straße 11-25",
+    "name": "[[Ditteshof",
+    "commonscat": "Ditteshof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Svoboda-Hof 01.jpg",
+    "lat": 48.2453,
+    "lng": 16.362028,
+    "adresse": "Heiligenstädter Straße 80",
+    "name": "[[Svoboda-Hof]]",
+    "commonscat": "Svoboda-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Karl Marx Hof.jpg",
+    "lat": 48.252778,
+    "lng": 16.365,
+    "adresse": "Heiligenstädter Straße 82-92",
+    "name": "[[Karl-Marx-Hof]]",
+    "commonscat": "Karl-Marx-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Heiligenstädter Straße 129 Straßenfront Eingang.jpg",
+    "lat": 48.250099,
+    "lng": 16.362563,
+    "adresse": "Heiligenstädter Straße 129",
+    "name": "",
+    "commonscat": "Wohnhausanlage Heiligenstädter Straße 129",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Heiligenstädter Straße 141-145 Straßenfront II.jpg",
+    "lat": 48.252866,
+    "lng": 16.363854,
+    "adresse": "Heiligenstädter Straße 141-145",
+    "name": "",
+    "commonscat": "Wohnhausanlage Heiligenstädter Straße 141-145",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Heiligenstädter Straße 146.jpg",
+    "lat": 48.256169,
+    "lng": 16.366398,
+    "adresse": "Heiligenstädter Straße 146",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Heiligenstädter Straße 163.jpg",
+    "lat": 48.255981,
+    "lng": 16.365778,
+    "adresse": "Heiligenstädter Straße 163",
+    "name": "",
+    "commonscat": "Wohnhausanlage Heiligenstädter Straße 163",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Heiligenstädterstraße 165.jpg",
+    "lat": 48.256363,
+    "lng": 16.366008,
+    "adresse": "Heiligenstädter Straße 165",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wigandgasse18.jpg",
+    "lat": 48.272911,
+    "lng": 16.357843,
+    "adresse": "Heiligenstädter Straße 327-331",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wigandgasse 18",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Hutweidengasse 64.jpg",
+    "lat": 48.243367,
+    "lng": 16.329187,
+    "adresse": "Hutweidengasse 64",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hutweidengasse 64",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Kahlenberger Straße 7-9.jpg",
+    "lat": 48.258587,
+    "lng": 16.363567,
+    "adresse": "Kahlenberger Straße 7-9",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße 39-41.jpg",
+    "lat": 48.240287,
+    "lng": 16.337829,
+    "adresse": "Krottenbachstraße 39-41",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße69Skulptur.JPG",
+    "lat": 48.24059,
+    "lng": 16.33229,
+    "adresse": "Krottenbachstraße 69-73",
+    "name": "",
+    "commonscat": "Wohnhausanlage Krottenbachstraße 69-73",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße 90-92, Vienna.jpg",
+    "lat": 48.241447,
+    "lng": 16.330538,
+    "adresse": "Krottenbachstraße 90-92",
+    "name": "",
+    "commonscat": "Wohnhausanlage Krottenbachstraße 90-92",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße 104, Vienna.jpg",
+    "lat": 48.242401,
+    "lng": 16.328721,
+    "adresse": "Krottenbachstraße 104",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße 106, Vienna.jpg",
+    "lat": 48.242236,
+    "lng": 16.326929,
+    "adresse": "Krottenbachstraße 106",
+    "name": "",
+    "commonscat": "Wohnhausanlage Krottenbachstraße 106",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße 110, Vienna.jpg",
+    "lat": 48.24301,
+    "lng": 16.323459,
+    "adresse": "Krottenbachstraße 110",
+    "name": "",
+    "commonscat": "Wohnhausanlage Krottenbachstraße 110",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstraße 122, Vienna 02.jpg",
+    "lat": 48.244744,
+    "lng": 16.319621,
+    "adresse": "Krottenbachstraße 122",
+    "name": "",
+    "commonscat": "Wohnhausanlage Krottenbachstraße 122",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Krottenbachstr183.jpg",
+    "lat": 48.243626,
+    "lng": 16.320284,
+    "adresse": "Krottenbachstraße 183",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Neustift a W 69 u 71.JPG",
+    "lat": 48.250826,
+    "lng": 16.301613,
+    "adresse": "Neustift am Walde 69-71",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "2008.04.29.Karl-Mark-Hof.Karl-Mark-Gasse.Vienna1190b.JPG",
+    "lat": 48.242261,
+    "lng": 16.342206,
+    "adresse": "Obkirchergasse 16",
+    "name": "[[Karl-Mark-Hof]]",
+    "commonscat": "Karl-Mark-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Profgloecknerhof.JPG",
+    "lat": 48.249067,
+    "lng": 16.347192,
+    "adresse": "Paradisgasse 30",
+    "name": "Professor-Harry-Glöckner-Hof",
+    "commonscat": "Professor-Harry-Glöckner-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Klose-Hof - Ecke Philippovichgasse, Peezgasse.jpg",
+    "lat": 48.233481,
+    "lng": 16.351408,
+    "adresse": "Philippovichgasse 1",
+    "name": "[[Klose-Hof]]",
+    "commonscat": "Klose-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Pestalozzihof.JPG",
+    "lat": 48.233907,
+    "lng": 16.351326,
+    "adresse": "Philippovichgasse 2-4",
+    "name": "[[Pestalozzi-Hof]]",
+    "commonscat": "Pestalozzi-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Philippovichgasse 6-10 (Döbling) 10.jpg",
+    "lat": 48.23397,
+    "lng": 16.349636,
+    "adresse": "Philippovichgasse 6-10",
+    "name": "Ella-Briggs-Hof",
+    "commonscat": "Ella-Briggs-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Probusgasse14-1.jpg",
+    "lat": 48.25486,
+    "lng": 16.357365,
+    "adresse": "Probusgasse 14-16",
+    "name": "",
+    "commonscat": "Probusgasse 14-16",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Gerda Lerner-Hof.jpg",
+    "lat": 48.241327,
+    "lng": 16.355311,
+    "adresse": "Pyrkergasse 41",
+    "name": "Gerda Lerner-Hof",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Gemeindebau Wien XIX Ruthgasse 7bis9.jpg",
+    "lat": 48.245281,
+    "lng": 16.35042,
+    "adresse": "Ruthgasse 7-9",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Kopenhagen-Hof - Sonnenuhr.jpg",
+    "lat": 48.235833,
+    "lng": 16.351389,
+    "adresse": "Schegargasse 13-15",
+    "name": "[[Kopenhagen-Hof]]",
+    "commonscat": "Kopenhagen-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Wohnhausanlage Schegargasse 17-19 (Döbling) 02.jpg",
+    "lat": 48.235303,
+    "lng": 16.352213,
+    "adresse": "Schegargasse 17-19",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schegargasse 17-19",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Sickenberggasse 1-5.JPG",
+    "lat": 48.258572,
+    "lng": 16.365234,
+    "adresse": "Sickenberggasse 1-5",
+    "name": "",
+    "commonscat": "Sickenberggasse 1-5",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Sickenberggasse11a.jpg",
+    "lat": 48.258087,
+    "lng": 16.367361,
+    "adresse": "Sickenberggasse 11a",
+    "name": "",
+    "commonscat": "Wohnhausanlage Sickenberggasse 11a",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Sieveringer25.jpg",
+    "lat": 48.246052,
+    "lng": 16.338566,
+    "adresse": "Sieveringer Straße 25",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Silbergasse4.jpg",
+    "lat": 48.243725,
+    "lng": 16.349857,
+    "adresse": "Silbergasse 4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Silbergasse 4",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Franz-Weber-Hof St.22 01.jpg",
+    "lat": 48.244617,
+    "lng": 16.330286,
+    "adresse": "Weinberggasse 60-78",
+    "name": "[[Franz-Weber-Hof]]",
+    "commonscat": "Franz-Weber-Hof",
+    "wiki_slug": "Döbling"
+  },
+  {
+    "foto": "Julius-Tandler-Heim (Döbling) 01.jpg",
+    "lat": 48.234211,
+    "lng": 16.351235,
+    "adresse": "Billrothstraße 9",
+    "name": "Julius-Tandler-Heim",
+    "commonscat": "Julius-Tandler-Heim",
+    "wiki_slug": "Döbling"
+  }
+]

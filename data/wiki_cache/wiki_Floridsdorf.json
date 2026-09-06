@@ -1,0 +1,947 @@
+[
+  {
+    "foto": "Wohnhausanlage Aistgasse 30.jpg",
+    "lat": 48.284872,
+    "lng": 16.450188,
+    "adresse": "Aistgasse 8–30",
+    "name": "",
+    "commonscat": "Wohnhausanlage Aistgasse 8–30",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Albertisgasse 3.jpg",
+    "lat": 48.271879,
+    "lng": 16.407309,
+    "adresse": "Albertisgasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Amtsstrasse 42 Gross Jedlersdorf.jpg",
+    "lat": 48.280141,
+    "lng": 16.408176,
+    "adresse": "Amtsstraße 42",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Hammerskjoeldhof.JPG",
+    "lat": 48.253295,
+    "lng": 16.396146,
+    "adresse": "An der oberen Alten Donau 3–13",
+    "name": "Dag-Hammarskjöld-Hof",
+    "commonscat": "Dag-Hammarskjöld-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Christian-Bucher-Gasse-32-34 1.jpg",
+    "lat": 48.265385,
+    "lng": 16.386865,
+    "adresse": "Anton-Störck-Gasse 53–55",
+    "name": "",
+    "commonscat": "Wohnhausanlage Anton-Störck-Gasse",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Autokaderstraße 3-7.jpg",
+    "lat": 48.277275,
+    "lng": 16.385971,
+    "adresse": "Autokaderstraße 3–7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Autokaderstraße 3-7",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Berlagasse 1.jpg",
+    "lat": 48.286998,
+    "lng": 16.387095,
+    "adresse": "Berlagasse 1",
+    "name": "",
+    "commonscat": "Wohnhausanlage Berlagasse 1",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Edergasse 6-10.JPG",
+    "lat": 48.27698,
+    "lng": 16.410886,
+    "adresse": "Berzeliusgasse 9–13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Bessemergasse 10-16.jpg",
+    "lat": 48.254907,
+    "lng": 16.414163,
+    "adresse": "Bessemerstraße 10–16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Bessemergasse 10-16",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wien 21 Schlinger-Hof a.jpg",
+    "lat": 48.2621944,
+    "lng": 16.4007778,
+    "adresse": "Brünner Straße 34–38",
+    "name": "[[Schlingerhof]]",
+    "commonscat": "Schlinger-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Wohnhausanlage Brünner Straße 97–99.JPG",
+    "lat": 48.273272,
+    "lng": 16.406534,
+    "adresse": "Brünner Straße 97–99",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Brünner Straße 108-110.jpg",
+    "lat": 48.274718,
+    "lng": 16.408412,
+    "adresse": "Brünner Straße 108–110",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brünner Straße 108-110",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Brünnerstr 130.jpg",
+    "lat": 48.276967,
+    "lng": 16.409109,
+    "adresse": "Brünner Straße 130–134",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brünner Straße 130-134",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Heinz-Nittel-Hof 2023.jpg",
+    "lat": 48.27841,
+    "lng": 16.416149,
+    "adresse": "Brünner Straße 140",
+    "name": "[[Heinz-Nittel-Hof]]",
+    "commonscat": "Heinz-Nittel-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Bruennerstr188.jpg",
+    "lat": 48.28526,
+    "lng": 16.414098,
+    "adresse": "Brünner Straße 188",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brünner Straße 188",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Wohnhausanlage Brünner Straße 219–221.JPG",
+    "lat": 48.292128,
+    "lng": 16.41675,
+    "adresse": "Brünner Straße 219–221",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Großjedlersdorf (Wien) - Gemeindebau, Carrogasse 1, 3, 5.JPG",
+    "lat": 48.276536,
+    "lng": 16.413195,
+    "adresse": "Carrogasse 1–5",
+    "name": "",
+    "commonscat": "Carrogasse 1-5",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Donaufelderstrasse 20.jpg",
+    "lat": 48.254212,
+    "lng": 16.410157,
+    "adresse": "Donaufelder Straße 20",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Donaufelderstrasse 22.jpg",
+    "lat": 48.254026,
+    "lng": 16.410542,
+    "adresse": "Donaufelder Straße 22",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhaus Donaufelderstr 44 a.jpg",
+    "lat": 48.25314,
+    "lng": 16.4136,
+    "adresse": "Donaufelder Straße 44",
+    "name": "",
+    "commonscat": "Wohnhaus Donaufelderstraße 44",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Margarete-Schütte-Lihotzky-Hof 1.jpg",
+    "lat": 48.253634,
+    "lng": 16.420698,
+    "adresse": "Donaufelder Straße 99",
+    "name": "Margarete-Schütte-Lihotzky-Hof",
+    "commonscat": "Margarete-Schütte-Lihotzky-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Marianne und Oscar Pollak-Hof.jpg",
+    "lat": 48.261615,
+    "lng": 16.390639,
+    "adresse": "Dunantgasse 10–18",
+    "name": "Marianne und Oscar-Pollak-Hof",
+    "commonscat": "Marianne und Oscar-Pollak-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Edergasse 1-3.jpg",
+    "lat": 48.277504,
+    "lng": 16.410884,
+    "adresse": "Edergasse 1–3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Gemeindebau Ferdinand Kaes Gasse 1-3.jpg",
+    "lat": 48.280734,
+    "lng": 16.39907,
+    "adresse": "Ferdinand-Käs-Gasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Loetschhof.JPG",
+    "lat": 48.260891,
+    "lng": 16.40106,
+    "adresse": "Floridsdorfer Markt 9–14",
+    "name": "Conrad-Lötsch-Hof",
+    "commonscat": "Conrad-Lötsch-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1639.jpg",
+    "lat": 48.254381,
+    "lng": 16.400568,
+    "adresse": "Franklinstraße 20",
+    "name": "",
+    "commonscat": "Wohnhausanlage Franklinstraße 20",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Paul Speiser Hof.jpg",
+    "lat": 48.2527176,
+    "lng": 16.3997897,
+    "adresse": "Freytaggasse 1-9",
+    "name": "[[Paul-Speiser-Hof]]",
+    "commonscat": "Paul-Speiser-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Frömmlgasse 1 1684.jpg",
+    "lat": 48.256847,
+    "lng": 16.392278,
+    "adresse": "Frömmlgasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Frömmlgasse 2-4.jpg",
+    "lat": 48.25648,
+    "lng": 16.392676,
+    "adresse": "Frömmlgasse 2–4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Frömmlgasse 2–4",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Frömmlgasse 30–32 1681.jpg",
+    "lat": 48.258446,
+    "lng": 16.394436,
+    "adresse": "Frömmlgasse 30–32",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhaus Fultonstr 5 d.jpg",
+    "lat": 48.2503,
+    "lng": 16.41145,
+    "adresse": "Fultonstraße 5–11",
+    "name": "",
+    "commonscat": "Wohnhaus Fultonstr 5",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Gebauergasse 10.jpg",
+    "lat": 48.264467,
+    "lng": 16.396576,
+    "adresse": "Gebauergasse 10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Ernsttheumerhof 02.jpg",
+    "lat": 48.284677,
+    "lng": 16.417458,
+    "adresse": "Gerasdorfer Straße 55",
+    "name": "[[Ernst-Theumer-Hof]]",
+    "commonscat": "Ernst-Theumer-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Gerasdorfer332.jpg",
+    "lat": 48.287826,
+    "lng": 16.448417,
+    "adresse": "Gerasdorfer Straße 332",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Karl-Heinz-Hof.jpg",
+    "lat": 48.262613,
+    "lng": 16.39838,
+    "adresse": "Gerichtsgasse 3",
+    "name": "Karl-Heinz-Hof",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Wohnhaus Gerichtsgasse 10.JPG",
+    "lat": 48.261753,
+    "lng": 16.398321,
+    "adresse": "Gerichtsgasse 10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Gmündstrasse 1.jpg",
+    "lat": 48.291734,
+    "lng": 16.385418,
+    "adresse": "Gmündstraße 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Großfeldsiedlung 1.JPG",
+    "lat": 48.270556,
+    "lng": 16.447056,
+    "adresse": "Großfeldstraße 2–26",
+    "name": "[[Großfeldsiedlung]]",
+    "commonscat": "Großfeldsiedlung",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Hahnemanngasse 3.jpg",
+    "lat": 48.287568,
+    "lng": 16.41093,
+    "adresse": "Hahnemanngasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Hanreitergasse 3.jpg",
+    "lat": 48.285779,
+    "lng": 16.411428,
+    "adresse": "Hanreitergasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Hanreitergasse 13.jpg",
+    "lat": 48.284906,
+    "lng": 16.414766,
+    "adresse": "Hanreitergasse 13",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hanreitergasse 13",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Jedlersdorfer Strasse 180.jpg",
+    "lat": 48.286855,
+    "lng": 16.410589,
+    "adresse": "Jedlersdorfer Straße 180",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Jedlersdorfer Straße 294.jpg",
+    "lat": 48.294133,
+    "lng": 16.413934,
+    "adresse": "Jedlersdorfer Straße 294",
+    "name": "",
+    "commonscat": "Wohnhausanlage Jedlersdorfer Straße 294",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Karl-Seitz-Hof (2).JPG",
+    "lat": 48.262694,
+    "lng": 16.388387,
+    "adresse": "Jedleseer Straße 66–94",
+    "name": "[[Karl-Seitz-Hof]]",
+    "commonscat": "Karl-Seitz-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Franz-Petritsch-Hof.jpg",
+    "lat": 48.262365,
+    "lng": 16.385753,
+    "adresse": "Jedleseer Straße 77",
+    "name": "Franz-Petritsch-Hof",
+    "commonscat": "Franz-Petritsch-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "2008.07.08.SiedlungJedlesee.JedleseerStraße79.WienA.JPG",
+    "lat": 48.263765,
+    "lng": 16.384899,
+    "adresse": "Jedleseer Straße 79-95",
+    "name": "",
+    "commonscat": "Siedlung Jedlesee",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "DSC 0005Volkswohnhaus Josef-Baumann-Gasse 65-67.jpg",
+    "lat": 48.258829,
+    "lng": 16.434401,
+    "adresse": "Josef-Baumann-Gasse 65–67",
+    "name": "",
+    "commonscat": "Wohnhausanlage Josef-Baumann-Gasse 65–67",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Josef-Flandorfer-Straße 75 Wien img01.jpg",
+    "lat": 48.299184,
+    "lng": 16.412292,
+    "adresse": "Josef-Flandorfer-Straße 75",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Justgasse6.jpg",
+    "lat": 48.276632,
+    "lng": 16.414347,
+    "adresse": "Justgasse 6–14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Justgasse 6-14",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Justgasse 19-27.JPG",
+    "lat": 48.276697,
+    "lng": 16.416119,
+    "adresse": "Justgasse 9–27",
+    "name": "",
+    "commonscat": "Wohnhausanlage Justgasse 9-27",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Justgasse 29.jpg",
+    "lat": 48.276786,
+    "lng": 16.419615,
+    "adresse": "Justgasse 29",
+    "name": "",
+    "commonscat": "Wohnhausanlage Justgasse 29",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Kahlgasse 9-11.jpg",
+    "lat": 48.254208,
+    "lng": 16.407332,
+    "adresse": "Kahlgasse 9–11",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Bieler-Hof Wien 21.,Seitenansicht.JPG",
+    "lat": 48.2525,
+    "lng": 16.4099,
+    "adresse": "Kinzerplatz 10-11",
+    "name": "Bieler Hof",
+    "commonscat": "Bieler Hof, Floridsdorf",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1658.jpg",
+    "lat": 48.252205,
+    "lng": 16.402346,
+    "adresse": "Kirchhoffgasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1655.jpg",
+    "lat": 48.251917,
+    "lng": 16.402451,
+    "adresse": "Kirchhoffgasse 6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1654.jpg",
+    "lat": 48.251897,
+    "lng": 16.403919,
+    "adresse": "Kirchhoffgasse 13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Ottofelixkanitzhof.jpg",
+    "lat": 48.294203,
+    "lng": 16.417388,
+    "adresse": "Kummergasse 7",
+    "name": "Otto-Felix-Kanitz-Hof",
+    "commonscat": "Otto-Felix-Kanitz-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Leopoldauerstrasse 70.jpg",
+    "lat": 48.260233,
+    "lng": 16.418996,
+    "adresse": "Leopoldauer Straße 70",
+    "name": "Rudolf-Hitzinger-Hof",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf - Wohnhausanlage Leopoldauer Straße 79-81.JPG",
+    "lat": 48.260257,
+    "lng": 16.414982,
+    "adresse": "Leopoldauer Straße 79–81",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Leopoldauerstraße 107-113 Ansicht Stiege 8.jpg",
+    "lat": 48.26159,
+    "lng": 16.419998,
+    "adresse": "Leopoldauer Straße 107–113",
+    "name": "",
+    "commonscat": "Wohnhausanlage Leopoldauer Straße 107–113",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "DSC 0034 Gemeindebau Mengergasse Satzingerweg.jpg",
+    "lat": 48.254633,
+    "lng": 16.413187,
+    "adresse": "Mengergasse 66–70",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Menzelstraße 5, 1210 Wien.jpg",
+    "lat": 48.275445,
+    "lng": 16.427408,
+    "adresse": "Menzelstraße 5",
+    "name": "Gemeindebau im ehemaligen [[Gaswerk Leopoldau]]",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Gemeindebau, Dr. Franz-Koch-Hof.JPG",
+    "lat": 48.276342,
+    "lng": 16.401827,
+    "adresse": "Mitterhofergasse 2",
+    "name": "Dr. Franz-Koch-Hof",
+    "commonscat": "Dr. Franz-Koch-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Franz-Bretschneider-Hof.Floridsdorf.A.JPG",
+    "lat": 48.277745,
+    "lng": 16.403766,
+    "adresse": "Mitterhofergasse 17–19",
+    "name": "Franz-Bretschneider-Hof",
+    "commonscat": "Franz-Bretschneider-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Morelligasse 1-3 1665.jpg",
+    "lat": 48.251394,
+    "lng": 16.403929,
+    "adresse": "Morelligasse 1–3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Morelligasse 1-3",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1651.jpg",
+    "lat": 48.251493,
+    "lng": 16.402475,
+    "adresse": "Mühlschüttelgasse 7–11",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Familienasyl hl.Anna a.jpg",
+    "lat": 48.249814,
+    "lng": 16.410681,
+    "adresse": "Mühlschüttelgasse 55–57",
+    "name": "",
+    "commonscat": "Familienasyl hl.Anna",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Mühlweg 43.jpg",
+    "lat": 48.288559,
+    "lng": 16.389181,
+    "adresse": "Mühlweg 43",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "DSC 0010 Wohnhausanlage der Gemeinde Wien Nordmanngasse 14-16.jpg",
+    "lat": 48.252102,
+    "lng": 16.411647,
+    "adresse": "Nordmanngasse 14–16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Nordmanngasse 14-16",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Ödenburgerstrasse 73 85.jpg",
+    "lat": 48.281886,
+    "lng": 16.399775,
+    "adresse": "Ödenburger Straße 73–85",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ödenburger Straße 73-85",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Ostmarkgasse 48 1660.jpg",
+    "lat": 48.255384,
+    "lng": 16.413465,
+    "adresse": "Ostmarkgasse 48",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Oswald Redlich Strasse 36.jpg",
+    "lat": 48.273714,
+    "lng": 16.446101,
+    "adresse": "Oswald-Redlich-Straße 36",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "O'Brien Gasse 25-27.jpg",
+    "lat": 48.265031,
+    "lng": 16.389519,
+    "adresse": "O’Brien-Gasse 25–27",
+    "name": "",
+    "commonscat": "Wohnhausanlage O'Brien-Gasse 25-27",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "1210 Wien O'Briengasse 26-30 4.JPG",
+    "lat": 48.264822,
+    "lng": 16.389618,
+    "adresse": "O’Brien-Gasse 26–28",
+    "name": "Beethoven-Hof",
+    "commonscat": "Beethoven-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Pastorstrasse 22.jpg",
+    "lat": 48.273544,
+    "lng": 16.44476,
+    "adresse": "Pastorstraße 22",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Appel Hof 1.jpg",
+    "lat": 48.264722,
+    "lng": 16.393075,
+    "adresse": "Prager Straße 43–47",
+    "name": "Appelhof",
+    "commonscat": "Appel-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Großjedlersdorf (Wien) - Gemeindebau, Prager Straße 56, 58.JPG",
+    "lat": 48.267462,
+    "lng": 16.392755,
+    "adresse": "Prager Straße 56–58",
+    "name": "",
+    "commonscat": "Pragerstraße 56-58, Floridsdorf",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Hedwig Lehnert Hof 1.jpg",
+    "lat": 48.272176,
+    "lng": 16.391668,
+    "adresse": "Prager Straße 92–96",
+    "name": "Hedwig-Lehnert-Hof",
+    "commonscat": "Hedwig-Lehnert-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Wohnhausanlage Franz-Jonas-Hof.JPG",
+    "lat": 48.269213,
+    "lng": 16.390677,
+    "adresse": "Prager Straße 93–99",
+    "name": "Franz-Jonas-Hof",
+    "commonscat": "Franz-Jonas-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Pregartengasse 6-8.jpg",
+    "lat": 48.265536,
+    "lng": 16.397515,
+    "adresse": "Pregartengasse 6–8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1643.jpg",
+    "lat": 48.252192,
+    "lng": 16.403008,
+    "adresse": "Ringelseegasse 11–15",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Oskar-Helmer Hof.jpg",
+    "lat": 48.291948,
+    "lng": 16.382623,
+    "adresse": "Roda-Roda-Gasse 1",
+    "name": "Oskar Helmer Hof",
+    "commonscat": "Oskar-Helmer-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Roda-Roda Gasse 4.jpg",
+    "lat": 48.290558,
+    "lng": 16.38468,
+    "adresse": "Roda-Roda-Gasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Roda-Roda Gasse 6.jpg",
+    "lat": 48.290325,
+    "lng": 16.384058,
+    "adresse": "Roda-Roda-Gasse 6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Roggegasse 44-46.jpg",
+    "lat": 48.293326,
+    "lng": 16.391347,
+    "adresse": "Roggegasse 44–46",
+    "name": "",
+    "commonscat": "Wohnhausanlage Roggegasse 44–46",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Rußbergstraße 11.jpg",
+    "lat": 48.289166,
+    "lng": 16.383827,
+    "adresse": "Rußbergstraße 11",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Russbergstrasse 24.jpg",
+    "lat": 48.290126,
+    "lng": 16.386122,
+    "adresse": "Rußbergstraße 24",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rußbergstraße 24",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Russbergstrasse 94-100.jpg",
+    "lat": 48.296019,
+    "lng": 16.389452,
+    "adresse": "Rußbergstraße 94–100",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Ruthnergasse 56.jpg",
+    "lat": 48.274207,
+    "lng": 16.421648,
+    "adresse": "Ruthnergasse 56–60",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ruthnergasse 56-60",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Scheffelstrasse 24.jpg",
+    "lat": 48.254025,
+    "lng": 16.408086,
+    "adresse": "Scheffelstraße 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "DSC 0028 Wohnhausanlage Schenkendorfgasse 49-53 mit Mosaik.jpg",
+    "lat": 48.255072,
+    "lng": 16.411096,
+    "adresse": "Schenkendorfgasse 49–53",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schenkendorfgasse 49-53",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Scheydgasse Nr 3.jpg",
+    "lat": 48.286389,
+    "lng": 16.382222,
+    "adresse": "Scheydgasse 3–15",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Federico-Garcia-Lorca-Hof.jpg",
+    "lat": 48.254845,
+    "lng": 16.404861,
+    "adresse": "Schliemanngasse 25",
+    "name": "Frederico-Garcia-Lorca-Hof",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WH19 1633.jpg",
+    "lat": 48.255648,
+    "lng": 16.403991,
+    "adresse": "Schloßhofer Straße 42",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Schöpfleuthnergasse 8–16 1691.jpg",
+    "lat": 48.254193,
+    "lng": 16.397289,
+    "adresse": "Schöpfleuthnergasse 8–16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schöpfleuthnergasse 8-16",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Großjedlersdorf (Wien) - Gemeindebau, Siemensstraße 21-55.JPG",
+    "lat": 48.273736,
+    "lng": 16.415259,
+    "adresse": "Siemensstraße 21–55",
+    "name": "",
+    "commonscat": "Siemensstraße 21-55, Vienna",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Stammersdorf Margarethe Trappl Hof.jpg",
+    "lat": 48.301477,
+    "lng": 16.411628,
+    "adresse": "Stammersdorfer Straße 50",
+    "name": "Margarethe-Trappl-Hof",
+    "commonscat": "Margarethe-Trappl-Hof",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "WHA Stammersdorfer Straße 116–120 02.jpg",
+    "lat": 48.299595,
+    "lng": 16.418841,
+    "adresse": "Stammersdorfer Straße 116–120",
+    "name": "",
+    "commonscat": "Wohnhausanlage Stammersdorfer Straße 116-120",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "DSC 0025 Wohnhausanlage der Gemeinde Wien Theodor Körner Gasse 28.jpg",
+    "lat": 48.25344,
+    "lng": 16.410542,
+    "adresse": "Theodor-Körner-Gasse 28",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "DSC 0009 Wohnhausanlage-Viehtriftgasse 12-14.jpg",
+    "lat": 48.259264,
+    "lng": 16.433408,
+    "adresse": "Viehtriftgasse 9, 11, 12, 14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Viehtriftgasse 9, 11, 12, 14",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Floridsdorf (Wien) - Gemeindebau, Voltagasse 55-63.JPG",
+    "lat": 48.26493,
+    "lng": 16.391018,
+    "adresse": "Voltagasse 55–63",
+    "name": "",
+    "commonscat": "Wohnhausanlage Voltagasse 55-63",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Wohnhausanlage Wankläckergasse 36.jpg",
+    "lat": 48.272503,
+    "lng": 16.419663,
+    "adresse": "Wankläckergasse 36",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Gemeindebau Wenhartgasse 20, Jedlesee.jpg",
+    "lat": 48.267942,
+    "lng": 16.38486,
+    "adresse": "Wenhartgasse 20",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Großjedlersdorf (Wien) - Gemeindebau, Werndlgasse 11-19.JPG",
+    "lat": 48.262517,
+    "lng": 16.403894,
+    "adresse": "Werndlgasse 11–19",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Floridsdorf"
+  },
+  {
+    "foto": "Werndlgasse 14-18 2.jpg",
+    "lat": 48.2622,
+    "lng": 16.40389,
+    "adresse": "Werndlgasse 14–18",
+    "name": "",
+    "commonscat": "Werndlgasse 14, Floridsdorf",
+    "wiki_slug": "Floridsdorf"
+  }
+]

@@ -1,0 +1,803 @@
+[
+  {
+    "foto": "2020-05-26 Gemeindebau Richard-Strauss-Hof full.jpg",
+    "lat": 48.198705,
+    "lng": 16.382557,
+    "adresse": "Am Modenapark 8-9",
+    "name": "Richard-Strauss-Hof",
+    "commonscat": "Richard-Strauss-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Ammodenapark15.JPG",
+    "lat": 48.200376,
+    "lng": 16.381689,
+    "adresse": "Am Modenapark 15",
+    "name": "",
+    "commonscat": "Wohnhausanlage Am Modenapark 15",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Aspangstraße 11-13.jpg",
+    "lat": 48.193521,
+    "lng": 16.388988,
+    "adresse": "Aspangstraße 11-13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Barthgasse5.JPG",
+    "lat": 48.193629,
+    "lng": 16.406326,
+    "adresse": "Barthgasse 5-7",
+    "name": "",
+    "commonscat": "Barthgasse 5-7",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau Landstrasser-Hauptstrasse 127-DSC 6860w.jpg",
+    "lat": 48.196,
+    "lng": 16.397107,
+    "adresse": "Baumgasse 12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Rabenhof 3.JPG",
+    "lat": 48.195389,
+    "lng": 16.399859,
+    "adresse": "Baumgasse 29-41",
+    "name": "[[Rabenhof (Wien)",
+    "commonscat": "Rabenhof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Baumgasse 43.jpg",
+    "lat": 48.194436,
+    "lng": 16.402221,
+    "adresse": "Baumgasse 43",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Blattgasse 5 Blütengasse 2-4.JPG",
+    "lat": 48.207735,
+    "lng": 16.392317,
+    "adresse": "Blattgasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Dietrichgasse32Eckansicht.JPG",
+    "lat": 48.198591,
+    "lng": 16.404708,
+    "adresse": "Dietrichgasse 32-34",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dietrichgasse 32-34",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Landstraszerhofseite.jpg",
+    "lat": 48.198797,
+    "lng": 16.403874,
+    "adresse": "Drorygasse 8",
+    "name": "Landstraßer Hof",
+    "commonscat": "Wohnhausanlage Landstraßer Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Erdbergerhof.jpg",
+    "lat": 48.198502,
+    "lng": 16.404313,
+    "adresse": "Drorygasse 19-23",
+    "name": "Erdberger Hof",
+    "commonscat": "Erdberger Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Engelsberggase 3.JPG",
+    "lat": 48.198557,
+    "lng": 16.388373,
+    "adresse": "Engelsberggasse 3",
+    "name": "",
+    "commonscat": "Engelsberggasse 3",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Erdbergstraße 5-7.JPG",
+    "lat": 48.202818,
+    "lng": 16.392587,
+    "adresse": "Erdbergstraße 5-7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Erdbergstraße 5-7",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Erdbergstrasse 12-14-DSC 5638w.jpg",
+    "lat": 48.202268,
+    "lng": 16.394071,
+    "adresse": "Erdbergstraße 12-14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Erdbergstraße 12-14",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Erdbergstraße 16-28 DSC 5642 5647w.jpg",
+    "lat": 48.202146,
+    "lng": 16.394906,
+    "adresse": "Erdbergstraße 16-28",
+    "name": "",
+    "commonscat": "Wohnhausanlage Erdbergstraße 16-28",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau Wien Erdbergstr 36 DSC 6171w.jpg",
+    "lat": 48.201903,
+    "lng": 16.395667,
+    "adresse": "Erdbergstraße 36",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Erdbergstrasse 126-130 DSC 5673w.jpg",
+    "lat": 48.196472,
+    "lng": 16.40474,
+    "adresse": "Erdbergstraße 126-130",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau Wien Erdbergstr 134 DSC 6151w.jpg",
+    "lat": 48.196325,
+    "lng": 16.405658,
+    "adresse": "Erdbergstraße 134",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau Wien Erdbergstr 140-DSC 6161a ShiftN.jpg",
+    "lat": 48.19621,
+    "lng": 16.406285,
+    "adresse": "Erdbergstraße 140-144",
+    "name": "",
+    "commonscat": "Wohnhausanlage Erdbergstraße 140",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wohnhausanlage Gerlgasse 12-14, Hohlweggasse.jpg",
+    "lat": 48.19284,
+    "lng": 16.387715,
+    "adresse": "Gerlgasse 14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gerlgasse 12-14",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gestettengasse 18-22 DSC 5687w.jpg",
+    "lat": 48.195558,
+    "lng": 16.405032,
+    "adresse": "Gestettengasse 12-22",
+    "name": "Franz-Adelpoller-Hof",
+    "commonscat": "Franz-Adelpoller-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gestettengasse 17-pano-DSC 5693w.jpg",
+    "lat": 48.195894,
+    "lng": 16.405217,
+    "adresse": "Gestettengasse 17",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gestettengasse 21a.jpg",
+    "lat": 48.195344,
+    "lng": 16.406441,
+    "adresse": "Gestettengasse 21a",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wien Wildganshof.jpg",
+    "lat": 48.186003,
+    "lng": 16.39986,
+    "adresse": "Grasbergergasse 4",
+    "name": "[[Wildganshof]]",
+    "commonscat": "Wildganshof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Goellnergasse25.jpg",
+    "lat": 48.199776,
+    "lng": 16.401545,
+    "adresse": "Göllnergasse 25",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hagenmuellergasse14.jpg",
+    "lat": 48.198853,
+    "lng": 16.40121,
+    "adresse": "Hagenmüllergasse 14-16",
+    "name": "Franz-Schuster-Hof",
+    "commonscat": "Franz-Schuster-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hagenmuellergasse23.jpg",
+    "lat": 48.198453,
+    "lng": 16.403135,
+    "adresse": "Hagenmüllergasse 21-23",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hagenmuellergasse25.jpg",
+    "lat": 48.197947,
+    "lng": 16.40393,
+    "adresse": "Hagenmüllergasse 25",
+    "name": "",
+    "commonscat": "Hagenmüllergasse 25",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Felleishof.jpg",
+    "lat": 48.197383,
+    "lng": 16.404507,
+    "adresse": "Hagenmüllergasse 32",
+    "name": "Felleishof",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Haidingergasse 24-DSC 4531w.jpg",
+    "lat": 48.200032,
+    "lng": 16.400339,
+    "adresse": "Haidingergasse 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hainburger Straße 57.jpg",
+    "lat": 48.196374,
+    "lng": 16.402989,
+    "adresse": "Hainburger Straße 57+61",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hainburger Straße 57+61",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hoffmannsthalgasse12.JPG",
+    "lat": 48.184677,
+    "lng": 16.400036,
+    "adresse": "Wohnhausanlage Hofmannsthalgasse 12-24",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hofmannsthalgasse 12-24",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wohnhausanlage Jauresgasse 5-7.jpg",
+    "lat": 48.197101,
+    "lng": 16.384588,
+    "adresse": "Jauresgasse 5-7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Kardinal-Nagl Platz 6-7 DSC 7234w.jpg",
+    "lat": 48.196863,
+    "lng": 16.400781,
+    "adresse": "Kardinal-Nagl-Platz 6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Franz Silberer Hof Wien Kardinal Nagel Platz DSC 7219w.jpg",
+    "lat": 48.19781,
+    "lng": 16.40278,
+    "adresse": "Kardinal-Nagl-Platz 14",
+    "name": "Franz-Silberer-Hof",
+    "commonscat": "Franz-Silberer-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Kegelgasse 17 Seidlgasse 10.JPG",
+    "lat": 48.207738,
+    "lng": 16.390638,
+    "adresse": "Kegelgasse 17",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Kegelgasse 44.JPG",
+    "lat": 48.20773,
+    "lng": 16.395371,
+    "adresse": "Kegelgasse 44",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kegelgasse 44",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Khunngasse8.JPG",
+    "lat": 48.190173,
+    "lng": 16.38825,
+    "adresse": "Khunngasse 6-8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Khunngasse20.JPG",
+    "lat": 48.190072,
+    "lng": 16.390289,
+    "adresse": "Khunngasse 20",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Kleingasse 2 DSC 5704w.jpg",
+    "lat": 48.195001,
+    "lng": 16.405227,
+    "adresse": "Kleingasse 2",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Kleingasse 6-18.jpg",
+    "lat": 48.194438,
+    "lng": 16.404803,
+    "adresse": "Kleingasse 6-18",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kleingasse 6-18",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Klopsteinplatzgemeindebau.jpg",
+    "lat": 48.193874,
+    "lng": 16.398636,
+    "adresse": "Klopsteinplatz 6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Klopsteinplatz 6",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Kollergasse 11-13.JPG",
+    "lat": 48.207816,
+    "lng": 16.390165,
+    "adresse": "Kollergasse 11-13",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kollergasse 11-13",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wien Kundmanngasse 30-32.jpg",
+    "lat": 48.202397,
+    "lng": 16.392263,
+    "adresse": "Kundmanngasse 30-32",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kundmanngasse 30-32",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Josefilleditshof.JPG",
+    "lat": 48.189531,
+    "lng": 16.390985,
+    "adresse": "Kärchergasse 3-13",
+    "name": "Josef-Illedits-Hof",
+    "commonscat": "Josef-Illedits-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Koelblgasse36.jpg",
+    "lat": 48.190819,
+    "lng": 16.390903,
+    "adresse": "Kölblgasse 36",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Landstraßer Hauptstraße 11 - Josef-Pfeifer-Hof.JPG",
+    "lat": 48.205471,
+    "lng": 16.387119,
+    "adresse": "Landstraßer Hauptstraße 11",
+    "name": "Josef-Pfeifer-Hof",
+    "commonscat": "Josef-Pfeifer-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Steyrerhof.JPG",
+    "lat": 48.199365,
+    "lng": 16.393445,
+    "adresse": "Landstraßer Hauptstraße 92-94",
+    "name": "Kurt-Steyrer-Hof",
+    "commonscat": "Kurt-Steyrer-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wohnhausanlage Landstraßer Hauptstraße 129.jpg",
+    "lat": 48.195705,
+    "lng": 16.396717,
+    "adresse": "Landstraßer Hauptstraße 129",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Maderspergerhof.JPG",
+    "lat": 48.189536,
+    "lng": 16.400903,
+    "adresse": "Landstraßer Hauptstraße 173-175",
+    "name": "",
+    "commonscat": "Maderspergerhof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Karlwaldbrunnerhofleonierysanekpark.jpg",
+    "lat": 48.198487,
+    "lng": 16.405621,
+    "adresse": "Lechnerstraße 2-4",
+    "name": "Karl-Waldbrunner-Hof",
+    "commonscat": "Karl-Waldbrunner-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Leonhardgasse2.JPG",
+    "lat": 48.195409,
+    "lng": 16.403008,
+    "adresse": "Leonhardgasse 2-10",
+    "name": "",
+    "commonscat": "Wohnhausanlage Leonhardgasse 2-10",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Leonhardgasse 7-13.jpg",
+    "lat": 48.19464,
+    "lng": 16.403489,
+    "adresse": "Leonhardgasse 7-13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Loorbergasse 6.JPG",
+    "lat": 48.209407,
+    "lng": 16.389134,
+    "adresse": "Lorbeergasse 6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Koesslerplatz3.jpg",
+    "lat": 48.196184,
+    "lng": 16.409212,
+    "adresse": "Ludwig-Koeßler-Platz 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ludwig-Koeßler-Platz 3",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hanuschhof 01.jpg",
+    "lat": 48.196629,
+    "lng": 16.409257,
+    "adresse": "Ludwig-Koeßler-Platz 4",
+    "name": "[[Hanuschhof]]",
+    "commonscat": "Hanuschhof, Vienna",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Loewengasse 5-DSC 4616w.jpg",
+    "lat": 48.211791,
+    "lng": 16.389733,
+    "adresse": "Löwengasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Vienna Hundertwasserhaus DSC02708.JPG",
+    "lat": 48.207449,
+    "lng": 16.393868,
+    "adresse": "Löwengasse 41-43",
+    "name": "[[Hundertwasserhaus (Wien)",
+    "commonscat": "Hundertwasserhaus Wien",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Markhofgasse6-1.JPG",
+    "lat": 48.193996,
+    "lng": 16.407136,
+    "adresse": "Markhofgasse 6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Markhofgasse 6",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Barthgasse13.JPG",
+    "lat": 48.193041,
+    "lng": 16.408017,
+    "adresse": "Markhofgasse 12-18",
+    "name": "",
+    "commonscat": "Wohnhausanlage Markhofgasse 12-18",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Markhofgasse 20.jpg",
+    "lat": 48.192659,
+    "lng": 16.408616,
+    "adresse": "Markhofgasse 20",
+    "name": "",
+    "commonscat": "Wohnhausanlage Markhofgasse 20",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Marxergasse 12.JPG",
+    "lat": 48.206817,
+    "lng": 16.387996,
+    "adresse": "Marxergasse 12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Matthaeusgasse 3-DSC 5162w.jpg",
+    "lat": 48.210655,
+    "lng": 16.388425,
+    "adresse": "Matthäusgasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Aliceundheinrichscheuerhof.JPG",
+    "lat": 48.198934,
+    "lng": 16.381542,
+    "adresse": "Neulinggasse 39",
+    "name": "Alice-und-Heinrich-Scheuer-Hof",
+    "commonscat": "Alice-und-Heinrich-Scheuer-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Ungerhof.JPG",
+    "lat": 48.193418,
+    "lng": 16.387355,
+    "adresse": "Obere Bahngasse 4-8",
+    "name": "Ungerhof",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Paracelsusgasse 4.JPG",
+    "lat": 48.207392,
+    "lng": 16.395403,
+    "adresse": "Paracelsusgasse 4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Paracelsusgasse 4",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Hainischhof.jpg",
+    "lat": 48.192816,
+    "lng": 16.39902,
+    "adresse": "Petrusgasse 15",
+    "name": "Marianne-Hainisch-Hof",
+    "commonscat": "Marianne-Hainisch-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau Pfarrhofgasse 14 DSC 0573w.jpg",
+    "lat": 48.2006,
+    "lng": 16.390822,
+    "adresse": "Pfarrhofgasse 14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Pfarrhofgasse 14",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Riesgasse 4.JPG",
+    "lat": 48.198577,
+    "lng": 16.388908,
+    "adresse": "Riesgasse 4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Riesgasse 4",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Frieda-Noedl-Hof Wien-Landstrasse DSC 0623w.jpg",
+    "lat": 48.201438,
+    "lng": 16.390653,
+    "adresse": "Rochusgasse 3-5",
+    "name": "Frieda-Nödl-Hof",
+    "commonscat": "Frieda-Nödl-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wien - Anton-Kohl-Hof.JPG",
+    "lat": 48.199026,
+    "lng": 16.40201,
+    "adresse": "Rüdengasse 8-10",
+    "name": "Anton-Kohl-Hof",
+    "commonscat": "Anton-Kohl-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wohnhausanlage Salmgasse 19.jpg",
+    "lat": 48.203897,
+    "lng": 16.391071,
+    "adresse": "Salmgasse 19",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Schimmelgasse 23 Bild 2.jpg",
+    "lat": 48.191773,
+    "lng": 16.400193,
+    "adresse": "Schimmelgasse 23",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schimmelgasse 23",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Maedchenmitaehren.JPG",
+    "lat": 48.1957,
+    "lng": 16.409841,
+    "adresse": "Schlachthausgasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Schlachthausgasse 39.jpg",
+    "lat": 48.193502,
+    "lng": 16.405329,
+    "adresse": "Schlachthausgasse 39",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Schlachthausgasse44.jpg",
+    "lat": 48.191579,
+    "lng": 16.402228,
+    "adresse": "Schlachthausgasse 44",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schlachthausgasse 44",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wohnhausanlage Franz-Seitler-Hof 1.jpg",
+    "lat": 48.20023,
+    "lng": 16.389694,
+    "adresse": "Sebastianplatz 5",
+    "name": "Franz-Seitler-Hof",
+    "commonscat": "Franz-Seitler-Hof",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Strohgasse14f.jpg",
+    "lat": 48.198315,
+    "lng": 16.381936,
+    "adresse": "Strohgasse 14f",
+    "name": "",
+    "commonscat": "Grimmelshausengasse 14, Vienna",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Uchatiusgasse10czapkapark.jpg",
+    "lat": 48.204907,
+    "lng": 16.390684,
+    "adresse": "Uchatiusgasse 10-12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Untere Weißgerberstraße 4.JPG",
+    "lat": 48.211538,
+    "lng": 16.392397,
+    "adresse": "Untere Weißgerberstraße 4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Untere Weißgerberstraße 4",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Untere Weißgerberstraße 18.JPG",
+    "lat": 48.209946,
+    "lng": 16.393653,
+    "adresse": "Untere Weißgerberstraße 18",
+    "name": "",
+    "commonscat": "Wohnhausanlage Untere Weißgerberstraße 18",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Untere Weißgerberstraße 53-59.JPG",
+    "lat": 48.206977,
+    "lng": 16.395252,
+    "adresse": "Untere Weißgerberstraße 53-59",
+    "name": "",
+    "commonscat": "Wohnhausanlage Untere Weißgerberstraße 53-59",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Weinlechnergasse1.jpg",
+    "lat": 48.194595,
+    "lng": 16.398344,
+    "adresse": "Weinlechnergasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Weiszgerberlaende24.jpg",
+    "lat": 48.210399,
+    "lng": 16.394391,
+    "adresse": "Weißgerberlände 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Gemeindebau III - Weißgerberlände 30-32 Custozzagasse 14-18 Untere Weißgerberstraße 23-25.JPG",
+    "lat": 48.209486,
+    "lng": 16.394584,
+    "adresse": "Weißgerberlände 30-36",
+    "name": "",
+    "commonscat": "Wohnhausanlage Untere Weißgerberstraße 23-25",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Wällischgasse 10-12.jpg",
+    "lat": 48.195186,
+    "lng": 16.406912,
+    "adresse": "Wällischgasse 10-12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Würtzlerstraße 23.jpg",
+    "lat": 48.193204,
+    "lng": 16.407064,
+    "adresse": "Würtzlerstraße 23",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Anton-Schmid-Hof 5.jpg",
+    "lat": 48.199171,
+    "lng": 16.379546,
+    "adresse": "Zaunergasse 12-14",
+    "name": "Anton-Schmid-Hof",
+    "commonscat": "Anton-Schmid-Hof, Landstraße",
+    "wiki_slug": "Landstraße"
+  },
+  {
+    "foto": "Ziehrerplatz8.JPG",
+    "lat": 48.199754,
+    "lng": 16.391207,
+    "adresse": "Ziehrerplatz 8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ziehrerplatz 8",
+    "wiki_slug": "Landstraße"
+  }
+]

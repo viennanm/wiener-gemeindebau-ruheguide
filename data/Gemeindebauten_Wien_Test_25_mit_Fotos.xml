@@ -1,0 +1,1073 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gemeindebauten_wien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" datenstand="2026-09-05" anzahl_objekte="25" sprache="de" koordinatensystem="WGS84 / EPSG:4326"><metadaten>
+    <dataset>Gemeindebauten Wien – KI-Datensatz</dataset>
+    <format>JSON Lines (JSONL)</format>
+    <datenstand>2026-09-05</datenstand>
+    <anzahl_objekte>1776</anzahl_objekte>
+    <einheit>eine Wohnhausanlage je nachfolgender Zeile</einheit>
+    <koordinatensystem>WGS84 / EPSG:4326</koordinatensystem>
+    <null_bedeutung>Wert in der verwendeten Quelle nicht verfügbar</null_bedeutung>
+    <methodik>
+      <hoehe>Näherung aus amtlichen Höhenlinien; Meter über Adria.</hoehe>
+      <entfernungen>Luftlinienentfernung vom geometrischen Anlagenmittelpunkt.</entfernungen>
+      <gruenlage>Abgeleiteter Score aus öffentlichem Grün, Baumbestand und Parknähe; keine amtliche Bewertung.</gruenlage>
+      <immobilientyp>Regelbasierte Ableitung aus Baukörpern, Flächenstruktur und Geschoßzahl.</immobilientyp>
+      <laerm>Höchste strategische Pegelklasse 2022 an Stichpunkten des Gebäudeumrisses; keine Fassadenmessung.</laerm>
+    </methodik>
+    <hauptquellen>
+      <quelle>https://data.wien.gv.at</quelle>
+      <quelle>https://www.wien.gv.at/kultur/kulturgut-gemeindebauten</quelle>
+      <quelle>https://maps.laerminfo.at/</quelle>
+    </hauptquellen>
+  </metadaten>
+  <gemeindebauten><gemeindebau objekt_id="19045">
+      <bezirk>23</bezirk>
+      <hofname>HOEPFLERGASSE 6</hofname>
+      <adresse>Höpflergasse 6</adresse>
+      <baujahr>1966</baujahr>
+      <wohnungen>132</wohnungen>
+      <breitengrad>48.144368</breitengrad>
+      <laengengrad>16.291233</laengengrad>
+      <baukoerper_anzahl>7</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>3810</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>9864</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>6054</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>61.4</freiflaechenpotenzial_prozent>
+      <groessenklasse>mittel</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max xsi:nil="true" />
+      <amtliche_bautypen />
+      <hoehe_von_m_adria>215</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>218</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Knotzenbachgasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>208</entfernung_haltestelle_m>
+      <verkehrsmittel>Nachtverkehr</verkehrsmittel>
+      <linien>N66</linien>
+      <weitere_haltestellen>Leopoldigasse (277 m; Nachtverkehr; N65) | Steinergasse (291 m; Bus; 60A)</weitere_haltestellen>
+      <naechster_park>PA Reklewskigasse</naechster_park>
+      <entfernung_park_m>232</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>43609</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>5.6</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>325</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>65</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>55–59</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>50–54</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.144368&amp;lon=16.291233&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0623364/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="19013">
+      <bezirk>22</bezirk>
+      <hofname>Goethehof</hofname>
+      <adresse>Schüttaustraße 1-39</adresse>
+      <baujahr>1931</baujahr>
+      <wohnungen>677</wohnungen>
+      <breitengrad>48.229824</breitengrad>
+      <laengengrad>16.420106</laengengrad>
+      <baukoerper_anzahl>8</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>13365</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>48340</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>34975</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>72.4</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max>5</geschosse_max>
+      <amtliche_bautypen>Keine Angabe | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>160</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>162</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Goethehof</naechste_haltestelle>
+      <entfernung_haltestelle_m>79</entfernung_haltestelle_m>
+      <verkehrsmittel>Nachtverkehr</verkehrsmittel>
+      <linien>N90</linien>
+      <weitere_haltestellen>Schödlbergergasse (142 m; Nachtverkehr; N90)</weitere_haltestellen>
+      <naechster_park>PA Weissauweg</naechster_park>
+      <entfernung_park_m>237</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>65521</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>8.3</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>364</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>70</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>65–69</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>55–59</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.229824&amp;lon=16.420106&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0822310/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.70" /></gemeindebau>
+    <gemeindebau objekt_id="19019">
+      <bezirk>5</bezirk>
+      <hofname>Metzleinstalerhof</hofname>
+      <adresse>Margaretengürtel 90-98</adresse>
+      <baujahr>1921</baujahr>
+      <wohnungen>252</wohnungen>
+      <breitengrad>48.181454</breitengrad>
+      <laengengrad>16.349242</laengengrad>
+      <baukoerper_anzahl>1</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>4514</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>7915</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>3401</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>43.0</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>kompakte kleinere Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>7</geschosse_max>
+      <amtliche_bautypen>14.-Bauten des öffentlichen und privaten Verkehrs | W4.1.-soz.u.gemeinn.Wohnb.-Baulückenbebauungen | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>191</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>198</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Eichenstraße (Margaretengürtel)</naechste_haltestelle>
+      <entfernung_haltestelle_m>54</entfernung_haltestelle_m>
+      <verkehrsmittel>Nachtverkehr</verkehrsmittel>
+      <linien>N6</linien>
+      <weitere_haltestellen>Eichenstraße (Siebenbrunnenfeldgasse) (67 m; Bus; 12A) | Eichenstraße (Gürtel/Tiefgeschoß) (108 m; Straßenbahn; 18,6,62,WLB)</weitere_haltestellen>
+      <naechster_park>Hanna-Gärtner-Park</naechster_park>
+      <entfernung_park_m>158</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>88166</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>11.2</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>510</baeume_250m>
+      <gruenlage_abgeleitet>sehr grün</gruenlage_abgeleitet>
+      <gruenlage_score>75</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>≥ 75</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>65–69</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>70–74</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>60–64</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.181454&amp;lon=16.349242&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0805301/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.60" /></gemeindebau>
+    <gemeindebau objekt_id="19025">
+      <bezirk>15</bezirk>
+      <hofname>Vogelweidhof</hofname>
+      <adresse>Wurzbachgasse 2-8</adresse>
+      <baujahr>1929</baujahr>
+      <wohnungen>110</wohnungen>
+      <breitengrad>48.202116</breitengrad>
+      <laengengrad>16.336272</laengengrad>
+      <baukoerper_anzahl>1</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>1732</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>2791</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>1059</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>37.9</freiflaechenpotenzial_prozent>
+      <groessenklasse>mittel</groessenklasse>
+      <immobilientyp_abgeleitet>Einzelhaus / kleine Einheit</immobilientyp_abgeleitet>
+      <geschosse_max>6</geschosse_max>
+      <amtliche_bautypen>8.-Gartenanlagen | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus | W3.7.-Mieth.s.d.Gründerzeit-Eckhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>213</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>214</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Burggasse-Stadthalle (Urban-Loritz-Platz)</naechste_haltestelle>
+      <entfernung_haltestelle_m>60</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>6</linien>
+      <weitere_haltestellen>Burggasse-Stadthalle (87 m; U-Bahn/Verkehrsknoten; 18,48A,6,U6) | Urban-Loritz-Platz (124 m; Straßenbahn; 49)</weitere_haltestellen>
+      <naechster_park>Märzpark</naechster_park>
+      <entfernung_park_m>77</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>57009</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>7.3</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>465</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>68</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>55–59</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.202116&amp;lon=16.336272&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0815310/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="0.90"><bild_url>https://upload.wikimedia.org/wikipedia/commons/e/e5/Wien-F%C3%BCnfhaus_-_Vogelweidhof_-_Rundbogen_im_mittleren_Hof.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Wien-F%C3%BCnfhaus_-_Vogelweidhof_-_Rundbogen_im_mittleren_Hof.jpg/1280px-Wien-F%C3%BCnfhaus_-_Vogelweidhof_-_Rundbogen_im_mittleren_Hof.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:Wien-F%C3%BCnfhaus_-_Vogelweidhof_-_Rundbogen_im_mittleren_Hof.jpg</quellseite_url><fotograf>Häferl</fotograf><lizenz>CC BY-SA 3.0 at</lizenz><lizenz_url>https://creativecommons.org/licenses/by-sa/3.0/at/deed.en</lizenz_url><beschreibung>Kommunaler Wohnbau, Vogelweidhof, sogenannter Märchenhof</beschreibung><aufnahmedatum>2013-06-23 14:12:22</aufnahmedatum><entfernung_m>10</entfernung_m></foto></gemeindebau>
+    <gemeindebau objekt_id="18609">
+      <bezirk>21</bezirk>
+      <hofname>ST.-MICHAEL-GASSE 11</hofname>
+      <adresse>St.-Michael-Gasse 11-15</adresse>
+      <baujahr>1967</baujahr>
+      <wohnungen>5533</wohnungen>
+      <breitengrad>48.270823</breitengrad>
+      <laengengrad>16.446314</laengengrad>
+      <baukoerper_anzahl>87</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>76168</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>1140819</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>1064650</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>93.3</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>aufgelockerte Siedlung / Zeilenbau</immobilientyp_abgeleitet>
+      <geschosse_max>0</geschosse_max>
+      <amtliche_bautypen>Keine Angabe</amtliche_bautypen>
+      <hoehe_von_m_adria>161</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>162</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Großfeldsiedlung (Dopschstraße)</naechste_haltestelle>
+      <entfernung_haltestelle_m>113</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>29A,29B</linien>
+      <weitere_haltestellen>Großfeldsiedlung (132 m; U-Bahn/Verkehrsknoten; 29A,29B,N25,U1) | Großfeldsiedlung (Kürschnergasse) (167 m; Bus; 29A,29B,N25)</weitere_haltestellen>
+      <naechster_park>PA Else-Feldmann-Promenade</naechster_park>
+      <entfernung_park_m>135</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>61711</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>7.9</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>334</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>69</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>60–64</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>50–54</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.270823&amp;lon=16.446314&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0621383/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="18341">
+      <bezirk>5</bezirk>
+      <hofname>Reumannhof</hofname>
+      <adresse>Margaretengürtel 100-110</adresse>
+      <baujahr>1925</baujahr>
+      <wohnungen>450</wohnungen>
+      <breitengrad>48.182775</breitengrad>
+      <laengengrad>16.348003</laengengrad>
+      <baukoerper_anzahl>1</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>6235</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>12664</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>6429</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>50.8</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hochhaus</immobilientyp_abgeleitet>
+      <geschosse_max>9</geschosse_max>
+      <amtliche_bautypen>8.-Gartenanlagen | Keine Angabe | W2.3.-Bürgerhaus-Haus mit mittig liegendem Hof | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter</amtliche_bautypen>
+      <hoehe_von_m_adria>185</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>191</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Arbeitergasse/Gürtel</naechste_haltestelle>
+      <entfernung_haltestelle_m>171</entfernung_haltestelle_m>
+      <verkehrsmittel>Nachtverkehr</verkehrsmittel>
+      <linien>N6</linien>
+      <weitere_haltestellen>Eichenstraße (Gaudenzdorfer Gürtel) (177 m; Nachtverkehr; N6) | Eichenstraße (Margaretengürtel) (212 m; Nachtverkehr; N6)</weitere_haltestellen>
+      <naechster_park>PA Mittelzone</naechster_park>
+      <entfernung_park_m>76</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>89328</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>11.4</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>551</baeume_250m>
+      <gruenlage_abgeleitet>sehr grün</gruenlage_abgeleitet>
+      <gruenlage_score>75</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>≥ 75</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>65–69</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>65–69</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>55–59</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.182775&amp;lon=16.348003&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0805302/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="1.00"><bild_url>https://upload.wikimedia.org/wikipedia/commons/c/cb/Wien-Margareten_-_Reumann-Hof_-_rechte_Seite_am_Margareteng%C3%BCrtel.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Wien-Margareten_-_Reumann-Hof_-_rechte_Seite_am_Margareteng%C3%BCrtel.jpg/1280px-Wien-Margareten_-_Reumann-Hof_-_rechte_Seite_am_Margareteng%C3%BCrtel.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:Wien-Margareten_-_Reumann-Hof_-_rechte_Seite_am_Margareteng%C3%BCrtel.jpg</quellseite_url><fotograf>Haeferl</fotograf><lizenz>CC BY-SA 3.0 at</lizenz><lizenz_url>https://creativecommons.org/licenses/by-sa/3.0/at/deed.en</lizenz_url><beschreibung>Kommunaler Wohnbau, Reumannhof</beschreibung><aufnahmedatum>2013-09-19 15:01:09</aufnahmedatum><entfernung_m>78</entfernung_m></foto></gemeindebau>
+    <gemeindebau objekt_id="18457">
+      <bezirk>3</bezirk>
+      <hofname>Hanuschhof</hofname>
+      <adresse>Ludwig-Koeßler-Platz 4</adresse>
+      <baujahr>1927</baujahr>
+      <wohnungen>475</wohnungen>
+      <breitengrad>48.19744</breitengrad>
+      <laengengrad>16.408214</laengengrad>
+      <baukoerper_anzahl>2</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>7114</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>17217</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>10103</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>58.7</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>gemischte Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>6</geschosse_max>
+      <amtliche_bautypen>W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>160</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>163</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Ludwig-Koeßler-Platz</naechste_haltestelle>
+      <entfernung_haltestelle_m>175</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>18</linien>
+      <weitere_haltestellen>Wällischgasse (206 m; Nachtverkehr; N75) | Stadionbrücke (Schüttelstraße) (220 m; Bus; 80A)</weitere_haltestellen>
+      <naechster_park>GA Ludwig-Koeßler-Platz</naechster_park>
+      <entfernung_park_m>142</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>6431</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>0.8</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>246</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>56</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>≥ 75</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>65–69</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.197440&amp;lon=16.408214&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0803303/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="1.00"><bild_url>https://upload.wikimedia.org/wikipedia/commons/4/41/Hanuschhof.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Hanuschhof.jpg/1280px-Hanuschhof.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:Hanuschhof.jpg</quellseite_url><fotograf>Maclemo</fotograf><lizenz>CC BY-SA 3.0</lizenz><lizenz_url>https://creativecommons.org/licenses/by-sa/3.0</lizenz_url><beschreibung>Der "Hanuschhof" am Ludwig-Koeßler-Platz 4 in Wien</beschreibung><aufnahmedatum>2011-05-26</aufnahmedatum><entfernung_m>119</entfernung_m></foto></gemeindebau>
+    <gemeindebau objekt_id="17968">
+      <bezirk>19</bezirk>
+      <hofname>Karl-Marx-Hof</hofname>
+      <adresse>Heiligenstädter Straße 82-92</adresse>
+      <baujahr>1929</baujahr>
+      <wohnungen>1272</wohnungen>
+      <breitengrad>48.249482</breitengrad>
+      <laengengrad>16.363983</laengengrad>
+      <baukoerper_anzahl>8</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>29808</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>97748</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>67940</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>69.5</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max>7</geschosse_max>
+      <amtliche_bautypen>12.-Gewerbebetriebe | 13.-Industriebauten | 14.-Bauten des öffentlichen und privaten Verkehrs | 4.-Bauten der öffentl.u.privaten Repräsentation u.Verwaltung</amtliche_bautypen>
+      <hoehe_von_m_adria>163</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>165</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Heiligenstadt (Boschstraße)</naechste_haltestelle>
+      <entfernung_haltestelle_m>59</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>38A,38B</linien>
+      <weitere_haltestellen>Heiligenstadt/12.-Februar-Platz (96 m; Nachtverkehr; N36) | Heiligenstadt (Mooslackengasse) (104 m; Bus; 5B)</weitere_haltestellen>
+      <naechster_park>PA 12. Februar-Platz</naechster_park>
+      <entfernung_park_m>19</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>32048</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>4.1</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>334</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>62</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>65–69</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>70–74</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>60–64</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.249482&amp;lon=16.363983&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0819308/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="1.00"><bild_url>https://upload.wikimedia.org/wikipedia/commons/b/b5/Wien_-_Karl-Marx-Hof.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Wien_-_Karl-Marx-Hof.jpg/1280px-Wien_-_Karl-Marx-Hof.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:Wien_-_Karl-Marx-Hof.jpg</quellseite_url><fotograf>Fred Romero from Paris, France</fotograf><lizenz>CC BY 2.0</lizenz><lizenz_url>https://creativecommons.org/licenses/by/2.0</lizenz_url><beschreibung>Heilingenstadt. Heiligenstädter Straße 1920s social housing (Werkbund).</beschreibung><aufnahmedatum>Taken on 13 August 2014, 10:36</aufnahmedatum><entfernung_m>25</entfernung_m></foto></gemeindebau>
+    <gemeindebau objekt_id="18138">
+      <bezirk>14</bezirk>
+      <hofname>Hugo-Breitner-Hof</hofname>
+      <adresse>Linzer Straße 299-325</adresse>
+      <baujahr>1952</baujahr>
+      <wohnungen>1278</wohnungen>
+      <breitengrad>48.197517</breitengrad>
+      <laengengrad>16.270987</laengengrad>
+      <baukoerper_anzahl>27</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>25956</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>124881</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>98925</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>79.2</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>aufgelockerte Siedlung / Zeilenbau</immobilientyp_abgeleitet>
+      <geschosse_max>4</geschosse_max>
+      <amtliche_bautypen>Keine Angabe | W1.4.-bäuerl.dom.Baustrukt.-Wohn-u.Wirtschaftsbauten,modern | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>207</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>220</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Baumgarten</naechste_haltestelle>
+      <entfernung_haltestelle_m>159</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>49,52,60</linien>
+      <weitere_haltestellen>Deutschordenstraße (251 m; Nachtverkehr; N49)</weitere_haltestellen>
+      <naechster_park>PA Molischgasse</naechster_park>
+      <entfernung_park_m>166</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>42769</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>5.4</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>207</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>65</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>65–69</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>60–64</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>50–54</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.197517&amp;lon=16.270987&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0814332/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.75" /></gemeindebau>
+    <gemeindebau objekt_id="17910">
+      <bezirk>16</bezirk>
+      <hofname>SANDLEITENGASSE 55</hofname>
+      <adresse>Sandleitengasse 55</adresse>
+      <baujahr>1993</baujahr>
+      <wohnungen>34</wohnungen>
+      <breitengrad>48.224101</breitengrad>
+      <laengengrad>16.306117</laengengrad>
+      <baukoerper_anzahl>1</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>668</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>776</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>107</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>13.8</freiflaechenpotenzial_prozent>
+      <groessenklasse>klein</groessenklasse>
+      <immobilientyp_abgeleitet>Einzelhaus / kleine Einheit</immobilientyp_abgeleitet>
+      <geschosse_max>5</geschosse_max>
+      <amtliche_bautypen>12.-Gewerbebetriebe | 13.-Industriebauten | 2.-Bauten des Kultus | Keine Angabe</amtliche_bautypen>
+      <hoehe_von_m_adria>238</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>238</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Liebknechtgasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>142</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>10,2</linien>
+      <weitere_haltestellen>Dornbach (Paschinggasse) (240 m; Straßenbahn; 2,43,44B) | Dornbach (250 m; Bus; 43A)</weitere_haltestellen>
+      <naechster_park>Kongreßpark</naechster_park>
+      <entfernung_park_m>320</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>65745</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>8.4</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>416</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>60</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>55–59</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>50–54</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.224101&amp;lon=16.306117&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/2116410/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="17911">
+      <bezirk>10</bezirk>
+      <hofname>WENDSTATTGASSE 7</hofname>
+      <adresse>Jura-Soyfer-Gasse 10</adresse>
+      <baujahr>1971</baujahr>
+      <wohnungen>4300</wohnungen>
+      <breitengrad>48.148716</breitengrad>
+      <laengengrad>16.390978</laengengrad>
+      <baukoerper_anzahl>33</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>50233</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>327568</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>277335</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>84.7</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>aufgelockerte Siedlung / Zeilenbau</immobilientyp_abgeleitet>
+      <geschosse_max>0</geschosse_max>
+      <amtliche_bautypen>Keine Angabe</amtliche_bautypen>
+      <hoehe_von_m_adria>198</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>216</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Wendstattgasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>111</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>19A</linien>
+      <weitere_haltestellen>Walter-Lindenbaum-Gasse (113 m; Bus; 19A) | Jura-Soyfer-Gasse (143 m; Bus; 19A)</weitere_haltestellen>
+      <naechster_park>PA Bergtaidingweg</naechster_park>
+      <entfernung_park_m>187</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>76236</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>9.7</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>244</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>72</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>55–59</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>45–49</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>60–64</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>55–59</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.148716&amp;lon=16.390978&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0010420/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="15677">
+      <bezirk>19</bezirk>
+      <hofname>Franz-Weber-Hof</hofname>
+      <adresse>Weinberggasse 60-78</adresse>
+      <baujahr>1987</baujahr>
+      <wohnungen>430</wohnungen>
+      <breitengrad>48.245079</breitengrad>
+      <laengengrad>16.331222</laengengrad>
+      <baukoerper_anzahl>7</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>13556</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>37380</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>23824</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>63.7</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max xsi:nil="true" />
+      <amtliche_bautypen>Keine Angabe</amtliche_bautypen>
+      <hoehe_von_m_adria>219</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>226</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Börnergasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>284</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>39A</linien>
+      <weitere_haltestellen>Daringergasse (295 m; Bus; 39A) | Bellevuestraße (Sieveringer Straße) (415 m; Bus; 39A)</weitere_haltestellen>
+      <naechster_park>PA Börnergasse</naechster_park>
+      <entfernung_park_m>61</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>25063</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>3.2</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>215</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>61</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.245079&amp;lon=16.331222&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/1719392/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.75" /></gemeindebau>
+    <gemeindebau objekt_id="17669">
+      <bezirk>21</bezirk>
+      <hofname>Karl-Seitz-Hof</hofname>
+      <adresse>Jedleseer Straße 66-94</adresse>
+      <baujahr>1928</baujahr>
+      <wohnungen>1152</wohnungen>
+      <breitengrad>48.262496</breitengrad>
+      <laengengrad>16.388902</laengengrad>
+      <baukoerper_anzahl>8</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>23325</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>74599</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>51275</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>68.7</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max>7</geschosse_max>
+      <amtliche_bautypen>7.-Bauten der Freizeit und Erholung | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks | W4.3.-soz.u.gemeinn.Wohnb.-Siedlungen in Zeilenbauweise</amtliche_bautypen>
+      <hoehe_von_m_adria>163</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>164</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Jedlesee, Bellgasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>139</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>34A</linien>
+      <weitere_haltestellen>Bunsengasse (183 m; Bus; 36A,36B) | Dunantgasse (240 m; Bus; 34A)</weitere_haltestellen>
+      <naechster_park>PA Karl-Seitz-Platz</naechster_park>
+      <entfernung_park_m>98</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>42735</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>5.4</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>218</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>65</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>60–64</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>55–59</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.262496&amp;lon=16.388902&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0821313/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.80" /></gemeindebau>
+    <gemeindebau objekt_id="17710">
+      <bezirk>22</bezirk>
+      <hofname>RENNBAHNWEG 27</hofname>
+      <adresse>Rennbahnweg 27</adresse>
+      <baujahr>1977</baujahr>
+      <wohnungen>2424</wohnungen>
+      <breitengrad>48.258138</breitengrad>
+      <laengengrad>16.453598</laengengrad>
+      <baukoerper_anzahl>4</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>44273</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>174262</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>129989</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>74.6</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>gemischte Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max xsi:nil="true" />
+      <amtliche_bautypen>Keine Angabe</amtliche_bautypen>
+      <hoehe_von_m_adria>159</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>164</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Franz-Eduard-Matras-Gasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>253</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>27A,N25</linien>
+      <weitere_haltestellen>Puchgasse (257 m; Nachtverkehr; N25) | Theodor-Kramer-Straße (270 m; Bus; 27A,N25)</weitere_haltestellen>
+      <naechster_park>PA Falcogasse</naechster_park>
+      <entfernung_park_m>129</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>39117</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>5.0</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>205</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>64</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>55–59</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>45–49</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.258138&amp;lon=16.453598&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/1222369/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="0.90"><bild_url>https://upload.wikimedia.org/wikipedia/commons/8/8d/1220_Rennbahnweg_27_-_Hof_-_Plastik_Heliakos_von_Josef_Schagerl_1973_IMG_0076.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/1220_Rennbahnweg_27_-_Hof_-_Plastik_Heliakos_von_Josef_Schagerl_1973_IMG_0076.jpg/1280px-1220_Rennbahnweg_27_-_Hof_-_Plastik_Heliakos_von_Josef_Schagerl_1973_IMG_0076.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:1220_Rennbahnweg_27_-_Hof_-_Plastik_Heliakos_von_Josef_Schagerl_1973_IMG_0076.jpg</quellseite_url><fotograf>Ewald Judt</fotograf><lizenz>CC BY 4.0</lizenz><lizenz_url>https://creativecommons.org/licenses/by/4.0</lizenz_url><beschreibung>Wien, Trabrenngründe, Skulptur "Heliakos ST 2" von Josef Schagerl</beschreibung><aufnahmedatum>2015-04-04</aufnahmedatum></foto></gemeindebau>
+    <gemeindebau objekt_id="15627">
+      <bezirk>2</bezirk>
+      <hofname>Lassallehof</hofname>
+      <adresse>Lassallestraße 40</adresse>
+      <baujahr>1927</baujahr>
+      <wohnungen>269</wohnungen>
+      <breitengrad>48.223382</breitengrad>
+      <laengengrad>16.401583</laengengrad>
+      <baukoerper_anzahl>2</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>4170</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>7637</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>3468</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>45.4</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>gemischte Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>6</geschosse_max>
+      <amtliche_bautypen>W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.3.-Mieth.s.d.Gründerzeit-Doppeltrakter mit Verbindungstr. | W3.4.-Mieth.s.d.Gründerzeit-Doppeltrakter,zweihüft. Hoftrakt | W3.7.-Mieth.s.d.Gründerzeit-Eckhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>162</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>162</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Vorgartenstraße</naechste_haltestelle>
+      <entfernung_haltestelle_m>38</entfernung_haltestelle_m>
+      <verkehrsmittel>Nachtverkehr</verkehrsmittel>
+      <linien>N25</linien>
+      <weitere_haltestellen>Harkortstraße (227 m; Bus; 82A) | Max-Winter-Platz (275 m; Bus; 82A)</weitere_haltestellen>
+      <naechster_park>Mexikopark – Kirche</naechster_park>
+      <entfernung_park_m>267</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>95376</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>12.1</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>416</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>67</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>≥ 75</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>65–69</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.223382&amp;lon=16.401583&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0802302/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.65" /></gemeindebau>
+    <gemeindebau objekt_id="15632">
+      <bezirk>8</bezirk>
+      <hofname>Oskar-Werner-Hof</hofname>
+      <adresse>Lenaugasse 19</adresse>
+      <baujahr>1848</baujahr>
+      <wohnungen>45</wohnungen>
+      <breitengrad>48.211279</breitengrad>
+      <laengengrad>16.353565</laengengrad>
+      <baukoerper_anzahl>2</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>1394</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>2119</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>725</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>34.2</freiflaechenpotenzial_prozent>
+      <groessenklasse>klein</groessenklasse>
+      <immobilientyp_abgeleitet>Einzelhaus / kleine Einheit</immobilientyp_abgeleitet>
+      <geschosse_max>6</geschosse_max>
+      <amtliche_bautypen>Keine Angabe | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus | W3.7.-Mieth.s.d.Gründerzeit-Eckhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>185</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>191</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Rathaus</naechste_haltestelle>
+      <entfernung_haltestelle_m>192</entfernung_haltestelle_m>
+      <verkehrsmittel>U-Bahn/Verkehrsknoten</verkehrsmittel>
+      <linien>2,U2</linien>
+      <weitere_haltestellen>Rathaus (Josefstädter Straße) (229 m; Straßenbahn; 2) | Rathaus (Stadiongasse) (267 m; Straßenbahn; 2)</weitere_haltestellen>
+      <naechster_park>GA Wickenburggasse</naechster_park>
+      <entfernung_park_m>75</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>83397</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>10.6</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>137</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>74</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>65–69</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>55–59</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.211279&amp;lon=16.353565&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0308025/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="1.00"><bild_url>https://upload.wikimedia.org/wikipedia/commons/4/4a/Lenaugasse_19_-_Oskar-Werner-Hof_II.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Lenaugasse_19_-_Oskar-Werner-Hof_II.jpg/1280px-Lenaugasse_19_-_Oskar-Werner-Hof_II.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:Lenaugasse_19_-_Oskar-Werner-Hof_II.jpg</quellseite_url><fotograf>Michael Kranewitter</fotograf><lizenz>CC BY-SA 3.0</lizenz><lizenz_url>https://creativecommons.org/licenses/by-sa/3.0</lizenz_url><beschreibung>This media shows the Vienna residential building (Gemeindebau) with the ID undefined ( Oskar-Werner-Hof ).</beschreibung><aufnahmedatum>2011-05-09 17:40:35</aufnahmedatum><entfernung_m>19</entfernung_m></foto></gemeindebau>
+    <gemeindebau objekt_id="15567">
+      <bezirk>19</bezirk>
+      <hofname>Klosehof</hofname>
+      <adresse>Philippovichgasse 1</adresse>
+      <baujahr>1925</baujahr>
+      <wohnungen>143</wohnungen>
+      <breitengrad>48.23341</breitengrad>
+      <laengengrad>16.351455</laengengrad>
+      <baukoerper_anzahl>2</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>2422</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>3877</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>1455</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>37.5</freiflaechenpotenzial_prozent>
+      <groessenklasse>mittel</groessenklasse>
+      <immobilientyp_abgeleitet>Hochhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>11</geschosse_max>
+      <amtliche_bautypen>9.-Bauten der Energieversorgung | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>181</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>184</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Glatzgasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>105</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>37</linien>
+      <weitere_haltestellen>Glatzgasse (Döblinger Hauptstraße) (187 m; Nachtverkehr; N35, N38) | Nußdorfer Straße (Döblinger Hauptstraße) (193 m; Straßenbahn; 37,38)</weitere_haltestellen>
+      <naechster_park>Währinger Park</naechster_park>
+      <entfernung_park_m>245</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>62815</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>8.0</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>400</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>69</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>60–64</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>50–54</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.233410&amp;lon=16.351455&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0819301/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="15565">
+      <bezirk>9</bezirk>
+      <hofname>WASAGASSE 28</hofname>
+      <adresse>Wasagasse 28</adresse>
+      <baujahr>1986</baujahr>
+      <wohnungen>16</wohnungen>
+      <breitengrad>48.219142</breitengrad>
+      <laengengrad>16.359498</laengengrad>
+      <baukoerper_anzahl>1</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>434</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>454</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>21</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>4.6</freiflaechenpotenzial_prozent>
+      <groessenklasse>klein</groessenklasse>
+      <immobilientyp_abgeleitet>Einzelhaus / kleine Einheit</immobilientyp_abgeleitet>
+      <geschosse_max>5</geschosse_max>
+      <amtliche_bautypen>6.-Bauten der öffentlichen und privaten Wirtschaft | W2.3.-Bürgerhaus-Haus mit mittig liegendem Hof | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>165</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>166</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Bauernfeldplatz (Liechtensteinstraße)</naechste_haltestelle>
+      <entfernung_haltestelle_m>175</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>40A,N41</linien>
+      <weitere_haltestellen>Berggasse (184 m; Nachtverkehr; N41) | Schwarzspanierstraße (189 m; Straßenbahn; 37,38,40,41,42,N41)</weitere_haltestellen>
+      <naechster_park>GA Ari-Rath-Platz</naechster_park>
+      <entfernung_park_m>240</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>104837</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>13.3</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>32</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>57</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.219142&amp;lon=16.359498&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/1309028/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="15566">
+      <bezirk>15</bezirk>
+      <hofname>HAGENGASSE 21</hofname>
+      <adresse>Hagengasse 21</adresse>
+      <baujahr>1979</baujahr>
+      <wohnungen>15</wohnungen>
+      <breitengrad>48.204269</breitengrad>
+      <laengengrad>16.326553</laengengrad>
+      <baukoerper_anzahl>1</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>298</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>313</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>15</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>4.9</freiflaechenpotenzial_prozent>
+      <groessenklasse>klein</groessenklasse>
+      <immobilientyp_abgeleitet>Einzelhaus / kleine Einheit</immobilientyp_abgeleitet>
+      <geschosse_max>6</geschosse_max>
+      <amtliche_bautypen>W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>226</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>228</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Camillo-Sitte-Gasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>82</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>9</linien>
+      <weitere_haltestellen>Guntherstraße (170 m; Straßenbahn; 9) | Vogelweidplatz/Stadthalle (382 m; Bus; 48A)</weitere_haltestellen>
+      <naechster_park>PA Kriemhildplatz</naechster_park>
+      <entfernung_park_m>268</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>38942</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>5.0</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>183</baeume_250m>
+      <gruenlage_abgeleitet>durchschnittlich</gruenlage_abgeleitet>
+      <gruenlage_score>54</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>55–59</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>50–54</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.204269&amp;lon=16.326553&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/1515397/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" /></gemeindebau>
+    <gemeindebau objekt_id="18768">
+      <bezirk>3</bezirk>
+      <hofname>Rabenhof</hofname>
+      <adresse>Baumgasse 29-41</adresse>
+      <baujahr>1927</baujahr>
+      <wohnungen>1112</wohnungen>
+      <breitengrad>48.196159</breitengrad>
+      <laengengrad>16.400335</laengengrad>
+      <baukoerper_anzahl>5</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>18247</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>57633</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>39387</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>68.3</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max>8</geschosse_max>
+      <amtliche_bautypen>9.-Bauten der Energieversorgung | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus | W3.7.-Mieth.s.d.Gründerzeit-Eckhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>165</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>170</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Kardinal-Nagl-Platz</naechste_haltestelle>
+      <entfernung_haltestelle_m>122</entfernung_haltestelle_m>
+      <verkehrsmittel>U-Bahn/Verkehrsknoten</verkehrsmittel>
+      <linien>77A,N75,U3</linien>
+      <weitere_haltestellen>Kardinal-Nagl-Platz (Gestettengasse) (155 m; Bus; 77A) | Kardinal-Nagl-Platz (Erdbergstraße) (203 m; Nachtverkehr; N75)</weitere_haltestellen>
+      <naechster_park>Kardinal-Nagl-Park</naechster_park>
+      <entfernung_park_m>153</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>18748</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>2.4</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>201</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>59</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>55–59</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>45–49</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.196159&amp;lon=16.400335&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0803304/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.85" /></gemeindebau>
+    <gemeindebau objekt_id="18703">
+      <bezirk>18</bezirk>
+      <hofname>Lindenhof</hofname>
+      <adresse>Paulinengasse 9</adresse>
+      <baujahr>1925</baujahr>
+      <wohnungen>306</wohnungen>
+      <breitengrad>48.227088</breitengrad>
+      <laengengrad>16.329773</laengengrad>
+      <baukoerper_anzahl>5</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>5337</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>11245</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>5909</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>52.5</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>Hofanlage / gegliederter Block</immobilientyp_abgeleitet>
+      <geschosse_max>6</geschosse_max>
+      <amtliche_bautypen>5.-Bauten der Erziehung und Bildung | Keine Angabe | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>215</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>224</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Simonygasse</naechste_haltestelle>
+      <entfernung_haltestelle_m>112</entfernung_haltestelle_m>
+      <verkehrsmittel>Straßenbahn</verkehrsmittel>
+      <linien>37,40,41,9</linien>
+      <weitere_haltestellen>Antonigasse (140 m; Straßenbahn; 42,9) | Sommarugagasse (155 m; Straßenbahn; 37,40,41,9)</weitere_haltestellen>
+      <naechster_park>PA Gersthofer Straße</naechster_park>
+      <entfernung_park_m>324</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>29076</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>3.7</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>174</baeume_250m>
+      <gruenlage_abgeleitet>durchschnittlich</gruenlage_abgeleitet>
+      <gruenlage_score>52</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>60–64</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>55–59</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.227088&amp;lon=16.329773&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0818303/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="1.00"><bild_url>https://upload.wikimedia.org/wikipedia/commons/e/e0/1180_Paulinengasse_9_-_Lindenhof_-_Steinplastik_Arbeiter_von_Josef_Riedl_1925_IMG_5369.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://upload.wikimedia.org/wikipedia/commons/e/e0/1180_Paulinengasse_9_-_Lindenhof_-_Steinplastik_Arbeiter_von_Josef_Riedl_1925_IMG_5369.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail_unscaled</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:1180_Paulinengasse_9_-_Lindenhof_-_Steinplastik_Arbeiter_von_Josef_Riedl_1925_IMG_5369.jpg</quellseite_url><fotograf>Ewald Judt</fotograf><lizenz>CC BY 4.0</lizenz><lizenz_url>https://creativecommons.org/licenses/by/4.0</lizenz_url><beschreibung>This media shows the Vienna residential building (Gemeindebau) with the ID 212 .</beschreibung><aufnahmedatum>2014-10-07</aufnahmedatum></foto></gemeindebau>
+    <gemeindebau objekt_id="18896">
+      <bezirk>10</bezirk>
+      <hofname>George-Washington-Hof</hofname>
+      <adresse>Ahornhof 1-17</adresse>
+      <baujahr>1928</baujahr>
+      <wohnungen>1028</wohnungen>
+      <breitengrad>48.170677</breitengrad>
+      <laengengrad>16.348014</laengengrad>
+      <baukoerper_anzahl>2</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>16049</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>75726</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>59677</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>78.8</freiflaechenpotenzial_prozent>
+      <groessenklasse>sehr groß</groessenklasse>
+      <immobilientyp_abgeleitet>gemischte Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>3</geschosse_max>
+      <amtliche_bautypen>Keine Angabe | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>224</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>236</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Clemens-Holzmeister-Straße (Wienerbergstraße)</naechste_haltestelle>
+      <entfernung_haltestelle_m>159</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>15A,N62</linien>
+      <weitere_haltestellen>Spinnerin am Kreuz (178 m; Nachtverkehr; N62)</weitere_haltestellen>
+      <naechster_park>PA Eschenallee</naechster_park>
+      <entfernung_park_m>147</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>23052</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>2.9</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>276</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>60</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>65–69</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.170677&amp;lon=16.348014&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0810411/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.65" /></gemeindebau>
+    <gemeindebau objekt_id="19092">
+      <bezirk>23</bezirk>
+      <hofname>MAURER HAUPTPLATZ 10</hofname>
+      <adresse>Maurer Hauptplatz 10</adresse>
+      <baujahr>1743</baujahr>
+      <wohnungen>5</wohnungen>
+      <breitengrad>48.151362</breitengrad>
+      <laengengrad>16.267495</laengengrad>
+      <baukoerper_anzahl>3</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>690</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>1253</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>563</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>44.9</freiflaechenpotenzial_prozent>
+      <groessenklasse>klein</groessenklasse>
+      <immobilientyp_abgeleitet>kompakte kleinere Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>2</geschosse_max>
+      <amtliche_bautypen>W1.1.-bäuerl.dom.Baustrukt.-Streck- u. Hakenhof | W1.2.-bäuerl.dom.Baustrukt.-Zwerchh.u.Gassenfrontenhaus | W2.4.-Bürgerhaus-Kloster- u. Stiftungshöfe | W4.1.-soz.u.gemeinn.Wohnb.-Baulückenbebauungen</amtliche_bautypen>
+      <hoehe_von_m_adria>246</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>248</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Maurer Hauptplatz</naechste_haltestelle>
+      <entfernung_haltestelle_m>98</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>56A,60A,N60</linien>
+      <weitere_haltestellen>Speisinger Straße (193 m; Bus; 60A) | Gebirgsgasse (252 m; Nachtverkehr; N60, N61)</weitere_haltestellen>
+      <naechster_park>GA Maurer Hauptplatz</naechster_park>
+      <entfernung_park_m>41</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>25145</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>3.2</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>452</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>61</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>65–69</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>55–59</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.151362&amp;lon=16.267495&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0323043/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto zuordnungssicherheit="1.00"><bild_url>https://upload.wikimedia.org/wikipedia/commons/b/b4/Ehemaliges_Amtshaus_Maurer_Hauptplatz_10.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=original</bild_url><vorschaubild_url>https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Ehemaliges_Amtshaus_Maurer_Hauptplatz_10.jpg/1280px-Ehemaliges_Amtshaus_Maurer_Hauptplatz_10.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail</vorschaubild_url><quellseite_url>https://commons.wikimedia.org/wiki/File:Ehemaliges_Amtshaus_Maurer_Hauptplatz_10.jpg</quellseite_url><fotograf>Funke</fotograf><lizenz>CC BY-SA 4.0</lizenz><lizenz_url>https://creativecommons.org/licenses/by-sa/4.0</lizenz_url><beschreibung>Wohnhaus, Ehemaliges Amtshaus</beschreibung><aufnahmedatum>2022-03-06 14:11:13</aufnahmedatum><entfernung_m>51</entfernung_m></foto></gemeindebau>
+    <gemeindebau objekt_id="19056">
+      <bezirk>12</bezirk>
+      <hofname>Bebelhof</hofname>
+      <adresse>Steinbauergasse 36</adresse>
+      <baujahr>1928</baujahr>
+      <wohnungen>316</wohnungen>
+      <breitengrad>48.181789</breitengrad>
+      <laengengrad>16.337532</laengengrad>
+      <baukoerper_anzahl>3</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>4335</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>10316</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>5980</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>58.0</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>gemischte Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>8</geschosse_max>
+      <amtliche_bautypen>W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus | W3.3.-Mieth.s.d.Gründerzeit-Doppeltrakter mit Verbindungstr. | W4.2.-soz.u.gemeinn.Wohnb.-Hofbebauungen/Superblocks</amtliche_bautypen>
+      <hoehe_von_m_adria>186</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>188</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Hans-Mandl-Berufsschule (Längenfeldgasse)</naechste_haltestelle>
+      <entfernung_haltestelle_m>55</entfernung_haltestelle_m>
+      <verkehrsmittel>Nachtverkehr</verkehrsmittel>
+      <linien>N8</linien>
+      <weitere_haltestellen>Hans-Mandl-Berufsschule (Steinbauergasse) (61 m; Bus; 59A,63A) | Arndtstraße (226 m; Bus; 12A)</weitere_haltestellen>
+      <naechster_park>Steinbauerpark</naechster_park>
+      <entfernung_park_m>186</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>48049</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>6.1</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>411</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>66</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>65–69</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.181789&amp;lon=16.337532&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0812303/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.80" /></gemeindebau>
+    <gemeindebau objekt_id="19260">
+      <bezirk>12</bezirk>
+      <hofname>Fuchsenfeldhof</hofname>
+      <adresse>Längenfeldgasse 68</adresse>
+      <baujahr>1923</baujahr>
+      <wohnungen>452</wohnungen>
+      <breitengrad>48.177428</breitengrad>
+      <laengengrad>16.339761</laengengrad>
+      <baukoerper_anzahl>2</baukoerper_anzahl>
+      <bebaute_grundflaeche_m2>6149</bebaute_grundflaeche_m2>
+      <anlagenhuelle_m2>11440</anlagenhuelle_m2>
+      <freiflaechenpotenzial_m2>5292</freiflaechenpotenzial_m2>
+      <freiflaechenpotenzial_prozent>46.3</freiflaechenpotenzial_prozent>
+      <groessenklasse>groß</groessenklasse>
+      <immobilientyp_abgeleitet>gemischte Wohnhausanlage</immobilientyp_abgeleitet>
+      <geschosse_max>7</geschosse_max>
+      <amtliche_bautypen>12.-Gewerbebetriebe | 5.-Bauten der Erziehung und Bildung | W3.1.-Mieth.s.d.Gründerzeit-Straßentrakter | W3.2.-Mieth.s.d.Gründerzeit-Seitenflügelhaus</amtliche_bautypen>
+      <hoehe_von_m_adria>199</hoehe_von_m_adria>
+      <hoehe_bis_m_adria>203</hoehe_bis_m_adria>
+      <hoehenmethode>Näherung aus amtlichen Höhenlinien</hoehenmethode>
+      <naechste_haltestelle>Flurschützstraße</naechste_haltestelle>
+      <entfernung_haltestelle_m>132</entfernung_haltestelle_m>
+      <verkehrsmittel>Bus</verkehrsmittel>
+      <linien>63A</linien>
+      <weitere_haltestellen>Aßmayergasse (180 m; Straßenbahn; 18,6,62,WLB)</weitere_haltestellen>
+      <naechster_park>Wilhelmsdorfer Park</naechster_park>
+      <entfernung_park_m>94</entfernung_park_m>
+      <oeffentliches_gruen_500m_m2>31224</oeffentliches_gruen_500m_m2>
+      <oeffentliches_gruen_500m_prozent>4.0</oeffentliches_gruen_500m_prozent>
+      <baeume_250m>317</baeume_250m>
+      <gruenlage_abgeleitet>grün</gruenlage_abgeleitet>
+      <gruenlage_score>62</gruenlage_score>
+      <strassenlaerm_lden_db_klasse>70–74</strassenlaerm_lden_db_klasse>
+      <strassenlaerm_lnight_db_klasse>60–64</strassenlaerm_lnight_db_klasse>
+      <schienenlaerm_lden_db_klasse>70–74</schienenlaerm_lden_db_klasse>
+      <schienenlaerm_lnight_db_klasse>60–64</schienenlaerm_lnight_db_klasse>
+      <fluglaerm_lden_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lden_db_klasse>
+      <fluglaerm_lnight_db_klasse>unter Kartierungsschwelle / keine Ausweisung</fluglaerm_lnight_db_klasse>
+      <laermkarte_url>https://maps.laerminfo.at/?c=strasse22_24h&amp;l=grau&amp;lat=48.177428&amp;lon=16.339761&amp;z=17</laermkarte_url>
+      <laermhinweis>Höchste strategische Pegelklasse 2022 über Stichpunkte am Gebäudeumriss; keine individuelle Fassadenmessung.</laermhinweis>
+      <gemeindebau_quelle_url>http://metadb.wrwks.at/open/object_pdf/0812301/D0A12/export.pdf</gemeindebau_quelle_url>
+    <foto xsi:nil="true" zuordnungssicherheit="0.75" /></gemeindebau>
+  </gemeindebauten></gemeindebauten_wien>

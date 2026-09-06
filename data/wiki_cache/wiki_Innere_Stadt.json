@@ -1,0 +1,65 @@
+[
+  {
+    "foto": "Salvatorgasse10.jpg",
+    "lat": 48.212503,
+    "lng": 16.371689,
+    "adresse": "Fischerstiege 1-7",
+    "name": "Salvatorgasse 10",
+    "commonscat": "Fischerstiege 1–7, Vienna",
+    "wiki_slug": "Innere_Stadt"
+  },
+  {
+    "foto": "Fischerstiege4.jpg",
+    "lat": 48.212603,
+    "lng": 16.372044,
+    "adresse": "[[Fischerstiege]] 4–8",
+    "name": "",
+    "commonscat": "Fischerstiege 4–8, Vienna",
+    "wiki_slug": "Innere_Stadt"
+  },
+  {
+    "foto": "Haus-Johannesgasse 9-13-01.jpg",
+    "lat": 48.204856,
+    "lng": 16.373089,
+    "adresse": "Johannesgasse 9–13",
+    "name": "Ginzkeyhof",
+    "commonscat": "Ginzkeyhof",
+    "wiki_slug": "Innere_Stadt"
+  },
+  {
+    "foto": "Haus-Judengasse 4-01.jpg",
+    "lat": 48.211356,
+    "lng": 16.373643,
+    "adresse": "Judengasse 4",
+    "name": "Irene-Harand-Hof",
+    "commonscat": "Irene-Harand-Hof",
+    "wiki_slug": "Innere_Stadt"
+  },
+  {
+    "foto": "Rudolfsplatz 8-Gonzagagasse 7-DSC 5366w.jpg",
+    "lat": 48.213605,
+    "lng": 16.372598,
+    "adresse": "Rudolfsplatz 8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Innere_Stadt"
+  },
+  {
+    "foto": "2020-05-16 Gemeindebau Wollzeile27 full1.jpg",
+    "lat": 48.208145,
+    "lng": 16.377332,
+    "adresse": "Wollzeile 27",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wollzeile 27",
+    "wiki_slug": "Innere_Stadt"
+  },
+  {
+    "foto": "Bäckerstraße Nr 9.jpg",
+    "lat": 48.209126,
+    "lng": 16.3762,
+    "adresse": "[[Bäckerstraße (Wien)",
+    "name": "Windhagsches Stiftungshaus",
+    "commonscat": "Windhagsches Stiftungshaus",
+    "wiki_slug": "Innere_Stadt"
+  }
+]

@@ -1,0 +1,461 @@
+[
+  {
+    "foto": "Wien Alszeile 118.jpg",
+    "lat": 48.230671,
+    "lng": 16.296797,
+    "adresse": "Alszeile 118",
+    "name": "",
+    "commonscat": "Wohnhausanlage Alszeile 118",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Bevin-Hof - Stiege 4-5.jpg",
+    "lat": 48.227811,
+    "lng": 16.296564,
+    "adresse": "Andergasse 12",
+    "name": "Ernest-Bevin-Hof",
+    "commonscat": "Ernest-Bevin-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Balderichgasse.jpg",
+    "lat": 48.224035,
+    "lng": 16.31199,
+    "adresse": "Balderichgasse 23–29",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Hernalser Hauptstraße 54 II.jpg",
+    "lat": 48.217576,
+    "lng": 16.335191,
+    "adresse": "Bergsteiggasse 28",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hernalser Hauptstraße 54",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Comeniusgasse 2.jpg",
+    "lat": 48.22102,
+    "lng": 16.323974,
+    "adresse": "Comeniusgasse 2",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Dornbacher Straße 84a IV.jpg",
+    "lat": 48.231481,
+    "lng": 16.294416,
+    "adresse": "Dornbacher Straße 84a",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dornbacher Straße 84a",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Dornbacher Straße 119.jpg",
+    "lat": 48.233087,
+    "lng": 16.291213,
+    "adresse": "Dornbacher Straße 119",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Dürauergasse 9-13 Ansicht 1.jpg",
+    "lat": 48.223326,
+    "lng": 16.308033,
+    "adresse": "Dürauergasse 9–13",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dürauergasse 9-13",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Elterleinplatz 9-12.jpg",
+    "lat": 48.218443,
+    "lng": 16.331327,
+    "adresse": "Elterleinplatz 9–12",
+    "name": "",
+    "commonscat": "Wohnhausanlage Elterleinplatz 9-12",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Franz-Glaser-Gasse 1-3.jpg",
+    "lat": 48.226583,
+    "lng": 16.296022,
+    "adresse": "Franz-Glaser-Gasse 1–3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Holy-Hof 1.JPG",
+    "lat": 48.224287,
+    "lng": 16.316544,
+    "adresse": "Gräffergasse 5",
+    "name": "[[Holyhof]]",
+    "commonscat": "Holy-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Gschwandnergasse 53-57.jpg",
+    "lat": 48.220907,
+    "lng": 16.324852,
+    "adresse": "Gschwandnergasse 53–57",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gschwandnergasse 53-57",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Haslingergasse 35.jpg",
+    "lat": 48.215174,
+    "lng": 16.327436,
+    "adresse": "Haslingergasse 35",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Hernalser Hauptstraße 69.jpg",
+    "lat": 48.218115,
+    "lng": 16.330587,
+    "adresse": "Hernalser Hauptstraße 69",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hernalser Hauptstraße 69",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Hernalser Hauptstraße 100.jpg",
+    "lat": 48.21931,
+    "lng": 16.327247,
+    "adresse": "Hernalser Hauptstraße 100",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Türkenritthof.jpg",
+    "lat": 48.224289,
+    "lng": 16.313947,
+    "adresse": "Hernalser Hauptstraße 190–192",
+    "name": "[[Türkenritthof]]",
+    "commonscat": "Türkenritthof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Eifler-Hof I.jpg",
+    "lat": 48.226056,
+    "lng": 16.307805,
+    "adresse": "Hernalser Hauptstraße 221",
+    "name": "[[Eiflerhof]]",
+    "commonscat": "Eifler-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Brunokreiskyhof.jpg",
+    "lat": 48.22633,
+    "lng": 16.308499,
+    "adresse": "Hernalser Hauptstraße 230",
+    "name": "Bruno-Kreisky-Hof",
+    "commonscat": "Bruno-Kreisky-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Horneckgasse 16.jpg",
+    "lat": 48.21662,
+    "lng": 16.323465,
+    "adresse": "Horneckgasse 16",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Jörgerstraße 38 Mosaik.JPG",
+    "lat": 48.217845,
+    "lng": 16.335964,
+    "adresse": "Jörgerstraße 38",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "KastnergasseEingang.jpg",
+    "lat": 48.222438,
+    "lng": 16.331304,
+    "adresse": "Kastnergasse 25–27",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kastnergasse 25-27",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Leopold-Ernst-Gasse 20.jpg",
+    "lat": 48.222059,
+    "lng": 16.33381,
+    "adresse": "Leopold-Ernst-Gasse 20",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Leopold-Ernst-Gasse 22.jpg",
+    "lat": 48.222158,
+    "lng": 16.333579,
+    "adresse": "Leopold-Ernst-Gasse 22",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Nattergasse 19.jpg",
+    "lat": 48.214937,
+    "lng": 16.327157,
+    "adresse": "Nattergasse 19",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Neuwaldegger Straße 3.jpg",
+    "lat": 48.235748,
+    "lng": 16.289705,
+    "adresse": "Neuwaldegger Straße 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Neuwaldegger Straße 3",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Neuwaldegger Straße 19-21.jpg",
+    "lat": 48.236292,
+    "lng": 16.288323,
+    "adresse": "Neuwaldegger Straße 19–21",
+    "name": "",
+    "commonscat": "Wohnhausanlage Neuwaldegger Straße 19-21",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Neuwaldegger Straße 50-54.jpg",
+    "lat": 48.24033,
+    "lng": 16.281101,
+    "adresse": "Neuwaldegger Straße 50–54",
+    "name": "Karl-Panek-Hof",
+    "commonscat": "Karl-Panek-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Ortliebgasse 1-3.jpg",
+    "lat": 48.21436,
+    "lng": 16.329937,
+    "adresse": "Ortliebgasse 1–3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ortliebgasse 1-3",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Ortliebgasse 35-37.jpg",
+    "lat": 48.218055,
+    "lng": 16.330043,
+    "adresse": "Ortliebgasse 35–37",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ortliebgasse 35-37",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Ottakringer Straße 7.jpg",
+    "lat": 48.214972,
+    "lng": 16.339863,
+    "adresse": "Ottakringer Straße 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Ottakringer Straße 9-13.jpg",
+    "lat": 48.214942,
+    "lng": 16.339242,
+    "adresse": "Ottakringer Straße 9–13",
+    "name": "Karl-Föderl-Hof",
+    "commonscat": "Karl-Föderl-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Pezzlgasse 71-81.jpg",
+    "lat": 48.221729,
+    "lng": 16.325218,
+    "adresse": "Pezzlgasse 71–81",
+    "name": "",
+    "commonscat": "Wohnhausanlage Pezzlgasse 71-81",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Promenadegasse 19.jpg",
+    "lat": 48.230271,
+    "lng": 16.292951,
+    "adresse": "Promenadegasse 19",
+    "name": "",
+    "commonscat": "Wohnhausanlage Promenadegasse 19",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Rosensteingasse 47-49.jpg",
+    "lat": 48.217848,
+    "lng": 16.325806,
+    "adresse": "Rosensteingasse 47–49",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Relief Hernalser Allegorie I.jpg",
+    "lat": 48.220294,
+    "lng": 16.327283,
+    "adresse": "Rosensteingasse 48",
+    "name": "Christine-Nöstlinger-Hof",
+    "commonscat": "Christine-Nöstlinger-Hof",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Rosensteingasse 61.jpg",
+    "lat": 48.21898,
+    "lng": 16.326238,
+    "adresse": "Rosensteingasse 61",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Rosensteingasse 63.jpg",
+    "lat": 48.21917,
+    "lng": 16.326292,
+    "adresse": "Rosensteingasse 63",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Rötzergasse 29-31 I.jpg",
+    "lat": 48.21951,
+    "lng": 16.33032,
+    "adresse": "Rötzergasse 29–31",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rötzergasse 29-31",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Brunnen (Freiheitssiedlung) IV.jpg",
+    "lat": 48.224441,
+    "lng": 16.302306,
+    "adresse": "Steinmüllergasse 23–27",
+    "name": "Wohnhausanlage Freiheitssiedlung",
+    "commonscat": "Wohnhausanlage Freiheitssiedlung",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Taubergasse 1-3 I.jpg",
+    "lat": 48.213612,
+    "lng": 16.3264,
+    "adresse": "Taubergasse 1–3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Taubergasse 1-3",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Taubergasse 5-7.jpg",
+    "lat": 48.213976,
+    "lng": 16.326397,
+    "adresse": "Taubergasse 5–7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Vollbadgasse 1.jpg",
+    "lat": 48.228392,
+    "lng": 16.301579,
+    "adresse": "Vollbadgasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Alszeile95.jpg",
+    "lat": 48.228938,
+    "lng": 16.301505,
+    "adresse": "Vollbadgasse 5",
+    "name": "",
+    "commonscat": "Wohnhausanlage Vollbadgasse 5",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Wattgasse 88 IV.jpg",
+    "lat": 48.221999,
+    "lng": 16.321939,
+    "adresse": "Wattgasse 88",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wattgasse 88",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Wattgasse 96-98.jpg",
+    "lat": 48.223273,
+    "lng": 16.322623,
+    "adresse": "Wattgasse 96–98",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wattgasse 96-98",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Weidmanngasse 14.jpg",
+    "lat": 48.221291,
+    "lng": 16.332913,
+    "adresse": "Weidmanngasse 14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Weidmanngasse 14",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Weidmanngasse 33.jpg",
+    "lat": 48.222891,
+    "lng": 16.333801,
+    "adresse": "Weidmanngasse 33",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Weidmanngasse 34.jpg",
+    "lat": 48.222787,
+    "lng": 16.334024,
+    "adresse": "Weidmanngasse 34",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien Weißgasse 15.jpg",
+    "lat": 48.214687,
+    "lng": 16.328107,
+    "adresse": "Weißgasse 15",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wohnhausanlage Zeillergasse 39-43 Ansicht 1.jpg",
+    "lat": 48.225044,
+    "lng": 16.307803,
+    "adresse": "Zeillergasse 39–43",
+    "name": "",
+    "commonscat": "Wohnhausanlage Zeillergasse 39-43",
+    "wiki_slug": "Hernals"
+  },
+  {
+    "foto": "Wien 17 Wiedenhoferhof a.jpg",
+    "lat": 48.223261,
+    "lng": 16.311909,
+    "adresse": "Zeillergasse 7–11",
+    "name": "[[Wiedenhoferhof]]",
+    "commonscat": "Wiedenhoferhof",
+    "wiki_slug": "Hernals"
+  }
+]

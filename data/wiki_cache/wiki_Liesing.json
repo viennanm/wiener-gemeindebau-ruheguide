@@ -1,0 +1,983 @@
+[
+  {
+    "foto": "Altmannsdorfer Straße 164-185 Luftbild 2023.jpg",
+    "lat": 48.1481,
+    "lng": 16.320113,
+    "adresse": "Altmannsdorfer Straße 164-182",
+    "name": "",
+    "commonscat": "Altmannsdorfer Straße 164-185",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Amstergasse 1.jpg",
+    "lat": 48.145435,
+    "lng": 16.285704,
+    "adresse": "Amstergasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Anton-Freunschlag-Gasse 80.jpg",
+    "lat": 48.128437,
+    "lng": 16.319059,
+    "adresse": "Anton-Freunschlag-Gasse 80",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Arabellagasse 2-10 Kunst am Bau.JPG",
+    "lat": 48.141099,
+    "lng": 16.262911,
+    "adresse": "Arabellagasse 2-10",
+    "name": "",
+    "commonscat": "Wohnhausanlage Oktaviangasse",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Johann Radfux Hof.JPG",
+    "lat": 48.150429,
+    "lng": 16.297916,
+    "adresse": "Breitenfurter Straße 184-196",
+    "name": "Johann-Radfux-Hof",
+    "commonscat": "Johann-Radfux-Hof",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Atzgersdorf Breitenfurter 2.jpg",
+    "lat": 48.146099,
+    "lng": 16.295677,
+    "adresse": "Breitenfurter Straße 242",
+    "name": "[[Hans-Werndl-Hof]]",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 242",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Breitenfurter291.jpg",
+    "lat": 48.145231,
+    "lng": 16.294963,
+    "adresse": "Breitenfurter Straße 291-297",
+    "name": "",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 291-297",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Mutter mit Kindern by Hilde Uray, Breitenfurter Straße 292.jpg",
+    "lat": 48.142719,
+    "lng": 16.291563,
+    "adresse": "Breitenfurter Straße 292",
+    "name": "Wilhelm Hartl-Hof",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 292",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Breitenfurter Straße 299-303.jpg",
+    "lat": 48.144926,
+    "lng": 16.294571,
+    "adresse": "Breitenfurter Straße 299-303",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Sirenen by Herbert Schwarz 03, Breitenfurter Straße 381a.jpg",
+    "lat": 48.137848,
+    "lng": 16.287261,
+    "adresse": "Breitenfurter Straße 338",
+    "name": "",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 338",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Breitenfurter Straße 360-368.jpg",
+    "lat": 48.136017,
+    "lng": 16.281739,
+    "adresse": "Breitenfurter Straße 360-368",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Breitenfurterstraße 401 Seite 1.JPG",
+    "lat": 48.138712,
+    "lng": 16.271164,
+    "adresse": "[[Wohnhausanlage Breitenfurter Straße 401–413",
+    "name": "",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 401-413",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Mosaic Breitenfurter Straße 485, Liesing - Christophorus.jpg",
+    "lat": 48.137485,
+    "lng": 16.256187,
+    "adresse": "Breitenfurter Straße 477-485",
+    "name": "",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 477-485",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Weibliche Figur by Oskar Bottoli, 1974, Breitenfurter Straße 519 - 02.jpg",
+    "lat": 48.137091,
+    "lng": 16.249064,
+    "adresse": "Breitenfurter Straße 519-521",
+    "name": "",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 519-521",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Breitenfurter Strasse 555-557 Spielplatz.jpg",
+    "lat": 48.137393,
+    "lng": 16.241011,
+    "adresse": "Breitenfurter Straße 555-557",
+    "name": "",
+    "commonscat": "Wohnhausanlage Breitenfurter Straße 555-557",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Breitenfurter Straße 556 - Wandrelief Jagdszenen von Hertha Bucher 1958 IMG 7454.jpg",
+    "lat": 48.138126,
+    "lng": 16.23861,
+    "adresse": "Breitenfurter Straße 556",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Brunner Straße 18 - Wandrelief Afrikanische Tiere von Josef Seebacher 1953 IMG 7403.jpg",
+    "lat": 48.144369,
+    "lng": 16.297682,
+    "adresse": "Brunner Straße 18",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brunner Straße 18",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Brunner Straße 21, Wien Gesamtansicht.jpg",
+    "lat": 48.144759,
+    "lng": 16.298193,
+    "adresse": "Brunner Straße 21",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brunner Straße 21",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Canavesegasse 6-8 Stg 5 - Hauszeichen-Mosaik mit Schmetterlingsmotiv 1950 IMG 7344.jpg",
+    "lat": 48.146714,
+    "lng": 16.292587,
+    "adresse": "Canavesegasse 6-8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Canavesegasse 6-8",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Canavesegasse 9-15 Wildschweine.jpg",
+    "lat": 48.146572,
+    "lng": 16.294038,
+    "adresse": "Canavesegasse 9-15",
+    "name": "",
+    "commonscat": "Wohnhausanlage Canavesegasse 9-15",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Carlbergergasse 43.jpg",
+    "lat": 48.141248,
+    "lng": 16.296642,
+    "adresse": "Carlbergergasse 43",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnanlage Dernjacgasse 4.jpg",
+    "lat": 48.139503,
+    "lng": 16.316603,
+    "adresse": "Dernjacgasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Dernjacgasse 10.jpg",
+    "lat": 48.138026,
+    "lng": 16.316796,
+    "adresse": "Dernjacgasse 10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Dirmhirngasse 18-20 Prücklmayrgasse 1 - Fassadenmosaik Ornamentale Komposition von Florentina Pakosta 1967 IMG 7437.jpg",
+    "lat": 48.144579,
+    "lng": 16.286022,
+    "adresse": "Dirmhirngasse 16-18",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dirmhirngasse 16-18",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Professor-Rudolf-Boeck-Hof 01.jpg",
+    "lat": 48.150788,
+    "lng": 16.266278,
+    "adresse": "Dr.-Barilits-Gasse 2-4",
+    "name": "Professor-Rudolf-Boeck-Hof",
+    "commonscat": "Professor-Rudolf-Boeck-Hof",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Dr.-Neumann-Gasse 8-10.jpg",
+    "lat": 48.138629,
+    "lng": 16.286388,
+    "adresse": "Dr.-Neumann-Gasse 8-10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Elisenstraße 24-26.jpg",
+    "lat": 48.135309,
+    "lng": 16.275054,
+    "adresse": "Elisenstraße 24-26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Vierergericht by Oskar Bottoli.jpg",
+    "lat": 48.135616,
+    "lng": 16.274373,
+    "adresse": "Elisenstraße 28-30",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Elisenstraße 110-116.JPG",
+    "lat": 48.1361,
+    "lng": 16.260837,
+    "adresse": "Elisenstraße 110-116",
+    "name": "",
+    "commonscat": "Wohnhausanlage Elisenstraße 110-116",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Alois Glauer Hof 2.jpg",
+    "lat": 48.146457,
+    "lng": 16.298092,
+    "adresse": "Erlaaer Straße 3-9",
+    "name": "Alois Glauer Hof",
+    "commonscat": "Alois-Glauer-Hof",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Erlaaer Straße 6-10.jpg",
+    "lat": 48.146098,
+    "lng": 16.29785,
+    "adresse": "Erlaaer Straße 6-10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Erlaaer Straße 11-15.jpg",
+    "lat": 48.146602,
+    "lng": 16.298045,
+    "adresse": "Erlaaer Straße 11-15",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Gregorygasse 28 - Reliefstele Die Baukunst (Westseite) von Franz Luby 1966 IMG 7284.jpg",
+    "lat": 48.148528,
+    "lng": 16.305656,
+    "adresse": "Erlaaer Straße 55-63",
+    "name": "",
+    "commonscat": "Wohnhausanlage Erlaaer Straße 55-63",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnanlage Erlaaer Straße 123.jpg",
+    "lat": 48.142939,
+    "lng": 16.312289,
+    "adresse": "Erlaaer Straße 123",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Erlaaer Straße 125-129.jpg",
+    "lat": 48.14249,
+    "lng": 16.313483,
+    "adresse": "Erlaaer Straße 125-129",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wäscherinnen - Mütter mit Kindern by Walter Leitner 01.jpg",
+    "lat": 48.142226,
+    "lng": 16.315147,
+    "adresse": "Erlaaer Straße 131-133",
+    "name": "",
+    "commonscat": "Wohnhausanlage Erlaaer Straße 131-133",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Schreitende 04 by Rudolf Schwaiger.jpg",
+    "lat": 48.138057,
+    "lng": 16.323331,
+    "adresse": "Erlaaer Straße 154-158",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Färbermühlgasse 5.jpg",
+    "lat": 48.134123,
+    "lng": 16.282847,
+    "adresse": "Färbermühlgasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Färbermühlgasse 8.jpg",
+    "lat": 48.133153,
+    "lng": 16.282742,
+    "adresse": "Färbermühlgasse 8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Färbermühlgasse 9.jpg",
+    "lat": 48.133602,
+    "lng": 16.283072,
+    "adresse": "Färbermühlgasse 9",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Färber by Rudolf Schwaiger.jpg",
+    "lat": 48.132853,
+    "lng": 16.283243,
+    "adresse": "Färbermühlgasse 11",
+    "name": "",
+    "commonscat": "Wohnhausanlage Färbermühlgasse 11",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Färbermühlgasse 12-14.jpg",
+    "lat": 48.13196,
+    "lng": 16.282316,
+    "adresse": "Färbermühlgasse 12-14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Färbermühlgasse 12-14",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Gemeindebau Färbermühlgasse 15, Liesing.jpg",
+    "lat": 48.131418,
+    "lng": 16.282712,
+    "adresse": "Färbermühlgasse 15",
+    "name": "",
+    "commonscat": "Wohnhausanlage Färbermühlgasse 15",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Gregorygasse 20-26, Vienna.jpg",
+    "lat": 48.15075,
+    "lng": 16.305757,
+    "adresse": "Gregorygasse 20-26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Gemeindebau Gregorygasse 35-45.jpg",
+    "lat": 48.151136,
+    "lng": 16.306855,
+    "adresse": "Gregorygasse 35-45",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Gemeindebau Gregorygasse 47.jpg",
+    "lat": 48.149858,
+    "lng": 16.307731,
+    "adresse": "Gregorygasse 47",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gregorygasse 47",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Gutheil-Schoder-Gasse 68-76.jpg",
+    "lat": 48.153927,
+    "lng": 16.328549,
+    "adresse": "Gutheil-Schoder-Gasse 68-76",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gutheil-Schoder-Gasse 68-76",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Haeckelstraße 4, Vienna.jpg",
+    "lat": 48.134963,
+    "lng": 16.281428,
+    "adresse": "Haeckelstraße 4",
+    "name": "",
+    "commonscat": "Haeckelstraße 4",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Hochwassergasse 58.jpg",
+    "lat": 48.150646,
+    "lng": 16.350158,
+    "adresse": "Hochwassergasse 58",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Mutter mit Kindern 03 by Alfred Matzke.jpg",
+    "lat": 48.151174,
+    "lng": 16.349027,
+    "adresse": "Hochwassergasse 60",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hochwassergasse 60",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Höpflergasse 6.jpg",
+    "lat": 48.144355,
+    "lng": 16.291026,
+    "adresse": "Höpflergasse 6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Johann-Gottek-Gasse 18.jpg",
+    "lat": 48.150677,
+    "lng": 16.325703,
+    "adresse": "Johann-Gottek-Gasse 18",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Johann-Hörbiger-Gasse 24-28 b.jpg",
+    "lat": 48.152908,
+    "lng": 16.281907,
+    "adresse": "Johann-Hörbiger-Gasse 24-28",
+    "name": "",
+    "commonscat": "Wohnhausanlage Johann-Hörbiger-Gasse 24-28",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Josef-Endlweber-Gasse 3-5.jpg",
+    "lat": 48.12817,
+    "lng": 16.312616,
+    "adresse": "Josef-Endlweber-Gasse 3-5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Josef-Österreicher-Gasse 20-22, Wien.jpg",
+    "lat": 48.14582,
+    "lng": 16.300648,
+    "adresse": "Josef-Österreicher-Gasse 20-22",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Kaiser-Franz-Josef-Strasse 23.jpg",
+    "lat": 48.134597,
+    "lng": 16.266842,
+    "adresse": "Kaiser-Franz-Josef-Straße 23-25",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kaiser-Franz-Josef-Straße 23-25",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Kaltenleutgebner Straße 1 (03).jpg",
+    "lat": 48.131402,
+    "lng": 16.258416,
+    "adresse": "Kaltenleutgebner Straße 1",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kaltenleutgebner Straße 1",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Kanitzgasse 2-6 01.jpg",
+    "lat": 48.152068,
+    "lng": 16.270864,
+    "adresse": "Kanitzgasse 2-6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kanitzgasse 2-6",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Karl-Heinz-Straße 22a, Vienna.jpg",
+    "lat": 48.157028,
+    "lng": 16.310104,
+    "adresse": "Karl-Heinz-Straße 22a",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Karl-Krestan-Gasse 5.jpg",
+    "lat": 48.15048,
+    "lng": 16.348183,
+    "adresse": "Karl-Krestan-Gasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "WHA Karl-Schwed-Gasse 48-50 01.jpg",
+    "lat": 48.156541,
+    "lng": 16.279807,
+    "adresse": "Karl-Schwed-Gasse 48-50",
+    "name": "",
+    "commonscat": "Wohnhausanlage Karl-Schwed-Gasse 48-50",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wiener Flur 1.jpg",
+    "lat": 48.130667,
+    "lng": 16.313153,
+    "adresse": "Karl-Tornay-Gasse 37-43",
+    "name": "[[Wiener Flur]]",
+    "commonscat": "Wiener Flur",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Kellerberggasse 55-57.jpg",
+    "lat": 48.125898,
+    "lng": 16.305958,
+    "adresse": "Kellerberggasse 55-57",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kellerberggasse 55-57",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Mehlführergasse 26-28 Stg 33 - Fliesenmosaik Ornamentale Struktur von Roman Haller 1978 IMG 7507.jpg",
+    "lat": 48.142481,
+    "lng": 16.283565,
+    "adresse": "Keltengasse 4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Mehlführergasse 22-28",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Ketzergasse 26.jpg",
+    "lat": 48.126396,
+    "lng": 16.315546,
+    "adresse": "Ketzergasse 26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Ketzergasse 40.jpg",
+    "lat": 48.127128,
+    "lng": 16.314079,
+    "adresse": "Ketzergasse 40",
+    "name": "Hans Weber-Hof",
+    "commonscat": "Wohnhausanlage Ketzergasse 40",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Siebenhirten Relief.JPG",
+    "lat": 48.127057,
+    "lng": 16.313397,
+    "adresse": "Ketzergasse 42",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ketzergasse 42",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Ketzergasse 56.jpg",
+    "lat": 48.127503,
+    "lng": 16.311365,
+    "adresse": "Ketzergasse 56",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Ketzergasse 101-103.jpg",
+    "lat": 48.127661,
+    "lng": 16.307071,
+    "adresse": "Ketzergasse 101-103",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Ketzergasse 312-314.jpg",
+    "lat": 48.133669,
+    "lng": 16.273587,
+    "adresse": "Ketzergasse 312-314",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "WHA Ketzergasse 376-382 02.jpg",
+    "lat": 48.133503,
+    "lng": 16.258453,
+    "adresse": "Ketzergasse 376-382",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ketzergasse 376-382",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "WHA Ketzergasse 435-437 03.jpg",
+    "lat": 48.133378,
+    "lng": 16.262974,
+    "adresse": "Ketzergasse 435-437",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ketzergasse 435-437",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Khekgasse 41.jpg",
+    "lat": 48.134002,
+    "lng": 16.275245,
+    "adresse": "Khekgasse 41",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Khekgasse 45 Stg 2 - 4 Sgraffiti Flächenkompositionen von Carolus Lehner 1967 IMG 7758.jpg",
+    "lat": 48.134344,
+    "lng": 16.274274,
+    "adresse": "Khekgasse 45",
+    "name": "",
+    "commonscat": "Wohnhausanlage Khekgasse 45",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Klostermanngasse 13 Mosaik.JPG",
+    "lat": 48.141962,
+    "lng": 16.296053,
+    "adresse": "Klostermanngasse 13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Knotzenbachgasse 39-45.jpg",
+    "lat": 48.146603,
+    "lng": 16.286027,
+    "adresse": "Knotzenbachgasse 39-45",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Kolbegasse 30-32 Ansicht 2.jpg",
+    "lat": 48.147871,
+    "lng": 16.349037,
+    "adresse": "Kolbegasse 30-32",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kolbegasse 30-32",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Kolbegasse 44.jpg",
+    "lat": 48.145721,
+    "lng": 16.353177,
+    "adresse": "Kolbegasse 44",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kolbegasse 44",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Leo-Mathauser-Gasse 73.jpg",
+    "lat": 48.12676,
+    "lng": 16.317448,
+    "adresse": "Leo-Mathauser-Gasse 73",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Levasseurgasse 5.jpg",
+    "lat": 48.146594,
+    "lng": 16.295377,
+    "adresse": "Levasseurgasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Marktgemeindegasse 44-50 I.jpg",
+    "lat": 48.15551,
+    "lng": 16.283272,
+    "adresse": "Marktgemeindegasse 44-50",
+    "name": "",
+    "commonscat": "Wohnhausanlage Marktgemeindegasse 44-50",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Maurer Hauptplatz 2 03.jpg",
+    "lat": 48.151077,
+    "lng": 16.268734,
+    "adresse": "Maurer Hauptplatz 2",
+    "name": "",
+    "commonscat": "Wohnhausanlage Maurer Hauptplatz 2",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Maurer Hauptplatz 5 02.jpg",
+    "lat": 48.150577,
+    "lng": 16.268141,
+    "adresse": "Maurer Hauptplatz 5",
+    "name": "",
+    "commonscat": "Wohnhausanlage Maurer Hauptplatz 5",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Maurer Hauptplatz 11 02.jpg",
+    "lat": 48.150729,
+    "lng": 16.266896,
+    "adresse": "Maurer Hauptplatz 11",
+    "name": "",
+    "commonscat": "Wohnhausanlage Maurer Hauptplatz 11",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "1230 Mehlführergasse 22-24 Stg 1- Fliesenmosaik Ornamentale Struktur von Roman Haller 1978 IMG 7501.jpg",
+    "lat": 48.14129,
+    "lng": 16.282879,
+    "adresse": "Mehlführergasse 22",
+    "name": "",
+    "commonscat": "Wohnhausanlage Mehlführergasse 22-28",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Mehlführergasse 26-28.jpg",
+    "lat": 48.143941,
+    "lng": 16.28438,
+    "adresse": "Mehlführergasse 26-28",
+    "name": "",
+    "commonscat": "Wohnhausanlage Mehlführergasse 22-28",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Meisgeyergasse 18.jpg",
+    "lat": 48.144641,
+    "lng": 16.296555,
+    "adresse": "Meisgeyergasse 18",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Oldenburggasse 13-27 Ansicht 2.jpg",
+    "lat": 48.14935,
+    "lng": 16.331272,
+    "adresse": "Oldenburggasse 13-27",
+    "name": "",
+    "commonscat": "Wohnhausanlage Oldenburggasse 13-27",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Peterlinigasse 12-16 01.jpg",
+    "lat": 48.153712,
+    "lng": 16.267631,
+    "adresse": "Peterlinigasse 12-16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Peterlinigasse 12-16",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Pfarrgasse 34-44 Ansicht 1.jpg",
+    "lat": 48.144506,
+    "lng": 16.343794,
+    "adresse": "Pfarrgasse 34-44",
+    "name": "",
+    "commonscat": "Wohnhausanlage Pfarrgasse 34-44",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Pfarrgasse 61.jpg",
+    "lat": 48.144406,
+    "lng": 16.34597,
+    "adresse": "Pfarrgasse 61",
+    "name": "",
+    "commonscat": "Wohnhausanlage Pfarrgasse 61",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Pülslgasse 3, Vienna.jpg",
+    "lat": 48.134786,
+    "lng": 16.278528,
+    "adresse": "Pülslgasse 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Pülslgasse 3",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Pülslgasse 10, Vienna.jpg",
+    "lat": 48.135247,
+    "lng": 16.278202,
+    "adresse": "Pülslgasse 10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "WHA Rudolf-Zeller-Gasse 4-8 03.jpg",
+    "lat": 48.153354,
+    "lng": 16.285485,
+    "adresse": "Rudolf-Zeller-Gasse 4-8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rudolf-Zeller-Gasse 4-8",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Harry-S.-Truman-Hof 01.jpg",
+    "lat": 48.151271,
+    "lng": 16.285663,
+    "adresse": "Rudolf-Zeller-Gasse 5-11",
+    "name": "Harry-S.-Truman-Hof",
+    "commonscat": "Harry-S.-Truman-Hof",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Rudolf-Zeller-Gasse 14a 03.jpg",
+    "lat": 48.151492,
+    "lng": 16.284874,
+    "adresse": "Rudolf-Zeller-Gasse 14a",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rudolf-Zeller-Gasse 14a",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Johann-Schauhuber-Hof.jpg",
+    "lat": 48.143089,
+    "lng": 16.279623,
+    "adresse": "Rudolf-Zeller-Gasse 58-60",
+    "name": "Johann-Schauhuber-Hof",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Rudolf-Zeller-Gasse 67.jpg",
+    "lat": 48.144192,
+    "lng": 16.280944,
+    "adresse": "Rudolf-Zeller-Gasse 67",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rudolf-Zeller-Gasse 67",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Rudolf-Zeller-Gasse 69.jpg",
+    "lat": 48.142263,
+    "lng": 16.281709,
+    "adresse": "Rudolf-Zeller-Gasse 69",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rudolf-Zeller-Gasse 69",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Rudolf-Zeller-Gasse 71.jpg",
+    "lat": 48.14135,
+    "lng": 16.281502,
+    "adresse": "Rudolf-Zeller-Gasse 71",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rudolf-Zeller-Gasse 71",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Rößlergasse 15.jpg",
+    "lat": 48.148079,
+    "lng": 16.316299,
+    "adresse": "Rößlergasse 15",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Liesing Seybelgasse Gemeindebauten.jpg",
+    "lat": 48.136588,
+    "lng": 16.288478,
+    "adresse": "Seybelgasse 3a, 3b, 3c",
+    "name": "",
+    "commonscat": "Wohnhausanlage Seybelgasse 3a",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Ella-Lingens-Hof 2.jpg",
+    "lat": 48.14163,
+    "lng": 16.288341,
+    "adresse": "Steinergasse 36, Stg. 1-9",
+    "name": "Ella-Lingens-Hof",
+    "commonscat": "Ella-Lingens-Hof",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Traviatagasse 12-16.jpg",
+    "lat": 48.142721,
+    "lng": 16.344661,
+    "adresse": "Traviatagasse 12-16",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Triester Straße 205.jpg",
+    "lat": 48.148803,
+    "lng": 16.335632,
+    "adresse": "Triester Straße 205",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Valentingasse 7 01.jpg",
+    "lat": 48.149853,
+    "lng": 16.26557,
+    "adresse": "Valentingasse 7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Valentingasse 7",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Wohnhausanlage Wagenmanngasse 3.jpg",
+    "lat": 48.141668,
+    "lng": 16.283245,
+    "adresse": "Wagenmanngasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Ziedlergasse 5.JPG",
+    "lat": 48.148052,
+    "lng": 16.295086,
+    "adresse": "Ziedlergasse 5",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ziedlergasse 5",
+    "wiki_slug": "Liesing"
+  },
+  {
+    "foto": "Ziedlergasse 28.jpg",
+    "lat": 48.149873,
+    "lng": 16.29621,
+    "adresse": "Ziedlergasse 28",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Liesing"
+  }
+]

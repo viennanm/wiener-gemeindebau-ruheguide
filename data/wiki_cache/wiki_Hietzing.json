@@ -1,0 +1,443 @@
+[
+  {
+    "foto": "Erich-Deschermaier-Hof.jpg",
+    "lat": 48.156825,
+    "lng": 16.286889,
+    "adresse": "Am Rosenberg 1",
+    "name": "Erich-Deschermaier-Hof",
+    "commonscat": "Erich-Deschermaier-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Nora-Hiltl-Hof 01.jpg",
+    "lat": 48.17037,
+    "lng": 16.283144,
+    "adresse": "Anton-Langer-Gasse 37",
+    "name": "Nora-Hiltl-Hof",
+    "commonscat": "Nora-Hiltl-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Anton-Langer-Gasse 39-45 (01).jpg",
+    "lat": 48.16966,
+    "lng": 16.283108,
+    "adresse": "Anton-Langer-Gasse 39-45",
+    "name": "",
+    "commonscat": "Wohnhausanlage Anton-Langer-Gasse 39-45",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Gemeindebau Wolkersbergenstraße 22-24.jpg",
+    "lat": 48.169391,
+    "lng": 16.279331,
+    "adresse": "Biraghigasse 38-42",
+    "name": "Eduard-Popp-Hof",
+    "commonscat": "Eduard-Popp-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Bossigasse 14 & 18-22, Vienna 03.jpg",
+    "lat": 48.18939,
+    "lng": 16.28097,
+    "adresse": "Bossigasse 18-22",
+    "name": "",
+    "commonscat": "Wohnhausanlage Bossigasse 14 & 18-22",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Dommayergasse 5.jpg",
+    "lat": 48.187751,
+    "lng": 16.299157,
+    "adresse": "Dommayergasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Ebner-Rofenstein-Gasse 2-14.jpg",
+    "lat": 48.179813,
+    "lng": 16.267284,
+    "adresse": "Ebner-Rofenstein-Gasse 2-14",
+    "name": "",
+    "commonscat": "Wohnhausanlage Ebner-Rofenstein-Gasse 2-14",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Fasangartengasse 65.jpg",
+    "lat": 48.173246,
+    "lng": 16.292014,
+    "adresse": "Fasangartengasse 65",
+    "name": "",
+    "commonscat": "Wohnhausanlage Fasangartengasse 65",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Giraffengruppe 03 by Herbert Schwarz.jpg",
+    "lat": 48.171681,
+    "lng": 16.298781,
+    "adresse": "Fasangartengasse 109-115",
+    "name": "",
+    "commonscat": "Wohnhausanlage Fasangartengasse 109-115",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Gemeindebau Gallgasse 2-4 01.jpg",
+    "lat": 48.169085,
+    "lng": 16.285787,
+    "adresse": "Gallgasse 2-4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gallgasse 2-4",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "WHA Gallgasse 71 05.jpg",
+    "lat": 48.163231,
+    "lng": 16.289367,
+    "adresse": "Gallgasse 71",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gallgasse 71",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Gemeindeberggasse 10-24, Vienna 03.jpg",
+    "lat": 48.179286,
+    "lng": 16.263912,
+    "adresse": "Gemeindeberggasse 10-24",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gemeindeberggasse 10-24",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Hanselmayergasse 9-15, Vogeltränke.jpg",
+    "lat": 48.178531,
+    "lng": 16.293481,
+    "adresse": "Hanselmayergasse 9-15",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hanselmayergasse 9-15",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Hetzendorfer Straße 164-182.jpg",
+    "lat": 48.170936,
+    "lng": 16.293938,
+    "adresse": "Hetzendorfer Straße 164-182",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Hetzendorfer165.JPG",
+    "lat": 48.170308,
+    "lng": 16.295422,
+    "adresse": "Hetzendorfer Straße 165-187",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hetzendorfer Straße 165-187",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Steinitzhof1.jpg",
+    "lat": 48.188543,
+    "lng": 16.298041,
+    "adresse": "Hietzinger Kai 7-9",
+    "name": "Steinitzhof",
+    "commonscat": "Steinitz-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Himmelhofgasse 9-13 Nordost.jpg",
+    "lat": 48.189178,
+    "lng": 16.260552,
+    "adresse": "Himmelhofgasse 9-13",
+    "name": "",
+    "commonscat": "Wohnhausanlage Himmelhofgasse 9-13",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Hochheimgasse 26.jpg",
+    "lat": 48.175397,
+    "lng": 16.295901,
+    "adresse": "Hochheimgasse 26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Hummelgasse 62.jpg",
+    "lat": 48.185782,
+    "lng": 16.282156,
+    "adresse": "Hummelgasse 56-64",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hummelgasse 60-64",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Jagdschloßgasse 40, Vienna.jpg",
+    "lat": 48.177843,
+    "lng": 16.272193,
+    "adresse": "Jagdschloßgasse 40",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Franz-Rosenberger-Hof.jpg",
+    "lat": 48.18032,
+    "lng": 16.284919,
+    "adresse": "Lainzer Straße 109a-117",
+    "name": "Franz-Rosenberger-Hof",
+    "commonscat": "Franz-Rosenberger-Hof, Hietzing",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Lynkeusgasse 31 Hofseite.jpg",
+    "lat": 48.166484,
+    "lng": 16.277652,
+    "adresse": "Lynkeusgasse 29-31",
+    "name": "",
+    "commonscat": "Lynkeusgasse 29-31",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Montecuccoliplatz 1-3.jpg",
+    "lat": 48.175549,
+    "lng": 16.296024,
+    "adresse": "Montecuccoliplatz 1-3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Opitzgasse 29A (5) 2025-08-03.jpg",
+    "lat": 48.174947,
+    "lng": 16.296995,
+    "adresse": "Opitzgasse 29A",
+    "name": "",
+    "commonscat": "Wohnhausanlage Opitzgasse 29A",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Heinrich-Hies-Hof.jpg",
+    "lat": 48.158052,
+    "lng": 16.289639,
+    "adresse": "Schluckergasse 1-13",
+    "name": "Heinrich-Hies-Hof",
+    "commonscat": "Heinrich-Hies-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Schrutkagasse 1-7 Nord 01.jpg",
+    "lat": 48.181803,
+    "lng": 16.280235,
+    "adresse": "Schrutkagasse 1-7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schrutkagasse 1-7",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "GuentherZ 2010-09-18 0054 Wien13 Speisinger Strasse46 Hildegard Burjan-Hof.jpg",
+    "lat": 48.169259,
+    "lng": 16.28481,
+    "adresse": "Speisinger Straße 46-48",
+    "name": "Hildegard-Burjan-Hof",
+    "commonscat": "Hildegard-Burjan-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Fehlingergasse39.JPG",
+    "lat": 48.168549,
+    "lng": 16.284612,
+    "adresse": "Speisinger Straße 47-53",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Speisinger Straße 68.jpg",
+    "lat": 48.16727,
+    "lng": 16.282876,
+    "adresse": "Speisinger Straße 68",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wanda-Lanzer-Hof 01.jpg",
+    "lat": 48.164233,
+    "lng": 16.280148,
+    "adresse": "Speisinger Straße 84-98",
+    "name": "Wanda-Lanzer-Hof",
+    "commonscat": "Wanda-Lanzer-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Speisinger Straße 100 01.jpg",
+    "lat": 48.163606,
+    "lng": 16.279563,
+    "adresse": "Speisinger Straße 100",
+    "name": "",
+    "commonscat": "Wohnhausanlage Speisinger Straße 100",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Gemeindebau Speisinger Straße 102 (01).jpg",
+    "lat": 48.163431,
+    "lng": 16.279398,
+    "adresse": "Speisinger Straße 102",
+    "name": "",
+    "commonscat": "Wohnhausanlage Speisinger Straße 102",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Spohrstraße 19-31.jpg",
+    "lat": 48.182009,
+    "lng": 16.280512,
+    "adresse": "Spohrstraße 19-31",
+    "name": "",
+    "commonscat": "Wohnhausanlage Spohrstraße 19-31",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "St.-Veit-Gasse 80, Vienna 05.jpg",
+    "lat": 48.190525,
+    "lng": 16.287111,
+    "adresse": "St.-Veit-Gasse 80",
+    "name": "",
+    "commonscat": "St.-Veit-Gasse 80, Vienna",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Leopold-Mayrhofer-Hof.jpg",
+    "lat": 48.189209,
+    "lng": 16.293294,
+    "adresse": "Steckhovengasse 20",
+    "name": "Leopold-Mayrhofer-Hof",
+    "commonscat": "Leopold-Mayrhofer-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wien-Hietzing - Gemeindebau Trauttmansdorffgasse 22-24.jpg",
+    "lat": 48.184828,
+    "lng": 16.297556,
+    "adresse": "Trauttmansdorffgasse 22-24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Veitingergasse 129-135 (04).jpg",
+    "lat": 48.180113,
+    "lng": 16.265115,
+    "adresse": "Veitingergasse 129-135",
+    "name": "",
+    "commonscat": "Wohnhausanlage Veitingergasse 129-135",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Versorgungsheimstraße 19, Vienna.jpg",
+    "lat": 48.173496,
+    "lng": 16.282154,
+    "adresse": "Versorgungsheimstraße 19",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Rudolfine-Muhr-Hof, Elisabethallee Hietzing.jpg",
+    "lat": 48.176179,
+    "lng": 16.296254,
+    "adresse": "Volkgasse 1-13",
+    "name": "Rudolfine-Muhr-Hof",
+    "commonscat": "Rudolfine-Muhr-Hof",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wohnhausanlage Waldvogelstraße 2-8.jpg",
+    "lat": 48.1766431,
+    "lng": 16.2800229,
+    "adresse": "Waldvogelstraße 2-8",
+    "name": "",
+    "commonscat": "Wohnhausanlage Waldvogelstraße 2-8",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Elisabeth-Barbara-Parma-Hof.jpg",
+    "lat": 48.175666,
+    "lng": 16.280279,
+    "adresse": "Waldvogelstraße 10-14",
+    "name": "Elisabeth-Barbara-Parma-Hof",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Waldvogelstraße 18-24, Vienna.jpg",
+    "lat": 48.174834,
+    "lng": 16.280896,
+    "adresse": "Waldvogelstraße 18-24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wattmanngasse 58-60, Hietzing - passage.jpg",
+    "lat": 48.177971,
+    "lng": 16.295477,
+    "adresse": "Wattmanngasse 58-60",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wattmanngasse 58-60",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Eduardschlesingerhof.jpg",
+    "lat": 48.176589,
+    "lng": 16.27779,
+    "adresse": "Wilhelm-Leibl-Gasse 2-4",
+    "name": "Eduard-Schlesinger-Hof",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Wolkersbergenstraße 10, Vienna.jpg",
+    "lat": 48.168449,
+    "lng": 16.281512,
+    "adresse": "Wolkersbergenstraße 10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Hietzing (Wien) - Wohnsiedlung Lockerwiese, Camillianergasse.JPG",
+    "lat": 48.175258,
+    "lng": 16.27749,
+    "adresse": "Camillianergasse 1-35",
+    "name": "[[Wohnsiedlung Lockerwiese]]",
+    "commonscat": "Siedlung Lockerwiese",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "20210627 Kongresssiedlung.jpg",
+    "lat": 48.165399,
+    "lng": 16.270522,
+    "adresse": "Kalmanstraße 1",
+    "name": "Wohnhausanlage [[Kongresssiedlung]]",
+    "commonscat": "Kongresssiedlung",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Hietzing (Wien) - Werkbundsiedlung, Veitingergasse 87-93 (2).JPG",
+    "lat": 48.179962,
+    "lng": 16.269024,
+    "adresse": "Engelbrechtweg, Jagdschloßgasse, Jagicgasse, Veitingergasse, Woinovichgasse",
+    "name": "[[Werkbundsiedlung Wien",
+    "commonscat": "Werkbundsiedlung Wien",
+    "wiki_slug": "Hietzing"
+  },
+  {
+    "foto": "Veitingergasse 95-97 W.sobotka.JPG",
+    "lat": 48.180463,
+    "lng": 16.268766,
+    "adresse": "Veitingergasse 95-97",
+    "name": "",
+    "commonscat": "Veitingergasse 95-97, Vienna",
+    "wiki_slug": "Hietzing"
+  }
+]

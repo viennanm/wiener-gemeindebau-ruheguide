@@ -1,0 +1,524 @@
+[
+  {
+    "foto": "Gemeindebau Adalbert-Stifter-Straße 23-31 Wien 01.jpg",
+    "lat": 48.239108,
+    "lng": 16.367171,
+    "adresse": "Adalbert-Stifter-Straße 23–31",
+    "name": "",
+    "commonscat": "Wohnhausanlage Adalbert-Stifter-Straße 23-31",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Franz-Koblizka-Hof Wien.jpg",
+    "lat": 48.24076,
+    "lng": 16.370015,
+    "adresse": "Adalbert-Stifter-Straße 35",
+    "name": "Franz-Koblizka-Hof",
+    "commonscat": "Franz-Koblizka-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Allerheiligengasse 5 IMG 3584.jpg",
+    "lat": 48.237692,
+    "lng": 16.383293,
+    "adresse": "Allerheiligengasse 5",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Johannboehmwohnhausanlage.JPG",
+    "lat": 48.232771,
+    "lng": 16.369692,
+    "adresse": "Brigittaplatz 1–2",
+    "name": "Johann-Böhm-Wohnhausanlage",
+    "commonscat": "Johann-Böhm-Wohnhausanlage",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Karlmichalhof.JPG",
+    "lat": 48.233465,
+    "lng": 16.370675,
+    "adresse": "Brigittaplatz 9",
+    "name": "Karl-Michal-Hof",
+    "commonscat": "Karl-Michal-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Brigittaplatz 11-13-01.jpg",
+    "lat": 48.233115,
+    "lng": 16.371529,
+    "adresse": "Brigittaplatz 11–13",
+    "name": "Manfred-Ackermann-Hof",
+    "commonscat": "Manfred-Ackermann-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Brigittenauer Lände 48a (01).jpg",
+    "lat": 48.229073,
+    "lng": 16.364967,
+    "adresse": "Brigittenauer Lände 48",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brigittenauer Lände 48a",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Brigittenauer Lände 138-142-01.jpg",
+    "lat": 48.23829,
+    "lng": 16.364091,
+    "adresse": "Brigittenauer Lände 138–142",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Ellenbogenhof.JPG",
+    "lat": 48.23958,
+    "lng": 16.365663,
+    "adresse": "Brigittenauer Lände 148–154",
+    "name": "Dr.-Ellenbogen-Hof",
+    "commonscat": "Dr.-Ellenbogen-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Spielmanngasse5.JPG",
+    "lat": 48.242642,
+    "lng": 16.368048,
+    "adresse": "Brigittenauer Lände 170-172",
+    "name": "",
+    "commonscat": "Wohnhausanlage Spielmanngasse 5",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gemeindebau Burghardtgasse 22 Wien 01.jpg",
+    "lat": 48.236761,
+    "lng": 16.367588,
+    "adresse": "Burghardtgasse 22",
+    "name": "",
+    "commonscat": "Wohnhausanlage Burghardtgasse 22",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gemeindebau Burghardtgasse 30 Wien 01.jpg",
+    "lat": 48.237486,
+    "lng": 16.367671,
+    "adresse": "Burghardtgasse 30",
+    "name": "",
+    "commonscat": "Wohnhausanlage Burghardtgasse 30",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gemeindebau Burghardtgasse 32-38 Wien 01.jpg",
+    "lat": 48.238212,
+    "lng": 16.367984,
+    "adresse": "Burghardtgasse 32–38",
+    "name": "",
+    "commonscat": "Wohnhausanlage Burghardtgasse 32-38",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Denisgasse 39-41-01.jpg",
+    "lat": 48.23288,
+    "lng": 16.364676,
+    "adresse": "Denisgasse 39–41",
+    "name": "Grossmannhof",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Denisgasse 54-01.jpg",
+    "lat": 48.234272,
+    "lng": 16.364629,
+    "adresse": "Denisgasse 54",
+    "name": "Plocekhof",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Dresdner1.JPG",
+    "lat": 48.241921,
+    "lng": 16.374878,
+    "adresse": "Dresdner Straße 1–5",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dresdner Straße 1-5",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Dresdnerstraße 7-11 IMG 3591.jpg",
+    "lat": 48.241131,
+    "lng": 16.37545,
+    "adresse": "Dresdner Straße 7–11",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Dresdner48.JPG",
+    "lat": 48.237408,
+    "lng": 16.378329,
+    "adresse": "Dresdner Straße 48–54",
+    "name": "",
+    "commonscat": "Wohnhausanlage Dresdner Straße 48-54",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Engelsplatz17.JPG",
+    "lat": 48.244341,
+    "lng": 16.381286,
+    "adresse": "Engerthstraße 37",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Engelsplatz21.JPG",
+    "lat": 48.2435,
+    "lng": 16.380452,
+    "adresse": "Engerthstraße 56–58",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Ottogratzlhof.JPG",
+    "lat": 48.242403,
+    "lng": 16.381665,
+    "adresse": "Engerthstraße 60–74",
+    "name": "Otto-Gratzl-Hof",
+    "commonscat": "Otto-Gratzl-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Engerthstraße 82 IMG 3550.jpg",
+    "lat": 48.240543,
+    "lng": 16.383898,
+    "adresse": "Engerthstraße 82",
+    "name": "",
+    "commonscat": "Wohnhausanlage Engerthstraße 82",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Beerhof1.jpg",
+    "lat": 48.238819,
+    "lng": 16.386684,
+    "adresse": "Engerthstraße 83–97",
+    "name": "Beer-Hof",
+    "commonscat": "Beer-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Engerthstraße 99-109-01.jpg",
+    "lat": 48.237351,
+    "lng": 16.388452,
+    "adresse": "Engerthstraße 99–109",
+    "name": "Janecek-Hof",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Blumhof1.jpg",
+    "lat": 48.23688,
+    "lng": 16.388264,
+    "adresse": "Engerthstraße 110–118",
+    "name": "Robert-Blum-Hof",
+    "commonscat": "Robert-Blum-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Engerthstraße 132 IMG 3559.jpg",
+    "lat": 48.23523,
+    "lng": 16.390164,
+    "adresse": "Engerthstraße 132",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Friedrich-Engels-Platz 1 1.jpg",
+    "lat": 48.24575,
+    "lng": 16.377944,
+    "adresse": "[[Wohnhausanlage Friedrich-Engels-Platz",
+    "name": "",
+    "commonscat": "Wohnhausanlage Friedrich-Engels-Platz",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Griegstraße 1-3.jpg",
+    "lat": 48.249554,
+    "lng": 16.376057,
+    "adresse": "Griegstraße 1–3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Georg Schmiedel-Hof 07 Eingang Kluckygasse.jpg",
+    "lat": 48.230504,
+    "lng": 16.368695,
+    "adresse": "Hannovergasse 13–15",
+    "name": "Georg-Schmiedel-Hof",
+    "commonscat": "Georg-Schmiedel-Hof, Vienna",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Hartlgasse2830.jpg",
+    "lat": 48.233818,
+    "lng": 16.373429,
+    "adresse": "Hartlgasse 28–30",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hartlgasse 28-30",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gemeindebau Hartlgasse 40 Wien 01.jpg",
+    "lat": 48.234773,
+    "lng": 16.373047,
+    "adresse": "Hartlgasse 40",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hartlgasse 40",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Hellwagstr16a.JPG",
+    "lat": 48.23766,
+    "lng": 16.381344,
+    "adresse": "Hellwagstraße 16a",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Johannkapshof.JPG",
+    "lat": 48.236376,
+    "lng": 16.372498,
+    "adresse": "Jägerstraße 62–64",
+    "name": "Johann-Kaps-Hof",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Jaegerstr89.JPG",
+    "lat": 48.238841,
+    "lng": 16.370083,
+    "adresse": "Jägerstraße 89–95",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Kapaunplatz 4-6.jpg",
+    "lat": 48.247358,
+    "lng": 16.375906,
+    "adresse": "Kapaunplatz 4–6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Kapaunplatz 7.jpg",
+    "lat": 48.247744,
+    "lng": 16.37703,
+    "adresse": "Kapaunplatz 7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kapaunplatz 7",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Freiheitsturmbrigittenau.JPG",
+    "lat": 48.236381,
+    "lng": 16.364443,
+    "adresse": "Klosterneuburger Straße 99",
+    "name": "Erna-Musik-Hof",
+    "commonscat": "Erna-Musik-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Wexstraße 14-18-01.jpg",
+    "lat": 48.235719,
+    "lng": 16.366328,
+    "adresse": "Wexstraße 14–18",
+    "name": "Pokornyhof",
+    "commonscat": "Pokorny-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Kapaunplatz 3-01.jpg",
+    "lat": 48.247567,
+    "lng": 16.375321,
+    "adresse": "Leystraße 19-21<br />Kapaunplatz 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Leystraße 38 IMG 3610.jpg",
+    "lat": 48.24285,
+    "lng": 16.377852,
+    "adresse": "Leystraße 38",
+    "name": "",
+    "commonscat": "Wohnhausanlage Leystraße 38",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Leystraße 83-85-01.jpg",
+    "lat": 48.236544,
+    "lng": 16.385747,
+    "adresse": "Leystraße 83–85",
+    "name": "Szydzina-Hof",
+    "commonscat": "Szydzina-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Leystraße 119 IMG 3574.jpg",
+    "lat": 48.233489,
+    "lng": 16.388652,
+    "adresse": "Leystraße 119",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Marchfeldstraße 16-18-01.jpg",
+    "lat": 48.242984,
+    "lng": 16.379217,
+    "adresse": "Marchfeldstraße 16–18",
+    "name": "",
+    "commonscat": "Wohnhausanlage Marchfeldstraße 16–18",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Meldemannstraße 2–4 IMG 3597.jpg",
+    "lat": 48.241957,
+    "lng": 16.375496,
+    "adresse": "Meldemannstraße 2–4",
+    "name": "",
+    "commonscat": "Wohnhausanlage Meldemannstraße 2-4",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gemeindebau Pappenheimgasse 10-16.jpg",
+    "lat": 48.233482,
+    "lng": 16.366928,
+    "adresse": "Pappenheimgasse 10–16",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Pappenheimgasse 31-01.jpg",
+    "lat": 48.233933,
+    "lng": 16.368884,
+    "adresse": "Leipziger Straße 38–40",
+    "name": "Anton-Schmid-Hof",
+    "commonscat": "Anton-Schmid-Hof, Brigittenau",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Josef-Baldermann-Hof, Pasettistraße 9–21 IMG 3601.jpg",
+    "lat": 48.242374,
+    "lng": 16.376918,
+    "adresse": "Pasettistraße 9–21",
+    "name": "Josef-Baldermann-Hof",
+    "commonscat": "Josef-Baldermann-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Haus-Winarskystraße 16-20-01.jpg",
+    "lat": 48.238801,
+    "lng": 16.381166,
+    "adresse": "Pasettistraße 47–61",
+    "name": "Otto-Haas-Hof",
+    "commonscat": "Otto-Haas-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wien 20 Winarskyhof a.jpg",
+    "lat": 48.239864,
+    "lng": 16.380937,
+    "adresse": "Pasettistraße 39–45",
+    "name": "Winarskyhof",
+    "commonscat": "Winarsky-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gerlhof1.jpg",
+    "lat": 48.24153,
+    "lng": 16.380308,
+    "adresse": "Stromstraße 39–45",
+    "name": "Gerlhof",
+    "commonscat": "Gerl-Hof",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Gemeindebau Treustrasse 58-60, Wien Brigittenau, Bild 8.jpg",
+    "lat": 48.231501,
+    "lng": 16.364459,
+    "adresse": "Treustraße 58–60",
+    "name": "",
+    "commonscat": "Wohnhausanlage Treustraße 58-60",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Brigittenauer Lände 72.jpg",
+    "lat": 48.233653,
+    "lng": 16.363036,
+    "adresse": "Treustraße 61–69",
+    "name": "",
+    "commonscat": "Wohnhausanlage Treustraße 61-69",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Vorgartenstraße 31-35 IMG 3618.jpg",
+    "lat": 48.242906,
+    "lng": 16.380575,
+    "adresse": "Vorgartenstraße 31–35",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Vorgartenstraße 83-85 IMG 3567.jpg",
+    "lat": 48.235584,
+    "lng": 16.388565,
+    "adresse": "Vorgartenstraße 83–85",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Vorgartenstraße 93 IMG 3563.jpg",
+    "lat": 48.234858,
+    "lng": 16.389432,
+    "adresse": "Vorgartenstraße 93",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Wehlistraße 32-38 IMG 3531.jpg",
+    "lat": 48.243922,
+    "lng": 16.382099,
+    "adresse": "Wehlistraße 32-38",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Wehlistraße 40 IMG 3536.jpg",
+    "lat": 48.243336,
+    "lng": 16.382685,
+    "adresse": "Wehlistraße 40",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  },
+  {
+    "foto": "Wohnhausanlage Winarskystraße 1-3 IMG 3587.jpg",
+    "lat": 48.237574,
+    "lng": 16.376758,
+    "adresse": "Winarskystraße 1–3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Brigittenau"
+  }
+]

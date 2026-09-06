@@ -1,0 +1,866 @@
+[
+  {
+    "foto": "Aichholzgasse 52-brainsoup.JPG",
+    "lat": 48.177229,
+    "lng": 16.3236,
+    "adresse": "Aichholzgasse 52",
+    "name": "[[Indianerhof]] (ehemaliges Waschhaus)",
+    "commonscat": "Indianerhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Reismannhof.JPG",
+    "lat": 48.178298,
+    "lng": 16.341404,
+    "adresse": "Am Fuchsenfeld 1-3",
+    "name": "[[Reismannhof]]",
+    "commonscat": "Reismannhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Schöpfwerk von Alterlaa aus gesehen.jpg",
+    "lat": 48.15875,
+    "lng": 16.327861,
+    "adresse": "Am Schöpfwerk 29",
+    "name": "[[Am Schöpfwerk#Neuere Anlage",
+    "commonscat": "Am Schöpfwerk",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Am Schöpfwerk (old part), Vienna 13.jpg",
+    "lat": 48.162437,
+    "lng": 16.328464,
+    "adresse": "Am Schöpfwerk 56-64",
+    "name": "[[Am Schöpfwerk#Ältere Anlage",
+    "commonscat": "Am Schöpfwerk (old part)",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Haebergasse 2011-06-16 GuentherZ 0134.JPG",
+    "lat": 48.184923,
+    "lng": 16.339001,
+    "adresse": "Arndtstraße 30-34",
+    "name": "",
+    "commonscat": "Wohnhausanlage Arndtstraße 30-34",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Arndtstraße 31-33.jpg",
+    "lat": 48.184173,
+    "lng": 16.3385,
+    "adresse": "Arndtstraße 31-33",
+    "name": "",
+    "commonscat": "Wohnhausanlage Arndtstraße 31-33",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "16-06-08-Wien-RalfR-DSC 0370.jpg",
+    "lat": 48.182615,
+    "lng": 16.334426,
+    "adresse": "Arndtstraße 74-76",
+    "name": "",
+    "commonscat": "Wohnhausanlage Arndtstraße 74-76",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Liebknechthof oberes Tor 3.jpg",
+    "lat": 48.18019,
+    "lng": 16.340935,
+    "adresse": "Böckhgasse 2-4",
+    "name": "[[Liebknechthof]]",
+    "commonscat": "Liebknechthof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Steinbauergasse033 2012-02-03 GuentherZ 0625.JPG",
+    "lat": 48.180687,
+    "lng": 16.338728,
+    "adresse": "Böckhgasse 6",
+    "name": "Ernst-Reuter-Hof",
+    "commonscat": "Ernst-Reuter-Hof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Aichholzgasse54 2011-09-17 GuentherZ 0111.JPG",
+    "lat": 48.176098,
+    "lng": 16.322764,
+    "adresse": "Egger-Lienz-Gasse 2-6",
+    "name": "[[Indianerhof]] (Östlicher Block)",
+    "commonscat": "Indianerhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Eichenstraße 50-52.jpg",
+    "lat": 48.175507,
+    "lng": 16.33506,
+    "adresse": "Eichenstraße 50-52",
+    "name": "",
+    "commonscat": "Wohnhausanlage Eichenstraße 50-52",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Flurschützstraße 26 (01).jpg",
+    "lat": 48.180103,
+    "lng": 16.342315,
+    "adresse": "Flurschützstraße 26",
+    "name": "",
+    "commonscat": "Wohnhausanlage Flurschützstraße 26",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Fockygasse 40-44.jpg",
+    "lat": 48.179591,
+    "lng": 16.343501,
+    "adresse": "Fockygasse 40-44",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Fockygasse53.JPG",
+    "lat": 48.17975,
+    "lng": 16.343783,
+    "adresse": "Fockygasse 53",
+    "name": "",
+    "commonscat": "Fockygasse 53",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Haydnhof.JPG",
+    "lat": 48.184584,
+    "lng": 16.34459,
+    "adresse": "Gaudenzdorfer Gürtel 15",
+    "name": "[[Haydnhof]]",
+    "commonscat": "Haydnhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Gaßmannstraße 1-19.jpg",
+    "lat": 48.173962,
+    "lng": 16.312633,
+    "adresse": "Gaßmannstraße 1-19",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gaßmannstraße 1-19",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Gaßmannstraße 41, Vienna.jpg",
+    "lat": 48.171138,
+    "lng": 16.309238,
+    "adresse": "Gaßmannstraße 41",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Grieshofgasse 12.jpg",
+    "lat": 48.182635,
+    "lng": 16.33186,
+    "adresse": "Grieshofgasse 12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Hetzendorfer Straße 23.jpg",
+    "lat": 48.162868,
+    "lng": 16.319307,
+    "adresse": "Hetzendorfer Straße 23",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Hetzendorfer Straße 43-45, Vienna.jpg",
+    "lat": 48.163745,
+    "lng": 16.315722,
+    "adresse": "Hetzendorfer Straße 43-45",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hetzendorfer Straße 43-45",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Hetzendorfer Straße 96.jpg",
+    "lat": 48.167894,
+    "lng": 16.307897,
+    "adresse": "Hetzendorfer Straße 96",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Hetzendorfer Straße 100.jpg",
+    "lat": 48.167646,
+    "lng": 16.306546,
+    "adresse": "Hetzendorfer Straße 100",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien 12 Hohenbergstraße 052 a.jpg",
+    "lat": 48.17538,
+    "lng": 16.317102,
+    "adresse": "Hohenbergstraße 3-21",
+    "name": "Wohnsiedlung [[Am Tivoli]]",
+    "commonscat": "Am Tivoli",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Hohenbergstraße 14-16.jpg",
+    "lat": 48.174377,
+    "lng": 16.325475,
+    "adresse": "Hohenbergstraße 14-16",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hohenbergstraße 14-16",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Hohenbergstr32.jpg",
+    "lat": 48.174766,
+    "lng": 16.323851,
+    "adresse": "Hohenbergstraße 24-32",
+    "name": "",
+    "commonscat": "Wohnhausanlage Hohenbergstraße 24-32",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien 12 Hohenbergstraße 036 a.jpg",
+    "lat": 48.174988,
+    "lng": 16.322921,
+    "adresse": "Hohenbergstraße 34, 36-38, 40",
+    "name": "[[Indianerhof]] (Gartenstadtteile)",
+    "commonscat": "Indianerhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Ignazgasse 21-25.jpg",
+    "lat": 48.177738,
+    "lng": 16.333326,
+    "adresse": "Ignazgasse 21-25",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Jägerhausgasse 52-56, Vienna.jpg",
+    "lat": 48.164057,
+    "lng": 16.305544,
+    "adresse": "Jägerhausgasse 52-56",
+    "name": "",
+    "commonscat": "Wohnhausanlage Jägerhausgasse 52-56",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Jägerhausgasse 58-66, Vienna 5.jpg",
+    "lat": 48.162838,
+    "lng": 16.304483,
+    "adresse": "Jägerhausgasse 58-66",
+    "name": "",
+    "commonscat": "Jägerhausgasse 58-66",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Karl-Löwe-Gasse 4.jpg",
+    "lat": 48.179451,
+    "lng": 16.344395,
+    "adresse": "Karl-Löwe-Gasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Karl-Löwe-Gasse 7-9.jpg",
+    "lat": 48.17894,
+    "lng": 16.34364,
+    "adresse": "Karl-Löwe-Gasse 7-9",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Karl-Löwe-Gasse 12.jpg",
+    "lat": 48.179078,
+    "lng": 16.343317,
+    "adresse": "Karl-Löwe-Gasse 12",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Klährgasse 4.jpg",
+    "lat": 48.182234,
+    "lng": 16.336835,
+    "adresse": "Klährgasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 SchoenbrunnerStrasse159 2011-07-01 GuentherZ 0027.JPG",
+    "lat": 48.186526,
+    "lng": 16.341606,
+    "adresse": "Kollmayergasse 2-8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Simonyhof 02.JPG",
+    "lat": 48.174551,
+    "lng": 16.328201,
+    "adresse": "Koppreitergasse 8-10",
+    "name": "[[Simonyhof",
+    "commonscat": "Simonyhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Koppreitergasse 24-26.jpg",
+    "lat": 48.174747,
+    "lng": 16.326588,
+    "adresse": "Koppreitergasse 24-26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Korbergasse 4-6.jpg",
+    "lat": 48.18555,
+    "lng": 16.339514,
+    "adresse": "Korbergasse 4-6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Korbergasse08 2011-06-25 GuentherZ 0047.JPG",
+    "lat": 48.185336,
+    "lng": 16.339575,
+    "adresse": "Korbergasse 8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Lichtensterngasse 3-21.jpg",
+    "lat": 48.158068,
+    "lng": 16.330215,
+    "adresse": "Lichtensterngasse 3-21",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Liebenstraße 36-40, Vienna 01.jpg",
+    "lat": 48.16928,
+    "lng": 16.327906,
+    "adresse": "Liebenstraße 36-40",
+    "name": "",
+    "commonscat": "Wohnhausanlage Liebenstraße 36-40",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Volkswohnhaus Liebenstraße 48 - 02.jpg",
+    "lat": 48.169443,
+    "lng": 16.325271,
+    "adresse": "Liebenstraße 48",
+    "name": "",
+    "commonscat": "Wohnhausanlage Liebenstraße 48",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Lorenshof Ecke.JPG",
+    "lat": 48.182887,
+    "lng": 16.337138,
+    "adresse": "Längenfeldgasse 14-18",
+    "name": "[[Lorenshof]]",
+    "commonscat": "Lorenshof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Fuchsenfeldhof.JPG",
+    "lat": 48.177669,
+    "lng": 16.340692,
+    "adresse": "Längenfeldgasse 68",
+    "name": "[[Fuchsenfeldhof]]",
+    "commonscat": "Fuchsenfeldhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Fröhlichhof1.JPG",
+    "lat": 48.184121,
+    "lng": 16.339087,
+    "adresse": "Malfattigasse 1-5",
+    "name": "[[Fröhlich-Hof (Meidling)",
+    "commonscat": "Fröhlich-Hof (Meidling)",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Malfattigasse007 2011-08-26 GuentherZ 0180.JPG",
+    "lat": 48.183286,
+    "lng": 16.339737,
+    "adresse": "Malfattigasse 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Malfattigasse 13.jpg",
+    "lat": 48.182575,
+    "lng": 16.340291,
+    "adresse": "Malfattigasse 13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Malfattigasse 27-31.jpg",
+    "lat": 48.180473,
+    "lng": 16.341914,
+    "adresse": "Malfattigasse 27-31",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Malfattigasse39 2011-12-18 GuentherZ 0027.JPG",
+    "lat": 48.179295,
+    "lng": 16.342829,
+    "adresse": "Malfattigasse 39",
+    "name": "",
+    "commonscat": "Wohnhausanlage Malfattigasse 39",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Theresienbadgasse with August-Fürst-Hof.jpg",
+    "lat": 48.182034,
+    "lng": 16.329753,
+    "adresse": "Meidlinger Hauptstraße 8-14",
+    "name": "August-Fürst-Hof",
+    "commonscat": "August-Fürst-Hof, Vienna",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Migazziplatz 6.jpg",
+    "lat": 48.182052,
+    "lng": 16.334795,
+    "adresse": "Migazziplatz 6",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Migazziplatz 8-9.jpg",
+    "lat": 48.181499,
+    "lng": 16.334668,
+    "adresse": "Migazziplatz 8-9",
+    "name": "",
+    "commonscat": "Wohnhausanlage Migazziplatz 8-9",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Münchenstraße 24.jpg",
+    "lat": 48.169128,
+    "lng": 16.297759,
+    "adresse": "Münchenstraße 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Oswaldgasse 14–22 2.jpg",
+    "lat": 48.170044,
+    "lng": 16.326016,
+    "adresse": "Oswaldgasse 14-22",
+    "name": "",
+    "commonscat": "Oswaldgasse 14–22",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Kunstwerk bei Oswaldgasse 19, 1120 Wien.jpg",
+    "lat": 48.169635,
+    "lng": 16.326632,
+    "adresse": "Oswaldgasse 15-19",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Pachmüllergasse 21.jpg",
+    "lat": 48.176784,
+    "lng": 16.332828,
+    "adresse": "Pachmüllergasse 21",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Pohlgasse52_1120-Wien.jpg",
+    "lat": 48.178992,
+    "lng": 16.321434,
+    "adresse": "Pohlgasse 52",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Ratschkygasse41.jpg",
+    "lat": 48.177564,
+    "lng": 16.32316,
+    "adresse": "Ratschkygasse 41-43",
+    "name": "[[Indianerhof]] (Trakt an der Ratschkygasse)",
+    "commonscat": "Indianerhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Rauchgasse37_1120-Wien.jpg",
+    "lat": 48.178062,
+    "lng": 16.331181,
+    "adresse": "Rauchgasse 37",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Rollingergasse 6-8, Wien.jpg",
+    "lat": 48.175327,
+    "lng": 16.327741,
+    "adresse": "Rollingergasse 6-8",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Helene-Potetz-Hof.jpg",
+    "lat": 48.166818,
+    "lng": 16.300472,
+    "adresse": "Rosenhügelstraße 35",
+    "name": "Helene-Potetz-Hof",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Rosenhügelstraße 35a.jpg",
+    "lat": 48.166438,
+    "lng": 16.300139,
+    "adresse": "Rosenhügelstraße 35a",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Indianerhof1.JPG",
+    "lat": 48.17701,
+    "lng": 16.320944,
+    "adresse": "Rotenmühlgasse 64",
+    "name": "[[Indianerhof]] (westlicher Block)",
+    "commonscat": "Indianerhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Rothenburgstraße 3.jpg",
+    "lat": 48.161594,
+    "lng": 16.320502,
+    "adresse": "Rothenburgstraße 3",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rothenburgstraße 3",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Sagedergasse 7-11.jpg",
+    "lat": 48.159718,
+    "lng": 16.320503,
+    "adresse": "Sagedergasse 7-11",
+    "name": "",
+    "commonscat": "Wohnhausanlage Sagedergasse 7-11",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Schlöglgasse 17.jpg",
+    "lat": 48.167602,
+    "lng": 16.313074,
+    "adresse": "Schlöglgasse 17",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schlöglgasse 17",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Mosaic \"Wald\" by Toman Emil, Schlöglgasse 71, Hetzendorf.jpg",
+    "lat": 48.169211,
+    "lng": 16.303904,
+    "adresse": "Schlöglgasse 71",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Schönbrunner Schloßstraße 34.jpg",
+    "lat": 48.184464,
+    "lng": 16.322092,
+    "adresse": "Schönbrunner Schloßstraße 34",
+    "name": "",
+    "commonscat": "Wohnhausanlage Schönbrunner Schloßstraße 34",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Schönbrunner Straße 181-183.jpg",
+    "lat": 48.185795,
+    "lng": 16.338652,
+    "adresse": "Schönbrunner Straße 181-183",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Schoenbrunnerstrasse195 2011-05-30 GuentherZ 0017.JPG",
+    "lat": 48.185355,
+    "lng": 16.337281,
+    "adresse": "Schönbrunner Straße 195",
+    "name": "",
+    "commonscat": "Gemeindebau Schönbrunner Straße 195, Vienna",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Schönbrunner Straße 242 - court.jpg",
+    "lat": 48.183084,
+    "lng": 16.324329,
+    "adresse": "Schönbrunner Straße 242",
+    "name": "Josef-Mikl-Hof",
+    "commonscat": "Josef-Mikl-Hof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Steinzeugrelief Fenster ins Leben, Schwenkgasse 54-60.jpg",
+    "lat": 48.173989,
+    "lng": 16.319976,
+    "adresse": "Schwenkgasse 54-60",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Sechtergasse 7.jpg",
+    "lat": 48.176468,
+    "lng": 16.332013,
+    "adresse": "Sechtergasse 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Sechtergasse 8-10.jpg",
+    "lat": 48.176715,
+    "lng": 16.331977,
+    "adresse": "Sechtergasse 8-10",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Spittelbreitengasse 23.jpg",
+    "lat": 48.176249,
+    "lng": 16.325594,
+    "adresse": "Spittelbreitengasse 23",
+    "name": "",
+    "commonscat": "Spittelbreitengasse 23",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Stachegasse 1, Vienna.jpg",
+    "lat": 48.161031,
+    "lng": 16.312288,
+    "adresse": "Stachegasse 1",
+    "name": "Stachegasse 1-3",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Leopoldine-Glöckel-Hof.jpg",
+    "lat": 48.183508,
+    "lng": 16.344716,
+    "adresse": "Steinbauergasse 1-7",
+    "name": "[[Leopoldine-Glöckel-Hof]]",
+    "commonscat": "Leopoldine Glöckel-Hof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Steinbauergasse36 2011-08-26 GuentherZ 0178.JPG",
+    "lat": 48.181333,
+    "lng": 16.337695,
+    "adresse": "Steinbauergasse 36",
+    "name": "[[Bebelhof (Wien)",
+    "commonscat": "Bebelhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Steinhagegasse 9, Wien.jpg",
+    "lat": 48.185693,
+    "lng": 16.340966,
+    "adresse": "Steinhagegasse 9",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Theerhof.jpg",
+    "lat": 48.175821,
+    "lng": 16.321627,
+    "adresse": "Theergasse 3-5",
+    "name": "[[Indianerhof]] (Mittlerer Block – „Theerhof“)",
+    "commonscat": "Indianerhof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Theresienbadgassee01 2011-12-31 GuentherZ 0134.JPG",
+    "lat": 48.183015,
+    "lng": 16.328746,
+    "adresse": "Theresienbadgasse 1",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Tivoligasse4-6 1120-Wien.jpg",
+    "lat": 48.180365,
+    "lng": 16.328762,
+    "adresse": "Tivoligasse 4-6",
+    "name": "",
+    "commonscat": "Wohnhausanlage Tivoligasse 4-6",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Tivoligasse13_1120-Wien.jpg",
+    "lat": 48.179905,
+    "lng": 16.327846,
+    "adresse": "Tivoligasse 13",
+    "name": "",
+    "commonscat": "Wohnhausanlage Tivoligasse 13",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Gemeindebau Unter-Meidlinger Straße 16-22.jpg",
+    "lat": 48.171888,
+    "lng": 16.34644,
+    "adresse": "Unter-Meidlinger Straße 16-22",
+    "name": "",
+    "commonscat": "Gemeindebau Unter-Meidlinger Straße 16-22",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Vierthaltergasse 11-17 Ansicht 3.JPG",
+    "lat": 48.177988,
+    "lng": 16.334414,
+    "adresse": "Vierthalergasse 11-17",
+    "name": "",
+    "commonscat": "Wohnhausanlage Vierthalergasse 11-17",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Johannreschhof.JPG",
+    "lat": 48.169716,
+    "lng": 16.296795,
+    "adresse": "Werthenburggasse 2-4",
+    "name": "[[Johann-Resch-Hof]]",
+    "commonscat": "Johann-Resch-Hof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Wienerbergstraße 10.jpg",
+    "lat": 48.171041,
+    "lng": 16.340314,
+    "adresse": "Wienerbergstraße 10",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wienerbergstraße 10",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Max-Opravil-Hof.jpg",
+    "lat": 48.171661,
+    "lng": 16.338588,
+    "adresse": "Wienerbergstraße 12",
+    "name": "Max-Opravil-Hof",
+    "commonscat": "Max-Opravil-Hof",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wienerbergstraße 14-14a.jpg",
+    "lat": 48.171099,
+    "lng": 16.33682,
+    "adresse": "Wienerbergstraße 14",
+    "name": "",
+    "commonscat": "Wienerbergstraße 14",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Am Wienerberg 2023.jpg",
+    "lat": 48.171099,
+    "lng": 16.33682,
+    "adresse": "Wienerbergstraße 16-20",
+    "name": "[[Am Wienerberg]]",
+    "commonscat": "Am Wienerberg",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Gemeindebauwildgarten.jpg",
+    "lat": 48.158223,
+    "lng": 16.298599,
+    "adresse": "Wildgartenweg 5",
+    "name": "Gemeindebau im Wildgarten <!--Name des Baugebiets, nicht ganz klar ob auch Name des Baus, wird in Presseaussendungen aber so genannt-->",
+    "commonscat": "Wohnhausanlage Wildgartenweg",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Wilhelmstrasse039 2012-01-21 GuentherZ 0425.JPG",
+    "lat": 48.175756,
+    "lng": 16.333138,
+    "adresse": "Wilhelmstraße 39",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Wilhelmstraße 40-44.jpg",
+    "lat": 48.176521,
+    "lng": 16.333687,
+    "adresse": "Wilhelmstraße 40-44",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Wolfganggasse 50-52.jpg",
+    "lat": 48.180217,
+    "lng": 16.344124,
+    "adresse": "Wolfganggasse 50-52",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Wolfganggasse54 2011-12-18 GuentherZ 0047.JPG",
+    "lat": 48.179818,
+    "lng": 16.344475,
+    "adresse": "Wolfganggasse 54",
+    "name": "",
+    "commonscat": "Wohnhausanlage Wolfganggasse 54",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wohnhausanlage Zeleborgasse 7.jpg",
+    "lat": 48.17711,
+    "lng": 16.332817,
+    "adresse": "Zeleborgasse 7",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Meidling"
+  },
+  {
+    "foto": "Wien12 Wienerbergstrasse38 2011-12-26 GuentherZ 0122.JPG",
+    "lat": 48.172269,
+    "lng": 16.329486,
+    "adresse": "Darnautgasse 10",
+    "name": "",
+    "commonscat": "Wohnhausanlage Darnautgasse 10",
+    "wiki_slug": "Meidling"
+  }
+]

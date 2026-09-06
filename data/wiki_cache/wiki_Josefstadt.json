@@ -1,0 +1,110 @@
+[
+  {
+    "foto": "Ludo-Hartmann-Hof Gesamt.JPG",
+    "lat": 48.209591,
+    "lng": 16.343599,
+    "adresse": "Albertgasse 13-17",
+    "name": "Ludo-Hartmann-Hof",
+    "commonscat": "Ludo-Hartmann-Hof",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Albertplatz 7 II.jpg",
+    "lat": 48.214719,
+    "lng": 16.343946,
+    "adresse": "Albertplatz 7",
+    "name": "",
+    "commonscat": "Wohnhausanlage Albertplatz 7",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Feldgasse 19 Josefstadt.jpg",
+    "lat": 48.214713,
+    "lng": 16.345434,
+    "adresse": "Feldgasse 19",
+    "name": "",
+    "commonscat": "Wohnhausanlage Feldgasse 19",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Kochgasse 25 I.jpg",
+    "lat": 48.214283,
+    "lng": 16.349237,
+    "adresse": "Kochgasse 25",
+    "name": "",
+    "commonscat": "Wohnhausanlage Kochgasse 25",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Maria-Franc-Hof I.jpg",
+    "lat": 48.208214,
+    "lng": 16.352227,
+    "adresse": "Lange Gasse 21-23",
+    "name": "Maria-Franc-Hof",
+    "commonscat": "Maria-Franc-Hof",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Neudeggergasse 12 I.jpg",
+    "lat": 48.207788,
+    "lng": 16.351449,
+    "adresse": "Neudeggergasse 12",
+    "name": "",
+    "commonscat": "Wohnhausanlage Neudeggergasse 12",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Pfeilgasse 10-12 b.jpg",
+    "lat": 48.2085,
+    "lng": 16.347087,
+    "adresse": "Pfeilgasse 10-12",
+    "name": "",
+    "commonscat": "Wohnhausanlage Pfeilgasse 10-12",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Faber-Hof I.jpg",
+    "lat": 48.209576,
+    "lng": 16.340921,
+    "adresse": "Pfeilgasse 42",
+    "name": "Faber-Hof",
+    "commonscat": "Faber-Hof",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Kronawetter-Hof II.jpg",
+    "lat": 48.209296,
+    "lng": 16.34075,
+    "adresse": "Pfeilgasse 47-49",
+    "name": "Dr.-Kronawetter-Hof",
+    "commonscat": "Kronawetter-Hof",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Haus-Wickenburggasse 15-01.jpg",
+    "lat": 48.213412,
+    "lng": 16.353845,
+    "adresse": "Schlösselgasse 14",
+    "name": "Therese-Schlesinger-Hof",
+    "commonscat": "Therese-Schlesinger-Hof",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Rudolf-von-Alt-Hof I.jpg",
+    "lat": 48.213735,
+    "lng": 16.346736,
+    "adresse": "Skodagasse 22",
+    "name": "Rudolf-von-Alt-Hof",
+    "commonscat": "Rudolf-von-Alt-Hof",
+    "wiki_slug": "Josefstadt"
+  },
+  {
+    "foto": "Max-Böhm-Hof I.jpg",
+    "lat": 48.209005,
+    "lng": 16.345056,
+    "adresse": "Tigergasse 22",
+    "name": "Max-Böhm-Hof",
+    "commonscat": "Max-Böhm-Hof",
+    "wiki_slug": "Josefstadt"
+  }
+]

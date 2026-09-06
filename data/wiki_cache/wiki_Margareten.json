@@ -1,0 +1,533 @@
+[
+  {
+    "foto": "Wohnhausanlage Amtshausgasse 3-5 gesamt.jpg",
+    "lat": 48.187968,
+    "lng": 16.34947,
+    "adresse": "Amtshausgasse 3-5",
+    "name": "",
+    "commonscat": "Wohnhausanlage Amtshausgasse 3-5",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Eiselsberghof Nordseite.jpg",
+    "lat": 48.187312,
+    "lng": 16.355697,
+    "adresse": "Bacherplatz 4",
+    "name": "Eiselsberg-Hof",
+    "commonscat": "Eiselsberg-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Blechturmgasse 23-27-2.jpg",
+    "lat": 48.186766,
+    "lng": 16.365749,
+    "adresse": "Blechturmgasse 23-27",
+    "name": "",
+    "commonscat": "Blechturmgasse 23-27",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Brandmayergasse 2.jpg",
+    "lat": 48.185451,
+    "lng": 16.352623,
+    "adresse": "Brandmayergasse 2",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Brandmayergasse 4.jpg",
+    "lat": 48.185343,
+    "lng": 16.352372,
+    "adresse": "Brandmayergasse 4",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Brandmayergasse 24.jpg",
+    "lat": 48.184361,
+    "lng": 16.349533,
+    "adresse": "Brandmayergasse 24",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Brandmayergasse 27.jpg",
+    "lat": 48.184048,
+    "lng": 16.3496,
+    "adresse": "Brandmayergasse 27",
+    "name": "",
+    "commonscat": "Wohnhausanlage Brandmayergasse 27",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhaus Castelligasse 3, Margareten.jpg",
+    "lat": 48.189486,
+    "lng": 16.35945,
+    "adresse": "Castelligasse 3",
+    "name": "",
+    "commonscat": "Castelligasse 3, Vienna",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Einsiedlergasse 13.jpg",
+    "lat": 48.183892,
+    "lng": 16.350334,
+    "adresse": "Einsiedlergasse 13",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Fendigasse 19.jpg",
+    "lat": 48.182811,
+    "lng": 16.353061,
+    "adresse": "Fendigasse 19-21",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Schönbrunner Straße 17-19.jpg",
+    "lat": 48.194162,
+    "lng": 16.360003,
+    "adresse": "Franzensgasse 7-9",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Franzensgasse 17.jpg",
+    "lat": 48.195018,
+    "lng": 16.359173,
+    "adresse": "Franzensgasse 17",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Gemeindebau Gartengasse 7 01.jpg",
+    "lat": 48.188729,
+    "lng": 16.359655,
+    "adresse": "Gartengasse 7",
+    "name": "",
+    "commonscat": "Gartengasse 7, Vienna",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Gemeindebau Gartengasse 5 01.jpg",
+    "lat": 48.189124,
+    "lng": 16.359306,
+    "adresse": "Gartengasse 5, 9-11",
+    "name": "",
+    "commonscat": "Gartengasse 5 & 9-11",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Gassergasse 24-26.jpg",
+    "lat": 48.1837,
+    "lng": 16.363907,
+    "adresse": "Gassergasse 24-26",
+    "name": "",
+    "commonscat": "Gassergasse 24-26",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Gießaufgasse 26.jpg",
+    "lat": 48.185595,
+    "lng": 16.347583,
+    "adresse": "Gießaufgasse 26",
+    "name": "",
+    "commonscat": "Wohnhausanlage Gießaufgasse 26",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Gießaufgasse 34.jpg",
+    "lat": 48.185126,
+    "lng": 16.34607,
+    "adresse": "Gießaufgasse 34",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Grüngasse 14.jpg",
+    "lat": 48.194811,
+    "lng": 16.35741,
+    "adresse": "Grüngasse 14",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Hauslabgasse 24.jpg",
+    "lat": 48.184546,
+    "lng": 16.363568,
+    "adresse": "Hauslabgasse 24",
+    "name": "",
+    "commonscat": "Hauslabgasse 24",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Hauslabgasse 25.jpg",
+    "lat": 48.184312,
+    "lng": 16.363677,
+    "adresse": "Hauslabgasse 25",
+    "name": "",
+    "commonscat": "Hauslabgasse 25",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Hofgasse 2.jpg",
+    "lat": 48.19093,
+    "lng": 16.358965,
+    "adresse": "Hofgasse 2",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Jahngasse 32-34, Vienna.jpg",
+    "lat": 48.183808,
+    "lng": 16.358111,
+    "adresse": "Jahngasse 32",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Jahngasse 32-34, Vienna.jpg",
+    "lat": 48.183705,
+    "lng": 16.357923,
+    "adresse": "Jahngasse 34",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Eduard Leisching Hof.JPG",
+    "lat": 48.185478,
+    "lng": 16.34655,
+    "adresse": "Johannagasse 29-35",
+    "name": "Eduard-Leisching-Hof",
+    "commonscat": "Eduard-Leisching-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Kleine Neugasse 21, Vienna.jpg",
+    "lat": 48.19333,
+    "lng": 16.362241,
+    "adresse": "Kleine Neugasse 21",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Hauslabgasse 27.jpg",
+    "lat": 48.184025,
+    "lng": 16.363496,
+    "adresse": "Kliebergasse 8",
+    "name": "Emmerich-Sailer-Hof",
+    "commonscat": "Emmerich-Sailer-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Kohlgasse 31.jpg",
+    "lat": 48.185731,
+    "lng": 16.352384,
+    "adresse": "Kohlgasse 31",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Krongasse 18.jpg",
+    "lat": 48.193061,
+    "lng": 16.361914,
+    "adresse": "Krongasse 18",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Laurenzgasse 14-18-2.jpg",
+    "lat": 48.184803,
+    "lng": 16.364197,
+    "adresse": "Laurenzgasse 14-18",
+    "name": "",
+    "commonscat": "Laurenzgasse 14-18",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Leitgebgasse3 1050-Wien.jpg",
+    "lat": 48.18417,
+    "lng": 16.354978,
+    "adresse": "Leitgebgasse 3",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "MHochhaus2007.jpg",
+    "lat": 48.181096,
+    "lng": 16.356204,
+    "adresse": "Leopold-Rister-Gasse 5",
+    "name": "[[Matzleinsdorfer Hochhaus]]",
+    "commonscat": "Matzleinsdorfer Hochhaus",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Julius-Ofner-Hof 2020.jpg",
+    "lat": 48.182824,
+    "lng": 16.363504,
+    "adresse": "Margaretengürtel 22",
+    "name": "Julius-Ofner-Hof",
+    "commonscat": "Julius-Ofner-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Margaretengürtel 42.jpg",
+    "lat": 48.18211,
+    "lng": 16.360849,
+    "adresse": "Margaretengürtel 42",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Lärmschutzwand Theodor-Körner-Hof2.jpg",
+    "lat": 48.181335,
+    "lng": 16.357082,
+    "adresse": "Margaretengürtel 68-74",
+    "name": "[[Theodor-Körner-Hof]]",
+    "commonscat": "Theodor Körner Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Julius-Popp-Hof.jpg",
+    "lat": 48.180563,
+    "lng": 16.352158,
+    "adresse": "Margaretengürtel 76-80",
+    "name": "[[Julius-Popp-Hof]]",
+    "commonscat": "Julius-Popp-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Herweghof 3.JPG",
+    "lat": 48.180925,
+    "lng": 16.350434,
+    "adresse": "Margaretengürtel 82-88",
+    "name": "[[Herweghhof]]",
+    "commonscat": "Herweghhof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Metzleinstaler Hof Panorama.jpg",
+    "lat": 48.18132,
+    "lng": 16.348809,
+    "adresse": "Margaretengürtel 90-98",
+    "name": "[[Metzleinstaler Hof]]",
+    "commonscat": "Metzleinstaler Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "GuentherZ 2008-03-01 0172 Wien05 Reumannhof.jpg",
+    "lat": 48.182613,
+    "lng": 16.347903,
+    "adresse": "Margaretengürtel 100-110",
+    "name": "[[Reumannhof]]",
+    "commonscat": "Reumannhof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Margareten (Wien) - Ernst-Hinterberger-Hof.JPG",
+    "lat": 48.18459,
+    "lng": 16.346275,
+    "adresse": "Margaretengürtel 122-124",
+    "name": "Ernst-Hinterberger-Hof",
+    "commonscat": "Ernst Hinterberger-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Franz-Domes-Hof2.jpg",
+    "lat": 48.185375,
+    "lng": 16.345283,
+    "adresse": "Margaretengürtel 126-134",
+    "name": "[[Franz-Domes-Hof]]",
+    "commonscat": "Franz-Domes-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Margaretenstraße 89.jpg",
+    "lat": 48.190027,
+    "lng": 16.357144,
+    "adresse": "Margaretenstraße 89",
+    "name": "",
+    "commonscat": "Wohnhausanlage Margaretenstraße 89",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Maria-Restituta-Hof.jpg",
+    "lat": 48.188915,
+    "lng": 16.354857,
+    "adresse": "Margaretenstraße 105",
+    "name": "Maria-Restituta-Hof",
+    "commonscat": "Maria-Restituta-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Margaretenstraße 108.jpg",
+    "lat": 48.189259,
+    "lng": 16.35475,
+    "adresse": "Margaretenstraße 108",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Margaretenstraße 140.jpg",
+    "lat": 48.187685,
+    "lng": 16.350163,
+    "adresse": "Margaretenstraße 140",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Rechte Wienzeile 69.jpg",
+    "lat": 48.194953,
+    "lng": 16.355138,
+    "adresse": "Rechte Wienzeile 69",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Zumwassermaennlein.jpg",
+    "lat": 48.194665,
+    "lng": 16.355092,
+    "adresse": "Rechte Wienzeile 71",
+    "name": "",
+    "commonscat": "Wohnhausanlage Rechte Wienzeile 71",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Schönbrunner Straße 101.jpg",
+    "lat": 48.188908,
+    "lng": 16.350692,
+    "adresse": "Schönbrunner Straße 101",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Schönbrunnerstraße 76, Vienna 01.jpg",
+    "lat": 48.189499,
+    "lng": 16.351567,
+    "adresse": "Schönbrunnerstraße 76",
+    "name": "Friederike-Mayröcker-Hof",
+    "commonscat": "Wohnhausanlage Schönbrunner Straße 76",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Katschinkahof.jpg",
+    "lat": 48.182652,
+    "lng": 16.355392,
+    "adresse": "Siebenbrunnenfeldgasse 8-10",
+    "name": "Anton-Katschinka-Hof",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Matteottihof Panorama.jpg",
+    "lat": 48.182164,
+    "lng": 16.350015,
+    "adresse": "Siebenbrunnenfeldgasse 26-30",
+    "name": "[[Matteottihof]]",
+    "commonscat": "Matteottihof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "1050 Einsiedlergasse 9-11 - Jesus am Kreuz-Wandstatue von Carl Wollek 1936 IMG 4397.jpg",
+    "lat": 48.183342,
+    "lng": 16.350522,
+    "adresse": "Siebenbrunnengasse 76-80",
+    "name": "",
+    "commonscat": "Wohnhausanlage Siebenbrunnengasse 76-80",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Spengergasse 30-32, Vienna 02.jpg",
+    "lat": 48.18704,
+    "lng": 16.355329,
+    "adresse": "Spengergasse 30-32",
+    "name": "",
+    "commonscat": "Spengergasse 30-32, Vienna",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Heine-Hof stitch.jpg",
+    "lat": 48.184917,
+    "lng": 16.356391,
+    "adresse": "Stöbergasse 4-20",
+    "name": "[[Heinehof]]",
+    "commonscat": "Heinehof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Friederike-Seidl-Hof.jpg",
+    "lat": 48.188284,
+    "lng": 16.358191,
+    "adresse": "Viktor-Christ-Gasse 15-17",
+    "name": "Friederike-Seidl-Hof",
+    "commonscat": "Friederike-Seidl-Hof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wiedner Hauptstraße 103.jpg",
+    "lat": 48.185245,
+    "lng": 16.362836,
+    "adresse": "Wiedner Hauptstraße 103",
+    "name": "",
+    "commonscat": "Wiedner Hauptstraße 103",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Wiedner Hauptstraße 119.jpg",
+    "lat": 48.183881,
+    "lng": 16.361355,
+    "adresse": "Wiedner Hauptstraße 119",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wiedner Hauptstraße 132.jpg",
+    "lat": 48.184068,
+    "lng": 16.360621,
+    "adresse": "Wiedner Hauptstraße 132",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Furtmüllerhof Arbeiterdarstellung 1.jpg",
+    "lat": 48.190682,
+    "lng": 16.361784,
+    "adresse": "Ziegelofengasse 12-14",
+    "name": "Furtmüllerhof",
+    "commonscat": "Furtmüllerhof",
+    "wiki_slug": "Margareten"
+  },
+  {
+    "foto": "Wohnhausanlage Ziegelofengasse 24-26.jpg",
+    "lat": 48.191597,
+    "lng": 16.360848,
+    "adresse": "Ziegelofengasse 24-26",
+    "name": "",
+    "commonscat": "",
+    "wiki_slug": "Margareten"
+  }
+]
