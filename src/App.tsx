@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Gemeindebau, BezirkNummer, BauEpoche } from './types';
+import { Gemeindebau, BezirkNummer, BauEpoche, HoehenlageFilter } from './types';
 import { GEMEINDEBAUTEN, GRINZINGER_ALLEE_REFERENCE } from './data/gemeindebauten';
 import { WIENER_BEZIRKE } from './data/wienerBezirke';
 import { fetchViennaOpenDataGemeindebauten } from './services/viennaOpenDataService';
@@ -53,6 +53,7 @@ export default function App() {
   const [onlyStufenlos, setOnlyStufenlos] = useState<boolean>(true);
   const [maxBimDistanz, setMaxBimDistanz] = useState<number>(300);
   const [onlyFlatTerrain, setOnlyFlatTerrain] = useState<boolean>(false);
+  const [selectedHoehenlage, setSelectedHoehenlage] = useState<HoehenlageFilter>('ALL');
   const [onlyDenkmalschutz, setOnlyDenkmalschutz] = useState<boolean>(false);
   const [onlyWiseg, setOnlyWiseg] = useState<boolean>(false);
   const [selectedEpoche, setSelectedEpoche] = useState<BauEpoche | 'ALL'>('ALL');
@@ -129,6 +130,18 @@ export default function App() {
     // Terrain: Only flat without hillsides
     if (onlyFlatTerrain && bau.gelaendeTyp !== 'Eben / Flachland') {
       return false;
+    }
+
+    // Höhenlage (Seehöhe in m ü. A.)
+    if (selectedHoehenlage === 'TIEF') {
+      if ((bau.hoehenmeterMin || 0) >= 180) return false;
+    } else if (selectedHoehenlage === 'MITTEL') {
+      const h = bau.hoehenmeterMin || 0;
+      if (h < 180 || h > 220) return false;
+    } else if (selectedHoehenlage === 'HOCH') {
+      if ((bau.hoehenmeterMin || 0) <= 220) return false;
+    } else if (selectedHoehenlage === 'PANORAMA') {
+      if ((bau.hoehenmeterMin || 0) <= 240) return false;
     }
 
     // Monument protection (Denkmalschutz BDA)
@@ -310,8 +323,8 @@ export default function App() {
                 )}
               </div>
 
-              {/* Wohn- & Ruhekriterien Filter (Score, Lift, Bim, Topographie) */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2 border-t-2 border-[#F3F4F6] text-xs sm:text-sm">
+              {/* Wohn- & Ruhekriterien Filter (Score, Lift, Bim, Topographie, Höhenlage) */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 pt-2 border-t-2 border-[#F3F4F6] text-xs sm:text-sm">
                 {/* 1. Lift Toggle */}
                 <label className={`flex items-center gap-2.5 p-3 rounded-xl border-2 cursor-pointer transition ${
                   onlyStufenlos ? 'bg-[#ECFDF5] border-[#2D6A4F]' : 'bg-[#F9FAFB] border-[#E5E7EB] hover:bg-gray-50'
@@ -343,6 +356,30 @@ export default function App() {
                     <span className="text-[11px] text-[#6B7280]">Keine Steigungen / Hanglagen</span>
                   </div>
                 </label>
+
+                {/* 3. Höhenlage (Seehöhe m ü. A.) */}
+                <div className={`p-3 rounded-xl border-2 flex items-center justify-between gap-2 transition ${
+                  selectedHoehenlage !== 'ALL' ? 'bg-[#ECFDF5] border-[#2D6A4F]' : 'bg-[#F9FAFB] border-[#E5E7EB]'
+                }`}>
+                  <div className="leading-tight">
+                    <span className="font-bold text-[#0D1B2A] flex items-center gap-1.5">
+                      <Mountain className="w-3.5 h-3.5 text-[#2D6A4F]" />
+                      <span>Höhenlage</span>
+                    </span>
+                    <span className="text-[11px] text-[#6B7280]">Seehöhe in m ü. A.</span>
+                  </div>
+                  <select
+                    value={selectedHoehenlage}
+                    onChange={(e) => setSelectedHoehenlage(e.target.value as HoehenlageFilter)}
+                    className="font-bold bg-white border-2 border-[#E5E7EB] rounded-lg px-2 py-1 text-[#0D1B2A] focus:border-[#2D6A4F] outline-hidden text-xs max-w-[145px]"
+                  >
+                    <option value="ALL">Alle Höhenlagen</option>
+                    <option value="TIEF">Ebene & Tief (&lt; 180 m)</option>
+                    <option value="MITTEL">Mittellage (180–220 m)</option>
+                    <option value="HOCH">Erhöht (&gt; 220 m • Höhenluft)</option>
+                    <option value="PANORAMA">Wienerwald (&gt; 240 m)</option>
+                  </select>
+                </div>
 
                 {/* 3. Ruhe-Score Slider/Select */}
                 <div className="p-3 rounded-xl bg-[#F9FAFB] border-2 border-[#E5E7EB] flex items-center justify-between gap-2">
@@ -489,8 +526,14 @@ export default function App() {
                   onClick={() => {
                     setMinRuheScore(1);
                     setOnlyStufenlos(false);
+                    setOnlyFlatTerrain(false);
+                    setSelectedHoehenlage('ALL');
                     setSelectedBezirk('ALL');
                     setMaxBimDistanz(500);
+                    setOnlyDenkmalschutz(false);
+                    setOnlyWiseg(false);
+                    setSelectedEpoche('ALL');
+                    setSearchText('');
                   }}
                   className="px-6 py-2 rounded-full bg-[#2D6A4F] hover:bg-[#1B4332] border-2 border-[#1B4332] text-white text-sm font-bold transition shadow-xs"
                 >

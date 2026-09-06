@@ -109,12 +109,16 @@ export interface Gemeindebau {
   wisegSanierungsstatus?: 'Saniert' | 'In Sanierung' | 'Substanzerhalten';
 }
 
+export type HoehenlageFilter = 'ALL' | 'TIEF' | 'MITTEL' | 'HOCH' | 'PANORAMA';
+
 export interface FilterState {
   searchText: string;
   selectedBezirk: BezirkNummer | 'ALL';
   minRuheScore: number;
   onlyStufenlosLift: boolean;
   maxBimDistanz: number;
+  onlyFlatTerrain?: boolean;
+  selectedHoehenlage?: HoehenlageFilter;
   onlyDenkmalschutz?: boolean;
   onlyWiseg?: boolean;
   selectedEpoche?: BauEpoche | 'ALL';
