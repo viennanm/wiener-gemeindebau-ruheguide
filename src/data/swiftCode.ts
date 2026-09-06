@@ -322,44 +322,6 @@ public final class GemeindebauStore: @unchecked Sendable {
     public var minRuheScore: Int = 7       // Standard: Mindestens Note 7 von 10
     public var onlyStufenloserLift: Bool = true
     public var maxBimDistanzMeter: Int = 300 // Max 300m Fußweg zur Haltestelle
-    
-    // Referenz: Aktuelle laute Wohnung (Grinzinger Allee 54)
-    public let referenzWohnung: Gemeindebau = Gemeindebau(
-        id: "ref-grinzinger-54",
-        name: "Aktuelle Wohnung: Grinzinger Allee 54",
-        adresse: "Grinzinger Allee 54",
-        plz: "1190",
-        bezirk: 19,
-        bezirkName: "Döbling",
-        baujahr: 1958,
-        architekt: nil,
-        wohnungenAnzahl: 32,
-        latitude: 48.2468,
-        longitude: 16.3498,
-        ruheScore: 2,
-        hofTyp: .strassenseitig,
-        liftStatus: .halbstock,
-        akustikDbInnenhof: 61,
-        akustikDbStrasse: 73,
-        laermPegelTagLden: 72.4,
-        laermPegelNacht: 64.1,
-        bimBusDistanzMeter: 20,
-        naechsteStation: "Grinzinger Allee (Linie 38)",
-        linien: ["Bim 38"],
-        vorteileSenioren: [
-            "Extrem kurze Gehdistanz zur Bim 38 (20 m)",
-            "Nahversorger in der Straße"
-        ],
-        nachteileSenioren: [
-            "Massiver Dauerschallpegel durch Straßenbahnlinie 38 und Berufsverkehr",
-            "Halbstock-Aufzug: 8 Stufen bis zur Liftkabine unüberwindbar für gehbehinderte Personen",
-            "Balkonnutzung durch 73 dB(A) tagsüber unerträglich"
-        ],
-        tippFuerRuhesuchende: "Hohe Priorität beim Wohnungstausch über die Wohnberatung Wien beantragen.",
-        gruenraumBeschreibung: "Schmaler asphaltierter Hof ohne Baumkronenschutz.",
-        ogdId: "REF_GRINZINGER_54"
-    )
-    
     public var isLoading: Bool = false
     public var errorMessage: String? = nil
 
@@ -516,7 +478,7 @@ public final class GemeindebauStore: @unchecked Sendable {
                 "Leichte Steigung im Straßenabschnitt zur Weinberggasse",
                 "Verbindung ins Zentrum über den barrierefreien Niederflurbus 35A"
             ],
-            tippFuerRuhesuchende: "Im gleichen Bezirk (1190) wie die Grinzinger Allee, aber akustisch um Welten ruhiger.",
+            tippFuerRuhesuchende: "Attraktive Ruhelage im 19. Bezirk abseits der Hauptverkehrsachsen.",
             gruenraumBeschreibung: "Intimer, gepflegter Kastanienhof mit Blumenbeeten und Vogeltränken.",
             ogdId: "VIE_GB_19_045"
         ),
@@ -702,12 +664,9 @@ public struct ContentView: View {
     public var body: some View {
         NavigationStack {
             VStack(spacing: 0) {
-                // Seniorengerechter Vergleichsbanner: Aktuelle Wohnung
-                ReferenzVergleichsHeader(referenz: store.referenzWohnung)
-                
                 // Segmented Picker für Ansichtsumschaltung (Große Touch-Fläche)
                 Picker("Ansicht", selection: $selectedTab) {
-                    ForEach(ViewMode.allCases, id: \\.self) { mode in
+                    ForEach(ViewMode.allCases, id: \.self) { mode in
                         Text(mode.rawValue).tag(mode)
                     }
                 }
@@ -728,7 +687,6 @@ public struct ContentView: View {
                     } else {
                         GemeindebauMapView(
                             gemeindebauten: store.filteredGemeindebauten,
-                            referenz: store.referenzWohnung,
                             cameraPosition: $cameraPosition,
                             onSelect: { selectedGemeindebau = $0 }
                         )
@@ -751,62 +709,12 @@ public struct ContentView: View {
                 }
             }
             .sheet(item: $selectedGemeindebau) { bau in
-                GemeindebauDetailView(gemeindebau: bau, referenz: store.referenzWohnung)
+                GemeindebauDetailView(gemeindebau: bau)
             }
             .sheet(isPresented: $showFilterSheet) {
                 FilterSheetView(store: store)
             }
         }
-    }
-}
-
-// MARK: - Referenz-Vergleichsbanner (Grinzinger Allee 54)
-
-struct ReferenzVergleichsHeader: View {
-    let referenz: Gemeindebau
-    
-    var body: some View {
-        HStack(alignment: .center, spacing: 12) {
-            Image(systemName: "speaker.wave.3.fill")
-                .font(.title)
-                .foregroundColor(.red)
-                .accessibilityHidden(true)
-            
-            VStack(alignment: .leading, spacing: 2) {
-                Text("AKTUELLES PROBLEM:")
-                    .font(.caption)
-                    .fontWeight(.bold)
-                    .foregroundColor(.secondary)
-                
-                Text(referenz.adresse)
-                    .font(.headline)
-                    .fontWeight(.bold)
-                
-                Text("73 dB(A) Lärmpegel vor Balkon • Halbstock-Lift")
-                    .font(.subheadline)
-                    .foregroundColor(.red)
-            }
-            
-            Spacer()
-            
-            VStack {
-                Text("Note")
-                    .font(.caption2)
-                    .foregroundColor(.secondary)
-                Text("\\(referenz.ruheScore)/10")
-                    .font(.title3)
-                    .fontWeight(.heavy)
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(Color.red)
-                    .clipShape(RoundedRectangle(cornerRadius: 8))
-            }
-        }
-        .padding()
-        .background(Color(UIColor.secondarySystemBackground))
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Aktuelle Wohnung Grinzinger Allee 54, Lärmbewertung Note 2 von 10, sehr laut.")
     }
 }
 
@@ -959,33 +867,11 @@ struct GemeindebauRowView: View {
 
 struct GemeindebauMapView: View {
     let gemeindebauten: [Gemeindebau]
-    let referenz: Gemeindebau
     @Binding var cameraPosition: MapCameraPosition
     let onSelect: (Gemeindebau) -> Void
     
     var body: some View {
         Map(position: $cameraPosition) {
-            // Roter Marker: Aktuelle Wohnung
-            Annotation("Aktuelle Wohnung", coordinate: referenz.coordinate) {
-                Button(action: { onSelect(referenz) }) {
-                    VStack(spacing: 0) {
-                        Image(systemName: "exclamationmark.triangle.fill")
-                            .font(.headline)
-                            .foregroundColor(.white)
-                            .padding(8)
-                            .background(Color.red)
-                            .clipShape(Circle())
-                        
-                        Text("Grinzinger Allee")
-                            .font(.caption2)
-                            .fontWeight(.bold)
-                            .padding(2)
-                            .background(.ultraThinMaterial)
-                            .clipShape(RoundedRectangle(cornerRadius: 4))
-                    }
-                }
-            }
-            
             // Grüne Marker: Ruhige Gemeindebauten
             ForEach(gemeindebauten) { bau in
                 Annotation(bau.name, coordinate: bau.coordinate) {
@@ -1081,12 +967,10 @@ import MapKit
 
 public struct GemeindebauDetailView: View {
     public let gemeindebau: Gemeindebau
-    public let referenz: Gemeindebau
-    @Environment(\\.dismiss) private var dismiss
+    @Environment(\.dismiss) private var dismiss
     
-    public init(gemeindebau: Gemeindebau, referenz: Gemeindebau) {
+    public init(gemeindebau: Gemeindebau) {
         self.gemeindebau = gemeindebau
-        self.referenz = referenz
     }
     
     public var body: some View {
@@ -1114,20 +998,20 @@ public struct GemeindebauDetailView: View {
                             .font(.title)
                             .fontWeight(.bold)
                         
-                        Text("\\(gemeindebau.adresse), \\(gemeindebau.plz) Wien (\\(gemeindebau.bezirkName))")
+                        Text("\(gemeindebau.adresse), \(gemeindebau.plz) Wien (\(gemeindebau.bezirkName))")
                             .font(.title3)
                             .foregroundColor(.secondary)
                         
                         if let architekt = gemeindebau.architekt {
-                            Text("Erbaut \\(String(gemeindebau.baujahr)) von \\(architekt) • \\(gemeindebau.wohnungenAnzahl) Wohnungen")
+                            Text("Erbaut \(String(gemeindebau.baujahr)) von \(architekt) • \(gemeindebau.wohnungenAnzahl) Wohnungen")
                                 .font(.subheadline)
                                 .foregroundColor(.secondary)
                         }
                     }
                     .padding(.horizontal)
                     
-                    // 3. Akustik-Vergleichsbox (Vorher vs. Nachher)
-                    AkustikVergleichsBox(bau: gemeindebau, referenz: referenz)
+                    // 3. Akustik-Vergleichsbox
+                    AkustikVergleichsBox(bau: gemeindebau)
                         .padding(.horizontal)
                     
                     // 4. Barrierefreiheit & Lift-Status
@@ -1165,7 +1049,6 @@ public struct GemeindebauDetailView: View {
 
 struct AkustikVergleichsBox: View {
     let bau: Gemeindebau
-    let referenz: Gemeindebau
     
     var body: some View {
         VStack(alignment: .leading, spacing: 14) {
@@ -1176,7 +1059,7 @@ struct AkustikVergleichsBox: View {
                 
                 Spacer()
                 
-                Text("Ruhe-Score: \\(bau.ruheScore)/10")
+                Text("Ruhe-Score: \(bau.ruheScore)/10")
                     .font(.subheadline)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
@@ -1186,23 +1069,23 @@ struct AkustikVergleichsBox: View {
                     .clipShape(Capsule())
             }
             
-            // Gegenüberstellung: Ist vs. Soll
+            // Lärmwerte
             VStack(spacing: 8) {
                 HStack {
-                    Text("Vorher (Grinzinger Allee 54):")
+                    Text("Straßenlärmpegel:")
                         .font(.subheadline)
                     Spacer()
-                    Text("\\(referenz.akustikDbStrasse) dB(A) Dauerschall")
+                    Text("\(bau.akustikDbStrasse) dB(A)")
                         .font(.subheadline)
                         .fontWeight(.bold)
-                        .foregroundColor(.red)
+                        .foregroundColor(bau.akustikDbStrasse >= 65 ? .orange : .secondary)
                 }
                 
                 HStack {
                     Text("Hier im Innenhof:")
                         .font(.subheadline)
                     Spacer()
-                    Text("\\(bau.akustikDbInnenhof) dB(A) (Ruhe)")
+                    Text("\(bau.akustikDbInnenhof) dB(A) (Ruhe)")
                         .font(.subheadline)
                         .fontWeight(.bold)
                         .foregroundColor(.green)
@@ -1214,7 +1097,7 @@ struct AkustikVergleichsBox: View {
                     Text("Lärmreduktion im Innenhof:")
                         .font(.headline)
                     Spacer()
-                    Text("-\\(bau.akustikDbStrasse - bau.akustikDbInnenhof) dB(A)")
+                    Text("-\(bau.akustikDbStrasse - bau.akustikDbInnenhof) dB(A)")
                         .font(.title2)
                         .fontWeight(.heavy)
                         .foregroundColor(.green)
@@ -1224,7 +1107,7 @@ struct AkustikVergleichsBox: View {
             .background(Color(UIColor.secondarySystemBackground))
             .clipShape(RoundedRectangle(cornerRadius: 12))
             
-            Text("Hof-Charakter: \\(bau.hofTyp.rawValue)")
+            Text("Hof-Charakter: \(bau.hofTyp.rawValue)")
                 .font(.footnote)
                 .foregroundColor(.secondary)
             
@@ -1245,46 +1128,41 @@ struct BarrierefreiheitsBox: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Label("Barrierefreiheit & Lift", systemImage: "figure.roll")
+            Label("Barrierefreiheit & Zugänglichkeit", systemImage: "figure.roll")
                 .font(.headline)
             
-            HStack(spacing: 12) {
+            HStack {
                 Image(systemName: bau.liftStatus.iconName)
-                    .font(.title)
-                    .foregroundColor(bau.liftStatus == .stufenlos ? .green : .orange)
+                    .font(.title2)
+                    .foregroundColor(bau.liftStatus.farbe)
+                    .frame(width: 32)
                 
-                VStack(alignment: .leading, spacing: 2) {
+                VStack(alignment: .leading) {
                     Text(bau.liftStatus.rawValue)
                         .font(.subheadline)
-                        .fontWeight(.bold)
+                        .fontWeight(.semibold)
                     
-                    if bau.liftStatus == .stufenlos {
-                        Text("Stufenloser Einstieg von Gehsteig/Hof bis in die Wohnungsebene.")
-                            .font(.footnote)
-                            .foregroundColor(.secondary)
-                    } else {
-                        Text("Achtung: Treppenstufen zwischen Hauseingang und Aufzugspodest!")
-                            .font(.footnote)
-                            .foregroundColor(.orange)
-                    }
+                    Text(bau.liftStatus == .stufenlos ? "Ideal für Rollator, Rollstuhl und schweres Gepäck." : "Treppensteigen erforderlich!")
+                        .font(.caption)
+                        .foregroundColor(.secondary)
                 }
             }
+            .padding(.vertical, 4)
         }
         .padding()
-        .background(Color(UIColor.systemBackground))
+        .background(Color(UIColor.secondarySystemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
-        .shadow(color: .black.opacity(0.06), radius: 6, y: 3)
     }
 }
 
-// MARK: - Öffi-Box
+// MARK: - Öffi-Anbindung
 
 struct OeffiBox: View {
     let bau: Gemeindebau
     
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Label("Öffentliche Verkehrsmittel", systemImage: "tram")
+            Label("Öffentliche Verkehrsmittel", systemImage: "tram.fill")
                 .font(.headline)
             
             HStack {
@@ -1292,74 +1170,76 @@ struct OeffiBox: View {
                     Text(bau.naechsteStation)
                         .font(.subheadline)
                         .fontWeight(.semibold)
-                    Text("\\(bau.bimBusDistanzMeter) Meter Fußweg (ca. \\(bau.bimBusDistanzMeter / 60) Min.)")
-                        .font(.footnote)
+                    Text("\(bau.bimBusDistanzMeter) Meter Fußweg")
+                        .font(.caption)
                         .foregroundColor(.secondary)
                 }
+
                 Spacer()
                 
-                // Linien-Badges
-                HStack(spacing: 4) {
-                    ForEach(bau.linien, id: \\.self) { linie in
+                HStack {
+                    ForEach(bau.linien, id: \.self) { linie in
                         Text(linie)
-                            .font(.caption2)
+                            .font(.caption)
                             .fontWeight(.bold)
-                            .padding(.horizontal, 6)
-                            .padding(.vertical, 3)
-                            .background(Color.accentColor.opacity(0.15))
-                            .foregroundColor(.accentColor)
-                            .clipShape(RoundedRectangle(cornerRadius: 4))
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 4)
+                            .background(Color.red.opacity(0.15))
+                            .foregroundColor(.red)
+                            .clipShape(Capsule())
                     }
                 }
             }
         }
         .padding()
-        .background(Color(UIColor.systemBackground))
+        .background(Color(UIColor.secondarySystemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
-        .shadow(color: .black.opacity(0.06), radius: 6, y: 3)
     }
 }
 
-// MARK: - Vor- und Nachteile
+// MARK: - Vorteile & Nachteile
 
 struct VorteileNachteileBox: View {
     let bau: Gemeindebau
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 14) {
-            Text("Wohnwert- & Lage-Bewertung")
-                .font(.headline)
-            
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Vorteile:")
+        VStack(alignment: .leading, spacing: 12) {
+            // Vorteile
+            VStack(alignment: .leading, spacing: 6) {
+                Label("Vorteile für Seniorinnen", systemImage: "checkmark.circle.fill")
                     .font(.subheadline)
                     .fontWeight(.bold)
                     .foregroundColor(.green)
                 
-                ForEach(bau.vorteileSenioren, id: \\.self) { vorteil in
-                    Label(vorteil, systemImage: "checkmark.circle.fill")
-                        .font(.footnote)
-                        .foregroundColor(.primary)
+                ForEach(bau.vorteileSenioren, id: \.self) { vorteil in
+                    HStack(alignment: .top, spacing: 6) {
+                        Text("•")
+                        Text(vorteil)
+                            .font(.footnote)
+                    }
                 }
             }
             
             Divider()
             
-            VStack(alignment: .leading, spacing: 8) {
-                Text("Zu beachten:")
+            // Nachteile
+            VStack(alignment: .leading, spacing: 6) {
+                Label("Zu beachten / Herausforderungen", systemImage: "exclamationmark.circle.fill")
                     .font(.subheadline)
                     .fontWeight(.bold)
                     .foregroundColor(.orange)
                 
-                ForEach(bau.nachteileSenioren, id: \\.self) { nachteil in
-                    Label(nachteil, systemImage: "exclamationmark.circle.fill")
-                        .font(.footnote)
-                        .foregroundColor(.primary)
+                ForEach(bau.nachteileSenioren, id: \.self) { nachteil in
+                    HStack(alignment: .top, spacing: 6) {
+                        Text("•")
+                        Text(nachteil)
+                            .font(.footnote)
+                    }
                 }
             }
         }
         .padding()
-        .background(Color(UIColor.systemBackground))
+        .background(Color(UIColor.secondarySystemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
         .shadow(color: .black.opacity(0.06), radius: 6, y: 3)
     }
@@ -1372,16 +1252,12 @@ struct WohnberatungTippBox: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Label("Tipp für den Wohnungstausch", systemImage: "arrow.left.arrow.right.circle.fill")
+            Label("Empfehlung für Ruhesuchende", systemImage: "arrow.left.arrow.right.circle.fill")
                 .font(.headline)
                 .foregroundColor(.blue)
             
             Text(bau.tippFuerRuhesuchende)
                 .font(.subheadline)
-            
-            Text("Empfehlung: Ärztliche Bestätigung über die Lärmbelastung in der Grinzinger Allee beim Wohnungswechsel-Antrag bei der Wohnberatung Wien beilegen.")
-                .font(.footnote)
-                .foregroundColor(.secondary)
         }
         .padding()
         .background(Color.blue.opacity(0.08))

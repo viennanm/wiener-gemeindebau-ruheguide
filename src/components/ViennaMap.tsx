@@ -1,6 +1,5 @@
 import React from 'react';
 import { Gemeindebau } from '../types';
-import { GRINZINGER_ALLEE_REFERENCE } from '../data/gemeindebauten';
 import { MapPin, Volume2, AlertTriangle, Layers, Info, CheckCircle2 } from 'lucide-react';
 
 interface Props {
@@ -32,11 +31,6 @@ export const ViennaMap: React.FC<Props> = ({
     const y = ((maxLat - lat) / (maxLat - minLat)) * 100;
     return { x: Math.max(4, Math.min(96, x)), y: Math.max(4, Math.min(96, y)) };
   };
-
-  const refPos = projectCoordinate(
-    GRINZINGER_ALLEE_REFERENCE.koordinaten.lat,
-    GRINZINGER_ALLEE_REFERENCE.koordinaten.lng
-  );
 
   return (
     <div className="bg-white rounded-2xl border-2 border-[#E5E7EB] overflow-hidden shadow-xs">
@@ -84,10 +78,6 @@ export const ViennaMap: React.FC<Props> = ({
           <span className="flex items-center gap-1.5">
             <span className="w-3.5 h-3.5 rounded-full bg-[#52B788] border-2 border-[#2D6A4F] shadow-xs"></span>
             <span className="text-[#0D1B2A]">Gute Ruhe (Note 7–8)</span>
-          </span>
-          <span className="flex items-center gap-1.5">
-            <span className="w-3.5 h-3.5 rounded-full bg-rose-600 border-2 border-rose-800 shadow-xs animate-pulse"></span>
-            <span className="text-rose-700">Laut (Grinzinger Allee)</span>
           </span>
         </div>
       </div>
@@ -187,14 +177,6 @@ export const ViennaMap: React.FC<Props> = ({
               <line x1="25" y1="38" x2="88" y2="34" stroke="#d1d5db" strokeWidth="0.75" strokeDasharray="2 2" />
               <line x1="20" y1="52" x2="85" y2="50" stroke="#d1d5db" strokeWidth="0.75" strokeDasharray="2 2" />
               <line x1="12" y1="70" x2="75" y2="76" stroke="#d1d5db" strokeWidth="0.75" strokeDasharray="2 2" />
-              {/* Tram line 38 noise corridor along Grinzinger Allee */}
-              <path
-                d="M 68,26 Q 72,32 75,38"
-                stroke="#f87171"
-                strokeWidth="3"
-                fill="none"
-                strokeDasharray="2 1"
-              />
             </>
           )}
         </svg>
@@ -256,26 +238,7 @@ export const ViennaMap: React.FC<Props> = ({
           </>
         )}
 
-        {/* 1. Reference Marker: Grinzinger Allee 54 */}
-        <div
-          style={{ left: `${refPos.x}%`, top: `${refPos.y}%` }}
-          className="absolute -translate-x-1/2 -translate-y-1/2 z-20"
-        >
-          <button
-            onClick={() => onSelect(GRINZINGER_ALLEE_REFERENCE)}
-            className="group flex flex-col items-center focus:outline-hidden"
-            title={`Aktuelle laute Wohnung: Grinzinger Allee 54 (73 dB, ${GRINZINGER_ALLEE_REFERENCE.hoehenmeter})`}
-          >
-            <div className="w-8 h-8 rounded-full bg-rose-600 text-white flex items-center justify-center shadow-lg border-2 border-white ring-4 ring-rose-200 animate-bounce">
-              <AlertTriangle className="w-4 h-4" />
-            </div>
-            <span className="mt-1 px-2.5 py-0.5 rounded-full bg-rose-700 text-white text-[11px] font-black shadow-xs whitespace-nowrap border border-white">
-              Grinzinger Allee 54 (73 dB • {GRINZINGER_ALLEE_REFERENCE.hoehenmeter.replace(' m ü. A.', 'm')})
-            </span>
-          </button>
-        </div>
-
-        {/* 2. Markers for Curated Quiet Gemeindebauten */}
+        {/* Markers for Curated Quiet Gemeindebauten */}
         {gemeindebauten.map((bau) => {
           const pos = projectCoordinate(bau.koordinaten.lat, bau.koordinaten.lng);
           const isSelected = selectedBau?.id === bau.id;

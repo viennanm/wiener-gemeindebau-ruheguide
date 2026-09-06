@@ -52,17 +52,17 @@ export const AcousticLabModal: React.FC<Props> = ({
           </span>
         </div>
         <h2 className={`${seniorMode ? 'text-3xl sm:text-4xl' : 'text-2xl sm:text-3xl'} font-black text-[#0D1B2A] tracking-tight`}>
-          Akustik-Labor: Vorher vs. Nachher im direkten Hörtest
+          Akustik-Labor: Straßenlärm vs. Hofruhe im direkten Hörtest
         </h2>
         <p className={`${seniorMode ? 'text-lg' : 'text-sm sm:text-base'} text-[#4B5563] font-medium mt-2 max-w-3xl leading-relaxed`}>
-          Vergleichen Sie die reale Lärmbelastung der Grinzinger Allee 54 mit der Stille eines geschützten 
+          Vergleichen Sie die reale Lärmbelastung einer stark befahrenen Verkehrsachse mit der Stille eines geschützten
           Wiener Gemeindebau-Innenhofs (z. B. Hugo-Breitner-Hof oder Karl-Marx-Hof).
         </p>
       </div>
 
       {/* A/B Audio Player Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {/* Card A: Grinzinger Allee 54 */}
+        {/* Card A: Stark befahrene Verkehrsachse */}
         <div className={`p-6 rounded-2xl border-2 transition-all ${
           activeSound === 'traffic'
             ? 'bg-rose-50 border-rose-600 shadow-md ring-2 ring-rose-300'
@@ -71,17 +71,17 @@ export const AcousticLabModal: React.FC<Props> = ({
           <div className="flex items-start justify-between gap-3 mb-4">
             <div>
               <span className="px-3 py-1 rounded-full text-xs font-black bg-rose-600 text-white uppercase tracking-wider">
-                Situation A (Aktuell)
+                Hauptverkehrsstraße
               </span>
               <h3 className="text-xl font-black text-[#0D1B2A] mt-2">
-                Grinzinger Allee 54 (1190)
+                Hauptstraße mit Straßenbahn
               </h3>
               <p className="text-xs font-medium text-[#6B7280]">
-                Bim 38 & Hauptstraßenverkehr vor dem Balkon
+                Straßenbahn- & Hauptstraßenverkehr
               </p>
             </div>
             <div className="text-right">
-              <span className="text-3xl font-black text-rose-600">73 dB</span>
+              <span className="text-3xl font-black text-rose-600">70 dB</span>
               <span className="text-xs text-[#6B7280] block font-bold">Dauerschall</span>
             </div>
           </div>
@@ -110,7 +110,7 @@ export const AcousticLabModal: React.FC<Props> = ({
             }`}
           >
             {activeSound === 'traffic' ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
-            <span>{activeSound === 'traffic' ? 'Lärm anhalten' : 'Hörprobe: Straßenbahn & Verkehr (73 dB)'}</span>
+            <span>{activeSound === 'traffic' ? 'Lärm anhalten' : 'Hörprobe: Straßenbahn & Verkehrslärm (ca. 70 dB)'}</span>
           </button>
         </div>
 
@@ -123,7 +123,7 @@ export const AcousticLabModal: React.FC<Props> = ({
           <div className="flex items-start justify-between gap-3 mb-4">
             <div>
               <span className="px-3 py-1 rounded-full text-xs font-black bg-[#2D6A4F] text-white uppercase tracking-wider">
-                Situation B (Ziel-Wohnung)
+                Ruhige Hoflage
               </span>
               <h3 className="text-xl font-black text-[#0D1B2A] mt-2">
                 Hofruhelage (z. B. Hugo-Breitner-Hof)
@@ -179,8 +179,8 @@ export const AcousticLabModal: React.FC<Props> = ({
           <div className="absolute top-0 bottom-0 left-[25%] w-1.5 bg-[#0D1B2A] z-10"></div>
           {/* Indicator for 53 dB (WHO Limit) */}
           <div className="absolute top-0 bottom-0 left-[48%] w-1.5 bg-[#0D1B2A] z-10"></div>
-          {/* Indicator for 73 dB */}
-          <div className="absolute top-0 bottom-0 left-[82%] w-1.5 bg-[#0D1B2A] z-10"></div>
+          {/* Indicator for 70 dB */}
+          <div className="absolute top-0 bottom-0 left-[78%] w-1.5 bg-[#0D1B2A] z-10"></div>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
@@ -200,8 +200,8 @@ export const AcousticLabModal: React.FC<Props> = ({
           </div>
 
           <div className="p-3 rounded-xl bg-rose-50 border-2 border-rose-200">
-            <span className="font-bold text-rose-800 block text-sm">73 dB(A)</span>
-            <span className="text-rose-950 font-medium">Grinzinger Allee 54 (Dringender Tauschgrund)</span>
+            <span className="font-bold text-rose-800 block text-sm">≥ 70 dB(A)</span>
+            <span className="text-rose-950 font-medium">Stark befahrene Verkehrsachse</span>
           </div>
         </div>
       </div>

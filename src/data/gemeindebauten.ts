@@ -1,54 +1,6 @@
 import { Gemeindebau } from '../types';
 import { ADDITIONAL_BEZIRKE_GEMEINDEBAUTEN } from './allBezirkeGemeindebauten';
 
-export const GRINZINGER_ALLEE_REFERENCE: Gemeindebau = {
-  id: 'ref-grinzinger-54',
-  name: 'Aktuelle Wohnung: Grinzinger Allee 54',
-  adresse: 'Grinzinger Allee 54',
-  plz: '1190',
-  bezirk: 19,
-  bezirkName: 'Döbling',
-  baujahr: 1958,
-  wohnungenAnzahl: 32,
-  koordinaten: {
-    lat: 48.2468,
-    lng: 16.3498,
-  },
-  ruheScore: 2, // Sehr laut
-  hofTyp: 'Straßenseitig mit Hofgarten',
-  liftStatus: 'Lift mit Halbstock-Stufen',
-  isStufenlos: false,
-  hoehenmeter: '208–214 m ü. A.',
-  hoehenmeterMin: 208,
-  hoehenmeterMax: 214,
-  hoehenmeterSpanne: 6,
-  gelaendeTyp: 'Sanfte Neigung',
-  topographieHinweis: 'Leichte Hangneigung entlang der Grinzinger Allee. Zwar kurzer Weg zur Bim, jedoch ansteigendes Terrain Richtung Grinzing/Billrothstraße.',
-  akustikDbInnenhof: 61,
-  akustikDbStrasse: 73,
-  laermPegelTag: 72,
-  laermPegelNacht: 64,
-  bimBusDistanzMeter: 20,
-  naechsteStation: 'Grinzinger Allee (Linie 38)',
-  linien: ['Bim 38'],
-  vorteileSenioren: [
-    'Sehr kurze Wege zur Bim-Haltestelle (unter 30 m)',
-    'Nahversorger fußläufig erreichbar',
-  ],
-  nachteileSenioren: [
-    'Massiver Straßen- und Gleislärm durch Straßenbahnlinie 38 direkt vor dem Balkon',
-    'Hoher Schwerverkehr auf der Grinzinger Allee',
-    'Halbstock-Lift: 8 Treppenstufen bis zum Aufzugseinstieg',
-    'Fensteröffnen und Balkonnutzung am Tag kaum zumutbar (72 dB)',
-  ],
-  tippFuerRuhesuchende:
-    'Dringende Umzugsempfehlung! Die Lärmbelastung überschreitet den WHO-Gesundheitsschwellenwert von 53 dB(A) am Tag bei weitem.',
-  gruenraumBeschreibung: 'Kleiner Schmalhof hinter dem Haus, kein zusammenhängender Park.',
-  wikipediaDistrictListUrl: 'https://de.wikipedia.org/wiki/Liste_der_Wiener_Gemeindebauten/D%C3%B6bling',
-  denkmalschutz: false,
-  bauEpoche: 'Wiederaufbau & Nachkriegszeit (1945–1979)',
-};
-
 export const GEMEINDEBAUTEN: Gemeindebau[] = [
   {
     id: 'karl-marx-hof',
@@ -92,7 +44,7 @@ export const GEMEINDEBAUTEN: Gemeindebau[] = [
       'Weitläufige Anlage erfordert Gehfreude im Hofbereich',
     ],
     tippFuerRuhesuchende:
-      'Bei Wohnberatung Wien explizit Stiege mit Fenstern zu den Hofgärten Boschstraße anfragen. Hier hört man nur Vögel und Brunnenplätschern.',
+      'Explizit Stiege mit Fenstern zu den Hofgärten Boschstraße anfragen. Hier hört man nur Vögel und Brunnenplätschern.',
     gruenraumBeschreibung:
       'Über 1 Kilometer zusammenhängende Grünanlagen, schattige Parkbänke, Fliedersträucher und Rosenbeete.',
     ogdId: 'VIE_GB_19_001',
@@ -198,7 +150,7 @@ export const GEMEINDEBAUTEN: Gemeindebau[] = [
       'Öffi-Anbindung primär über den Niederflurbus 35A (fährt jedoch im 5-Minuten-Takt zur Spittelau)',
     ],
     tippFuerRuhesuchende:
-      'Sehr begehrte Döblinger Ruhelage. Gleicher Bezirk wie Grinzinger Allee, aber Welten ruhiger.',
+      'Sehr begehrte Döblinger Ruhelage mit hoher Wohnqualität.',
     gruenraumBeschreibung:
       'Gärtnerisch gepflegter Innenhof mit Kastanienbäumen und Blick auf die Hügel des Kahlenbergs.',
     ogdId: 'VIE_GB_19_045',

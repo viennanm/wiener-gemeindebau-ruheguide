@@ -1,6 +1,5 @@
 import React from 'react';
 import { Gemeindebau } from '../types';
-import { GRINZINGER_ALLEE_REFERENCE } from '../data/gemeindebauten';
 import { getGemeindebauImage } from '../data/gemeindebauImages';
 import {
   X,
@@ -56,7 +55,6 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
   setIsAudioPlaying,
   onOpenAudioLab,
 }) => {
-  const isReference = bau.id === GRINZINGER_ALLEE_REFERENCE.id;
   const [playingThisAudio, setPlayingThisAudio] = React.useState(false);
   const [mediaView, setMediaView] = React.useState<'photo' | 'streetview'>('photo');
   const [showMethodology, setShowMethodology] = React.useState(false);
@@ -68,11 +66,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
       setPlayingThisAudio(false);
       setIsAudioPlaying(false);
     } else {
-      if (isReference) {
-        playStreetTraffic();
-      } else {
-        playQuietCourtyard();
-      }
+      playQuietCourtyard();
       setPlayingThisAudio(true);
       setIsAudioPlaying(true);
     }
@@ -90,10 +84,8 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
         {/* Header Bar */}
         <div className="px-6 sm:px-8 py-4 border-b-2 border-[#E5E7EB] flex items-center justify-between bg-white">
           <div className="flex items-center gap-2">
-            <span className={`px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider ${
-              isReference ? 'bg-rose-600 text-white' : 'bg-[#2D6A4F] text-white'
-            }`}>
-              {isReference ? 'Ist-Zustand (Referenz)' : `${bau.bezirk}. Bezirk • ${bau.bezirkName}`}
+            <span className="px-3 py-1 rounded-full text-xs font-black uppercase tracking-wider bg-[#2D6A4F] text-white">
+              {bau.bezirk}. Bezirk • {bau.bezirkName}
             </span>
             {bau.ogdId && (
               <span className="text-xs text-[#6B7280] font-mono font-bold">
@@ -273,7 +265,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                 </div>
               </div>
               <p className="text-xs font-semibold text-[#6B7280] mt-2">
-                Vergleich: Grinzinger Allee 73 dB(A) (Minderung: -{bau.akustikDbStrasse - bau.akustikDbInnenhof} dB)
+                Schallpegelminderung zum Innenhof: -{bau.akustikDbStrasse - bau.akustikDbInnenhof} dB
               </p>
             </div>
 
@@ -341,7 +333,7 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                   Akustik-Messung & Hörprobe
                 </span>
                 <h4 className="text-lg font-bold text-white">
-                  {isReference ? 'Lärmpegel Grinzinger Allee 54' : `Schallabschirmung: ${bau.name}`}
+                  Schallabschirmung: {bau.name}
                 </h4>
               </div>
 
@@ -357,8 +349,6 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
                 <span>
                   {playingThisAudio
                     ? 'Hörprobe anhalten'
-                    : isReference
-                    ? 'Lärm abspielen (73 dB)'
                     : `Hofruhe abspielen (${bau.akustikDbInnenhof} dB)`}
                 </span>
               </button>
@@ -825,20 +815,20 @@ export const GemeindebauDetailModal: React.FC<Props> = ({
             </div>
           )}
 
-          {/* Wohnberatung Wien Tausch-Tipp (Featured Callout from Geometric Balance) */}
+          {/* Empfehlung für Ruhesuchende */}
           <div className="p-6 bg-[#F0FDF4] rounded-2xl border-2 border-[#2D6A4F] flex items-start gap-5">
             <div className="w-14 h-14 bg-[#2D6A4F] rounded-full shrink-0 flex items-center justify-center text-white shadow-xs">
               <ShieldCheck className="w-7 h-7" />
             </div>
             <div>
               <h4 className="text-xl font-bold text-[#0D1B2A] mb-1">
-                Wohnberatung Wien Empfehlung
+                Empfehlung für Ruhesuchende
               </h4>
               <p className="text-[#2D6A4F] font-semibold leading-relaxed text-sm sm:text-base">
                 {bau.tippFuerRuhesuchende}
               </p>
               <p className="text-xs text-[#374151] mt-2 font-medium">
-                Hinweis: Beim Wohnungstausch über www.wohnberatung-wien.at kann der Mietvertrag der aktuellen Gemeindewohnung (Grinzinger Allee 54)
+                Hinweis: Beim Wohnungstausch über www.wohnberatung-wien.at kann der Mietvertrag einer bestehenden Gemeindewohnung
                 direkt gegen eine barrierefreie Ruhelage eingetauscht werden.
               </p>
             </div>

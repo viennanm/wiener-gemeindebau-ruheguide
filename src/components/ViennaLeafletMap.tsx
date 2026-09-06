@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import L from 'leaflet';
 import { Gemeindebau } from '../types';
-import { GRINZINGER_ALLEE_REFERENCE } from '../data/gemeindebauten';
 import { getGemeindebauImage } from '../data/gemeindebauImages';
 import { 
   Layers, 
@@ -38,7 +37,6 @@ export const ViennaLeafletMap: React.FC<Props> = ({
   const tileLayerRef = useRef<L.TileLayer | null>(null);
 
   const [activeTileType, setActiveTileType] = useState<TileLayerType>('streets');
-  const [showRefMarker, setShowRefMarker] = useState<boolean>(true);
 
   // Tile Layer URLs
   const getTileUrl = (type: TileLayerType) => {
@@ -122,58 +120,7 @@ export const ViennaLeafletMap: React.FC<Props> = ({
 
     const bounds = L.latLngBounds([]);
 
-    // 1. Reference Noise Marker (Grinzinger Allee 54)
-    if (showRefMarker) {
-      const refLat = GRINZINGER_ALLEE_REFERENCE.koordinaten.lat;
-      const refLng = GRINZINGER_ALLEE_REFERENCE.koordinaten.lng;
-      const refLatLng = L.latLng(refLat, refLng);
-      bounds.extend(refLatLng);
-
-      const refIcon = L.divIcon({
-        className: 'custom-leaflet-marker',
-        html: `
-          <div class="relative flex items-center justify-center cursor-pointer group">
-            <span class="absolute w-8 h-8 rounded-full bg-rose-600 animate-ping opacity-60"></span>
-            <div class="w-8 h-8 rounded-full bg-rose-600 text-white flex items-center justify-center shadow-lg border-2 border-white text-xs font-black">
-              ⚠️
-            </div>
-          </div>
-        `,
-        iconSize: [32, 32],
-        iconAnchor: [16, 16],
-      });
-
-      const refImage = getGemeindebauImage(GRINZINGER_ALLEE_REFERENCE.id, GRINZINGER_ALLEE_REFERENCE.name);
-
-      const refMarker = L.marker(refLatLng, { icon: refIcon }).addTo(markersGroup);
-
-      const refPopupContent = document.createElement('div');
-      refPopupContent.className = 'p-1 font-sans text-stone-900 max-w-[260px]';
-      refPopupContent.innerHTML = `
-        <div class="rounded-lg overflow-hidden mb-2 border border-rose-200">
-          <img src="${refImage}" alt="Grinzinger Allee 54" class="w-full h-24 object-cover" referrerpolicy="no-referrer" />
-        </div>
-        <div class="flex items-center gap-1.5 mb-1">
-          <span class="px-2 py-0.5 rounded-full text-[10px] font-black uppercase bg-rose-100 text-rose-800 border border-rose-300">
-            Lärm-Referenz
-          </span>
-          <span class="text-[11px] font-black text-rose-700">73 dB(A)</span>
-        </div>
-        <h4 class="font-bold text-sm text-stone-900 leading-tight">Grinzinger Allee 54</h4>
-        <p class="text-xs text-stone-600 mb-1">1190 Wien • Tram 38 direkt vor Balkon</p>
-        <p class="text-[11px] text-rose-700 font-medium">Unerträglicher Schienen- & Verkehrslärm. Dringender Umzugsbearf!</p>
-      `;
-
-      const inspectRefBtn = document.createElement('button');
-      inspectRefBtn.className = 'mt-2 w-full py-1.5 px-3 bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold rounded-lg transition';
-      inspectRefBtn.innerText = 'Lageanalyse ansehen';
-      inspectRefBtn.onclick = () => onSelect(GRINZINGER_ALLEE_REFERENCE);
-      refPopupContent.appendChild(inspectRefBtn);
-
-      refMarker.bindPopup(refPopupContent);
-    }
-
-    // 2. All Quiet Gemeindebau Markers
+    // Quiet Gemeindebau Markers
     gemeindebauten.forEach((bau) => {
       const latLng = L.latLng(bau.koordinaten.lat, bau.koordinaten.lng);
       bounds.extend(latLng);
@@ -248,7 +195,7 @@ export const ViennaLeafletMap: React.FC<Props> = ({
     if (gemeindebauten.length > 0 && bounds.isValid()) {
       map.fitBounds(bounds, { padding: [40, 40], maxZoom: 15 });
     }
-  }, [gemeindebauten, showRefMarker, selectedBau]);
+  }, [gemeindebauten, selectedBau]);
 
   // Center selected Bau if changed
   useEffect(() => {
@@ -330,19 +277,6 @@ export const ViennaLeafletMap: React.FC<Props> = ({
               <span>Topographie</span>
             </button>
           </div>
-
-          {/* Toggle Noise Reference Marker */}
-          <button
-            onClick={() => setShowRefMarker(!showRefMarker)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold border-2 transition flex items-center gap-1.5 ${
-              showRefMarker
-                ? 'bg-rose-50 text-rose-800 border-rose-300 shadow-xs'
-                : 'bg-white text-stone-500 border-stone-200'
-            }`}
-          >
-            <span className="w-2 h-2 rounded-full bg-rose-600"></span>
-            <span>Referenz Grinzinger Allee {showRefMarker ? 'an' : 'aus'}</span>
-          </button>
         </div>
       </div>
 
@@ -381,12 +315,6 @@ export const ViennaLeafletMap: React.FC<Props> = ({
         >
           14. Penzing
         </button>
-        <button
-          onClick={() => jumpToArea(48.2580, 16.3550, 16)}
-          className="px-2.5 py-1 rounded-md bg-rose-50 border border-rose-300 text-rose-800 font-bold transition flex items-center gap-1"
-        >
-          <span>🎯 Problemort: Grinzinger Allee 54</span>
-        </button>
       </div>
 
       {/* Real Map Container */}
@@ -423,10 +351,6 @@ export const ViennaLeafletMap: React.FC<Props> = ({
           <div className="flex items-center gap-2">
             <span className="w-4 h-4 rounded-full bg-[#1B4332] text-white flex items-center justify-center font-bold text-[9px]">7</span>
             <span className="text-[#1A1A1A] font-medium">Guter Schutz (Score 6–7)</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="w-4 h-4 rounded-full bg-rose-600 text-white flex items-center justify-center font-bold text-[9px]">⚠️</span>
-            <span className="text-rose-700 font-bold">Lärm-Referenz Grinzinger Allee</span>
           </div>
         </div>
       </div>

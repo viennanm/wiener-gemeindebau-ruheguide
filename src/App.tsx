@@ -13,12 +13,11 @@ import {
   matchesEntwicklungFilter,
   matchesPensionsbezugFilter
 } from './utils/populationFormatting';
-import { GEMEINDEBAUTEN, GRINZINGER_ALLEE_REFERENCE } from './data/gemeindebauten';
+import { GEMEINDEBAUTEN } from './data/gemeindebauten';
 import { WIENER_BEZIRKE } from './data/wienerBezirke';
 import { fetchViennaOpenDataGemeindebauten } from './services/viennaOpenDataService';
 import { loadGemeindebautenFromDb, getGemeindebauStats } from './services/gemeindebauDbService';
 import { Header } from './components/Header';
-import { ReferenzVergleichBanner } from './components/ReferenzVergleichBanner';
 import { GemeindebauCard } from './components/GemeindebauCard';
 import { GemeindebauDetailModal } from './components/GemeindebauDetailModal';
 import { ViennaMap } from './components/ViennaMap';
@@ -232,14 +231,6 @@ export default function App() {
         {/* TAB 1: Main App Simulator / Ruhelagen-Katalog */}
         {activeTab === 'app' && (
           <div className="space-y-6">
-            {/* Context & Starting Scenario Banner: Grinzinger Allee 54 */}
-            <ReferenzVergleichBanner
-              seniorMode={seniorMode}
-              onOpenAudioLab={() => setActiveTab('audio')}
-              isAudioPlaying={isAudioPlaying}
-              setIsAudioPlaying={setIsAudioPlaying}
-              onSelectRef={() => setSelectedBau(GRINZINGER_ALLEE_REFERENCE)}
-            />
 
             {/* Filter & Search Controls Bar (Geometric Balance) */}
             <div className="bg-white rounded-2xl border-2 border-[#E5E7EB] p-5 sm:p-6 shadow-xs space-y-4">
@@ -806,7 +797,7 @@ export default function App() {
           </div>
         )}
 
-        {/* TAB 3: Akustik-Labor (73 dB vs 41 dB) */}
+        {/* TAB 3: Akustik-Labor */}
         {activeTab === 'audio' && (
           <AcousticLabModal
             seniorMode={seniorMode}

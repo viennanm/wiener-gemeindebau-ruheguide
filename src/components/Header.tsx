@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = ({
             W
           </span>
           <span className="text-[#4B5563] font-semibold">
-            Stadt Wien • Wohnberatung & Gemeindebau-Ruheguide
+            Stadt Wien • Gemeindebau-Ruheguide
           </span>
           <span className="hidden md:inline-block px-2.5 py-0.5 rounded-full bg-white border border-[#E5E7EB] text-[#4B5563] font-bold text-xs">
             Alle 23 Wiener Bezirke • Gemeindebauten-Katalog
@@ -86,7 +86,7 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
             <p className="text-xs sm:text-sm font-medium text-[#6B7280] uppercase tracking-wider mt-0.5">
-              Wohnberatung Wien • Hofruhe, Grünlage & Barrierefreiheit
+              Wiener Gemeindebauten • Hofruhe, Grünlage & Barrierefreiheit
             </p>
           </div>
         </div>

@@ -29,7 +29,7 @@ export function stopAudio() {
   isPlayingType = null;
 }
 
-// 72 dB(A) Verkehrslärm & Straßenbahnlinie 38 (Grinzinger Allee 54)
+// Verkehrslärm & Straßenbahnlinie (Simulation)
 export function playStreetTraffic() {
   stopAudio();
   const ctx = initAudioContext();

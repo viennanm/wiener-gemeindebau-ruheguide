@@ -203,8 +203,7 @@ export const WIKIPEDIA_DISTRICT_LIST: WikipediaDistrictEntry[] = [
     bekannteBauten: [
       'Karl-Marx-Hof (1927–1930, Karl Ehn)', 
       'Krim / An den langen Lüssen (1951)', 
-      'Ditteshof', 
-      'Grinzinger Allee 54 (Referenz)'
+      'Ditteshof'
     ],
     bedeutendeArchitekten: ['Karl Ehn', 'Peter Behrens', 'Josef Frank', 'Ernst Lichtblau'],
     denkmalgeschuetzteObjekte: 41,
